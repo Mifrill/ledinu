@@ -4,7 +4,7 @@ module.exports = {
             banner: '/* My minified CSS */'
         },
         files: {
-            'assets/css/main.min.css' : ['assets/css/main.css', 'assets/css/sprites.css', 'assets/css/sprites-arrow.css', 'assets/fonts/fonts.css']
+            'assets/css/main.min.css' : ['assets/css/main.css', 'assets/css/sprites.css', 'assets/fonts/fonts.css']
         }
     },
     /* if necessary */

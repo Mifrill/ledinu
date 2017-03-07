@@ -2,6 +2,7 @@ module.exports = {
   stuff: {
     files: [
       {cwd: 'template/img/additional/', src: ['**/*'], dest: 'assets/img/additional/', expand: true},
+      {cwd: 'template/css/', src: ['**/*'], dest: 'assets/css/', expand: true},
       {cwd: 'template/modules/', src: ['data.json'], dest: 'assets/js/', expand: true},
     ],
     options: {
@@ -13,15 +14,16 @@ module.exports = {
 
   libs: {
     files: [
-      {cwd: 'libs/tether/dist/css/', src: ['tether.min.css'], dest: 'assets/css/', expand: true},
-      {cwd: 'libs/bootstrap/dist/css/', src: ['bootstrap-grid.min.css'], dest: 'assets/css/', expand: true},
-
-      {cwd: 'libs/datetimepicker/build/', src: ['jquery.datetimepicker.min.css'], dest: 'assets/css/', expand: true},
+      {cwd: 'libs/bootstrap/dist/css/', src: ['bootstrap.min.css'], dest: 'assets/css/', expand: true},
+      {cwd: 'libs/jquery-ui/themes/humanity/', src: ['jquery-ui.min.css'], dest: 'assets/css/', expand: true},
+      {cwd: 'libs/slick-carousel/slick/', src: ['slick.css'], dest: 'assets/css/', expand: true},
+      {cwd: 'libs/animate.css/', src: ['animate.min.css'], dest: 'assets/css/', expand: true},
 
       {cwd: 'libs/jquery/dist/', src: ['jquery.min.js'], dest: 'assets/js/', expand: true},
-      {cwd: 'libs/tether/dist/js/', src: ['tether.min.js'], dest: 'assets/js/', expand: true},
+      {cwd: 'libs/jquery-ui/', src: ['jquery-ui.min.js'], dest: 'assets/js/', expand: true},
       {cwd: 'libs/bootstrap/dist/js/', src: ['bootstrap.min.js'], dest: 'assets/js/', expand: true},
-
+      {cwd: 'libs/slick-carousel/slick/', src: ['slick.min.js'], dest: 'assets/js/', expand: true},
+      {cwd: 'libs/wow/dist/', src: ['wow.min.js'], dest: 'assets/js/', expand: true},
     ],
     options: {
       processContent: function(content, path) {

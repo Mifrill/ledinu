@@ -1,0 +1,22 @@
+//- first deco left side
+mixin third-deco(start)
+	- var path = start +'.jpg' 
+	li.grid__item
+		a.grid__link(href='#')
+			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
+			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
+			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
+			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
+			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
+
+
+//- deco1 (section first)
+
+mixin first-deco(start)
+	- var path = start +'.png'
+	li.grid__item
+		a.grid__link(href='#')
+			.layer
+			.layer
+			.layer
+			img.grid__img.layer(src='assets/img/deco/'+path, alt='06')

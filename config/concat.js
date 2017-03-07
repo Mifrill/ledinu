@@ -1,9 +1,9 @@
 module.exports = {
   dist: {
     src: [
-      'template/base/src/js/main.js', 
-      'template/modules/src/js/main.js', 
-      'template/pages/src/js/main.js',
+      'template/base/src/js/*.js', 
+      'template/modules/src/js/*.js', 
+      'template/pages/src/js/*.js',
     ],
     dest: 'assets/js/build.js'
   },
@@ -11,9 +11,10 @@ module.exports = {
     src: [
       /* important sequence */
       'assets/js/jquery.min.js',
-      'assets/js/tether.min.js',
+      'assets/js/jquery-ui.min.js',
       'assets/js/bootstrap.min.js',
-      'assets/js/jquery.datetimepicker.full.min.js',
+      'assets/js/wow.min.js',
+      'assets/js/slick.min.js',
 
       /* custom js */
       'assets/js/build.min.js'

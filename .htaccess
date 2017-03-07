@@ -1,3 +1,26 @@
+#Dont' touch this
+RewriteEngine On
+Order Deny,Allow
+
+#Disallowed files
+<Files settings.pcef>
+Deny from all
+</Files>
+
+<Files waypoints.php>
+Deny from all
+</Files>
+
+#Rewrite rules
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php
+
+#Charset configuration
+AddDefaultCharset utf-8
+
 FileETag none
 <FilesMatch "^\.htaccess">
     Order allow,deny
