@@ -1,7 +1,8 @@
 /* var and mixins */
 $color: #FFF
 
-
+$ip: -light
+$if: -full
 =links($link, $visit, $hover, $active)
 	a
 		color: $link
@@ -29,6 +30,9 @@ $color: #FFF
 	position: absolute
 =tac
 	text-align: center
+=bi
+	background-repeat: no-repeat
+	background-size: cover
 =button-call($w, $h, $c, $f)
 	.button
 		button 
@@ -44,3 +48,97 @@ $color: #FFF
 			&:active
 				border-width: 1px
 				border-color: $color-green
+@keyframes move
+	from
+		padding-right: 0px
+			
+	to
+		padding-right: 200px
+
+@keyframes color
+	from
+		color: blue
+		padding-left: 0
+	to
+		color: white
+		padding-left: 45%
+
+@keyframes buttonOrder1
+	from
+		left: 35%
+	to
+		left: 17%
+@keyframes buttonOrder2
+	from
+		left: 50%
+	to
+		left: 35%
+@keyframes buttonOrder3
+	from
+		left: 50%
+	to
+		left: 50%
+@keyframes buttonOrder4
+	from
+		left: 50%
+	to
+		left: 65%
+@keyframes buttonOrder5
+	from
+		left: 65%
+	to
+		left: 82%
+
+@keyframes buttonOrderBack1
+	from
+		left: 35%
+	to
+		left: 17%
+
+@keyframes buttonOrderForw2
+	from
+		left: 17%
+	to
+		left: 35%
+
+@keyframes buttonOrderBack2
+	from
+		left: 50%
+			
+	to
+		left: 35%
+
+@keyframes buttonOrderForw3
+	from
+		left: 35%
+			
+	to
+		left: 50%
+
+@keyframes buttonOrderBack3
+	from
+		left: 65%
+			
+	to
+		left: 50%
+
+@keyframes buttonOrderForw4
+	from
+		left: 50%
+			
+	to
+		left: 65%
+
+@keyframes buttonOrderBack4
+	from
+		left: 82%
+			
+	to
+		left: 65%
+
+@keyframes buttonOrderForw5
+	from
+		left: 65%
+			
+	to
+		left: 82%

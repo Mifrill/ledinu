@@ -7,11 +7,13 @@ $(document).ready(function(){
 		}
 
 		new IsoGrid(document.querySelector('.isolayer--deco1'), {
-			transform : 'translateX(33vw) translateY(-340px) rotateX(45deg) rotateZ(45deg)',
+			transform : 'translateX(30vw) translateY(-60px) rotateX(45deg) rotateZ(45deg)',
 			stackItemsAnimation : {
 				properties : function(pos) {
 					return {
-						translateZ: (pos+1) * 30,
+						translateZ: (pos+1) * 50,
+
+						rotateY: pos * 15,
 						rotateZ: getRandomInt(-4, 4)
 					};
 				},
@@ -97,6 +99,11 @@ $(document).ready(function(){
 		console.log('992px');
 	}
 
+	$(window).scroll(function() {
+		var top = $(document).scrollTop();
+
+
+	});
 });
 
 /*! modernizr 3.3.1 (Custom Build) | MIT *
@@ -114,10 +121,10 @@ $('.sl-slide-news').slick({
 $('#datepicker').datepicker();
 
 $('#date').change(function(){
-    $('#datepicker').datepicker('setDate', $(this).val());
+	$('#datepicker').datepicker('setDate', $(this).val());
 });
 $('#datepicker').change(function(){
-    $('#date').attr('value',$(this).val());
+	$('#date').attr('value',$(this).val());
 });
 
 $("#scroll-menu").on("click","a", function (event) {
@@ -126,6 +133,8 @@ $("#scroll-menu").on("click","a", function (event) {
 		top = $(id).offset().top;
 	$('body,html').animate({scrollTop: top}, 1500);
 });
+
+
 /**
  * "loading" effects for grids from/based on: http://tympanus.net/codrops/2013/07/02/loading-effects-for-grid-items-with-css-animations/ (Check it out for more examples and effects)
  * 

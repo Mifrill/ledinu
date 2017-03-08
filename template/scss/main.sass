@@ -14,10 +14,106 @@
 @import "style.css"
 
 /* ------------------------  Section main_start -------------------------- */
-section
-	min-height: 500px
-	background-color: green
 
+/* ------------------------  Section mission_start ----------------------- */
+section#mission
+	min-height: 900px
 
+/* ------------------------  Section portfolio_start --------------------- */
+section#portfolio
+	z-index: 0
+	line-height: 45px
+#our_portfolio
+	color: blue
+	z-index: 99
+	line-height: 60px
+	font-size: 50px + 25px
+	max-width: 50px * 10
+	+tc
+	+pa
+	margin-top: 4%
+	left: 50%
+	margin-left: -50px * 5
+	font-weight: bold
+
+.flex-container
+	+df
+	height: 905px
+	.flex-element
+		flex-grow: 1
+		z-index: 0
+		p
+			+pr
+			padding-top: (905 / 2) + px
+			font-size: 50px
+			+tc
+			color: blue
+			z-index: 1
+
+@for $i from 1 through 5
+	.element-#{$i}
+		background-image: url(../img/basic/#{$i}#{$ip}.jpg)
+		+bi
+		&:hover
+			z-index: 5
+			&:before
+				+dn
+		.button-order
+			+pa
+			z-index: 6
+			top: 85%
+@for $i from 1 through 5
+	.element-#{$i}
+		.button-order
+			animation-name: buttonOrder#{$i}
+			animation-duration: 1s
+@for $i from 1 through 4
+	.element-#{$i}
+		.order-back
+			animation-name: buttonOrderBack#{$i}
+			animation-duration: 1s
+@for $i from 2 through 5
+	.element-#{$i}
+		.order-forward
+			animation-name: buttonOrderForw#{$i}
+			animation-duration: 1s
+
+.element-1
+	.button-order
+		left: 17%
+
+.element-2
+	.button-order
+		left: 35%
+
+.element-3
+	.button-order
+		left: 50%
+
+.element-4
+	.button-order
+		left: 65%
+
+.element-5
+	.button-order
+		left: 82%
+@for $i from 1 through 5
+	.element-#{$i}
+		background-image: url(../img/basic/#{$i}#{$ip}.jpg)
+		+bi
+		&:hover
+			&:before
+				+dn
+			p
+				animation-name: color
+				animation-duration: 1s
+				color: white
+				padding-left: 45%
+			background-image: url(../img/basic/#{$i}#{$if}.jpg)
+			+bi
+			background-position: -300px
+			padding-right: 200px
+			animation-name: move
+			animation-duration: 2s
 @import media
 

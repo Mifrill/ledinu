@@ -22,8 +22,12 @@ module.exports = {
       {cwd: 'libs/jquery/dist/', src: ['jquery.min.js'], dest: 'assets/js/', expand: true},
       {cwd: 'libs/jquery-ui/', src: ['jquery-ui.min.js'], dest: 'assets/js/', expand: true},
       {cwd: 'libs/bootstrap/dist/js/', src: ['bootstrap.min.js'], dest: 'assets/js/', expand: true},
-      {cwd: 'libs/slick-carousel/slick/', src: ['slick.min.js'], dest: 'assets/js/', expand: true},
       {cwd: 'libs/wow/dist/', src: ['wow.min.js'], dest: 'assets/js/', expand: true},
+      {cwd: 'libs/slick-carousel/slick/', src: ['slick.min.js'], dest: 'assets/js/', expand: true},
+      {cwd: 'libs/imagesloaded/', src: ['imagesloaded.pkgd.min.js'], dest: 'assets/js/', expand: true},
+      {cwd: 'libs/masonry/dist/', src: ['masonry.pkgd.min.js'], dest: 'assets/js/', expand: true},
+      {cwd: 'libs/dynamics.js/lib/', src: ['dynamics.min.js'], dest: 'assets/js/', expand: true},
+      {cwd: 'libs/typed.js/dist/', src: ['typed.min.js'], dest: 'assets/js/', expand: true},
     ],
     options: {
       processContent: function(content, path) {

@@ -7,11 +7,13 @@ $(document).ready(function(){
 		}
 
 		new IsoGrid(document.querySelector('.isolayer--deco1'), {
-			transform : 'translateX(33vw) translateY(-340px) rotateX(45deg) rotateZ(45deg)',
+			transform : 'translateX(30vw) translateY(-60px) rotateX(45deg) rotateZ(45deg)',
 			stackItemsAnimation : {
 				properties : function(pos) {
 					return {
-						translateZ: (pos+1) * 30,
+						translateZ: (pos+1) * 50,
+
+						rotateY: pos * 15,
 						rotateZ: getRandomInt(-4, 4)
 					};
 				},
@@ -97,4 +99,9 @@ $(document).ready(function(){
 		console.log('992px');
 	}
 
+	$(window).scroll(function() {
+		var top = $(document).scrollTop();
+
+
+	});
 });

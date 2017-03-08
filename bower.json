@@ -27,6 +27,7 @@
     "modernizr": "^3.3.1",
     "masonry": "^4.1.1",
     "imagesloaded": "^4.1.1",
-    "dynamics.js": "^1.1.1"
+    "dynamics.js": "^1.1.1",
+    "typed.js": "^1.1.4"
   }
 }

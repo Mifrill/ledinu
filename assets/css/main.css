@@ -1,9 +1,86 @@
 /* ---------------------------- General Style ----------------------------- */
 /* var and mixins */
-/* Global style */
 @import url(component.css);
 @import url(demo.css);
 @import url(style.css);
+@keyframes move {
+  from {
+    padding-right: 0px; }
+  to {
+    padding-right: 200px; } }
+@keyframes color {
+  from {
+    color: blue;
+    padding-left: 0; }
+  to {
+    color: white;
+    padding-left: 45%; } }
+@keyframes buttonOrder1 {
+  from {
+    left: 35%; }
+  to {
+    left: 17%; } }
+@keyframes buttonOrder2 {
+  from {
+    left: 50%; }
+  to {
+    left: 35%; } }
+@keyframes buttonOrder3 {
+  from {
+    left: 50%; }
+  to {
+    left: 50%; } }
+@keyframes buttonOrder4 {
+  from {
+    left: 50%; }
+  to {
+    left: 65%; } }
+@keyframes buttonOrder5 {
+  from {
+    left: 65%; }
+  to {
+    left: 82%; } }
+@keyframes buttonOrderBack1 {
+  from {
+    left: 35%; }
+  to {
+    left: 17%; } }
+@keyframes buttonOrderForw2 {
+  from {
+    left: 17%; }
+  to {
+    left: 35%; } }
+@keyframes buttonOrderBack2 {
+  from {
+    left: 50%; }
+  to {
+    left: 35%; } }
+@keyframes buttonOrderForw3 {
+  from {
+    left: 35%; }
+  to {
+    left: 50%; } }
+@keyframes buttonOrderBack3 {
+  from {
+    left: 65%; }
+  to {
+    left: 50%; } }
+@keyframes buttonOrderForw4 {
+  from {
+    left: 50%; }
+  to {
+    left: 65%; } }
+@keyframes buttonOrderBack4 {
+  from {
+    left: 82%; }
+  to {
+    left: 65%; } }
+@keyframes buttonOrderForw5 {
+  from {
+    left: 65%; }
+  to {
+    left: 82%; } }
+/* Global style */
 * {
   font-family: "GothamProBold";
   color: #FFF; }
@@ -154,6 +231,51 @@ section .slick-dots {
       border: 3px solid white;
       outline: none;
       background-color: white; }
+
+.typed-cursor {
+  opacity: 0;
+  animation: blink 0.7s infinite; }
+
+/* -----------  special CONTENT for lighten and radken fon-image ---------- */
+.element-1:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1; }
+
+.element-2:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1; }
+
+.element-3:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1; }
+
+.element-4:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1; }
+
+.element-5:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1; }
 
 /* -----------------------------------  modal ----------------------------- */
 article,
@@ -337,8 +459,6 @@ table {
 
 input[type="search"] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
   input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none; }
@@ -347,12 +467,276 @@ input[type="checkbox"], input[type="radio"] {
   padding: 0; }
 
 /* ------------------------  Section main_start -------------------------- */
-section {
-  min-height: 500px;
-  background-color: green; }
+/* ------------------------  Section mission_start ----------------------- */
+section#mission {
+  min-height: 900px; }
+
+/* ------------------------  Section portfolio_start --------------------- */
+section#portfolio {
+  z-index: 0;
+  line-height: 45px; }
+
+#our_portfolio {
+  color: blue;
+  z-index: 99;
+  line-height: 60px;
+  font-size: 75px;
+  max-width: 500px;
+  text-align: center;
+  position: absolute;
+  margin-top: 4%;
+  left: 50%;
+  margin-left: -250px;
+  font-weight: bold; }
+
+.flex-container {
+  display: -ms-flexbox;
+  display: flex;
+  height: 905px; }
+  .flex-container .flex-element {
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    z-index: 0; }
+    .flex-container .flex-element p {
+      position: relative;
+      padding-top: 452.5px;
+      font-size: 50px;
+      text-align: center;
+      color: blue;
+      z-index: 1; }
+
+.element-1 {
+  background-image: url(../img/basic/1-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-1:hover {
+    z-index: 5; }
+    .element-1:hover:before {
+      display: none; }
+  .element-1 .button-order {
+    position: absolute;
+    z-index: 6;
+    top: 85%; }
+
+.element-2 {
+  background-image: url(../img/basic/2-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-2:hover {
+    z-index: 5; }
+    .element-2:hover:before {
+      display: none; }
+  .element-2 .button-order {
+    position: absolute;
+    z-index: 6;
+    top: 85%; }
+
+.element-3 {
+  background-image: url(../img/basic/3-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-3:hover {
+    z-index: 5; }
+    .element-3:hover:before {
+      display: none; }
+  .element-3 .button-order {
+    position: absolute;
+    z-index: 6;
+    top: 85%; }
+
+.element-4 {
+  background-image: url(../img/basic/4-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-4:hover {
+    z-index: 5; }
+    .element-4:hover:before {
+      display: none; }
+  .element-4 .button-order {
+    position: absolute;
+    z-index: 6;
+    top: 85%; }
+
+.element-5 {
+  background-image: url(../img/basic/5-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-5:hover {
+    z-index: 5; }
+    .element-5:hover:before {
+      display: none; }
+  .element-5 .button-order {
+    position: absolute;
+    z-index: 6;
+    top: 85%; }
+
+.element-1 .button-order {
+  animation-name: buttonOrder1;
+  animation-duration: 1s; }
+
+.element-2 .button-order {
+  animation-name: buttonOrder2;
+  animation-duration: 1s; }
+
+.element-3 .button-order {
+  animation-name: buttonOrder3;
+  animation-duration: 1s; }
+
+.element-4 .button-order {
+  animation-name: buttonOrder4;
+  animation-duration: 1s; }
+
+.element-5 .button-order {
+  animation-name: buttonOrder5;
+  animation-duration: 1s; }
+
+.element-1 .order-back {
+  animation-name: buttonOrderBack1;
+  animation-duration: 1s; }
+
+.element-2 .order-back {
+  animation-name: buttonOrderBack2;
+  animation-duration: 1s; }
+
+.element-3 .order-back {
+  animation-name: buttonOrderBack3;
+  animation-duration: 1s; }
+
+.element-4 .order-back {
+  animation-name: buttonOrderBack4;
+  animation-duration: 1s; }
+
+.element-2 .order-forward {
+  animation-name: buttonOrderForw2;
+  animation-duration: 1s; }
+
+.element-3 .order-forward {
+  animation-name: buttonOrderForw3;
+  animation-duration: 1s; }
+
+.element-4 .order-forward {
+  animation-name: buttonOrderForw4;
+  animation-duration: 1s; }
+
+.element-5 .order-forward {
+  animation-name: buttonOrderForw5;
+  animation-duration: 1s; }
+
+.element-1 .button-order {
+  left: 17%; }
+
+.element-2 .button-order {
+  left: 35%; }
+
+.element-3 .button-order {
+  left: 50%; }
+
+.element-4 .button-order {
+  left: 65%; }
+
+.element-5 .button-order {
+  left: 82%; }
+
+.element-1 {
+  background-image: url(../img/basic/1-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-1:hover {
+    background-image: url(../img/basic/1-full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -300px;
+    padding-right: 200px;
+    animation-name: move;
+    animation-duration: 2s; }
+    .element-1:hover:before {
+      display: none; }
+    .element-1:hover p {
+      animation-name: color;
+      animation-duration: 1s;
+      color: white;
+      padding-left: 45%; }
+
+.element-2 {
+  background-image: url(../img/basic/2-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-2:hover {
+    background-image: url(../img/basic/2-full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -300px;
+    padding-right: 200px;
+    animation-name: move;
+    animation-duration: 2s; }
+    .element-2:hover:before {
+      display: none; }
+    .element-2:hover p {
+      animation-name: color;
+      animation-duration: 1s;
+      color: white;
+      padding-left: 45%; }
+
+.element-3 {
+  background-image: url(../img/basic/3-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-3:hover {
+    background-image: url(../img/basic/3-full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -300px;
+    padding-right: 200px;
+    animation-name: move;
+    animation-duration: 2s; }
+    .element-3:hover:before {
+      display: none; }
+    .element-3:hover p {
+      animation-name: color;
+      animation-duration: 1s;
+      color: white;
+      padding-left: 45%; }
+
+.element-4 {
+  background-image: url(../img/basic/4-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-4:hover {
+    background-image: url(../img/basic/4-full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -300px;
+    padding-right: 200px;
+    animation-name: move;
+    animation-duration: 2s; }
+    .element-4:hover:before {
+      display: none; }
+    .element-4:hover p {
+      animation-name: color;
+      animation-duration: 1s;
+      color: white;
+      padding-left: 45%; }
+
+.element-5 {
+  background-image: url(../img/basic/5-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .element-5:hover {
+    background-image: url(../img/basic/5-full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -300px;
+    padding-right: 200px;
+    animation-name: move;
+    animation-duration: 2s; }
+    .element-5:hover:before {
+      display: none; }
+    .element-5:hover p {
+      animation-name: color;
+      animation-duration: 1s;
+      color: white;
+      padding-left: 45%; }
 
 @media (min-width: 0px) and (max-width: 320px) {
   .header {
     color: red; } }
-
-/*# sourceMappingURL=main.css.map */

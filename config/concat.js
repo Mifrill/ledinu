@@ -15,6 +15,10 @@ module.exports = {
       'assets/js/bootstrap.min.js',
       'assets/js/wow.min.js',
       'assets/js/slick.min.js',
+      'assets/js/imagesloaded.pkgd.min.js',
+      'assets/js/masonry.pkgd.min.js',
+      'assets/js/dynamics.min.js',
+      'assets/js/typed.min.js',
 
       /* custom js */
       'assets/js/build.min.js'

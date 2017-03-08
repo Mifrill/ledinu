@@ -1,22 +1,51 @@
 //- first deco left side
-mixin third-deco(start)
-	- var path = start +'.jpg' 
-	li.grid__item
+mixin third-deco(start, delay)
+	if start <= 3
+		-var list = [0, 1, 2, 3]
+	else
+		if start <= 6
+			-var list = [0, -1, -2, -3]
+		else
+			if start  <= 9
+				-var list = [0, 1, 2, 3]
+			else
+				-var list = [0, -1, -2, -3]
+	- var delay = delay
+	li.grid__item(class='wow bounceInDown' data-wow-offset='-300' data-wow-delay=''+delay+'00ms')
 		a.grid__link(href='#')
-			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
-			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
-			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
-			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
-			img.grid__img.layer(src='assets/img/layer/'+path, alt='01')
-
+			each m in list
+				- var n = start + m + '.jpg'
+				img.grid__img.layer(src='assets/img/layer/'+n, alt='0'+n)
 
 //- deco1 (section first)
 
 mixin first-deco(start)
 	- var path = start +'.png'
-	li.grid__item
+	li.grid__item(class="wow bounceInDown" data-wow-delay="200ms")
 		a.grid__link(href='#')
 			.layer
 			.layer
 			.layer
-			img.grid__img.layer(src='assets/img/deco/'+path, alt='06')
+			img.grid__img.layer(src='assets/img/deco/'+path, alt='0'+path)
+
+mixin second-deco(title, words, delay)
+	li.grid__item(class="wow slideInRight" data-wow-delay=''+delay+'00ms')
+		a.grid__link(href='#')
+			.layer
+			.layer
+			.layer
+				span.decoletter= title
+				span.deconumber= words
+
+mixin sciense-deco(img, delay, url)
+	li.grid__item(class="wow slideInLeft" data-wow-delay=''+delay+'00ms')
+		a.grid__link(href=''+url)
+			.layer
+			.layer
+			.layer
+			img.grid__img.layer(src='assets/img/sciense/'+img+'.png', alt='0'+img)
+mixin slider-mission(text)
+	div(class="slide-news")
+		a(href="#")
+			span(class="slide-news-text")
+				h3= text

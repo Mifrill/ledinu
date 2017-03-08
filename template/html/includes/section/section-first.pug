@@ -1,17 +1,9 @@
 section.section.section--intro
 	.isolayer.isolayer--deco1.isolayer--shadow
 		ul.grid
-			+first-deco(1)
-			+first-deco(2)
-			+first-deco(3)
-			+first-deco(4)
-			+first-deco(5)
-			+first-deco(6)
-			+first-deco(7)
-			+first-deco(8)
-			+first-deco(9)
-			+first-deco(10)
+			each m in rightDecoIntro
+				+first-deco(m)
 
 section.interval
-	p.interval__text
+	p.interval__text(class="wow zoomIn" data-wow-delay="100ms")
 		| Axonometric projection is a type of parallel projection used for creating a pictorial drawing of an object, where the object is rotated along one or more of its axes relative to the plane of projection. 

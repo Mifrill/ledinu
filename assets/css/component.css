@@ -10,14 +10,13 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	-webkit-transform-origin: 50% 100%;
-	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	    transform-origin: 50% 100%;
 }
 
 .js .grid,
 .js .grid__item,
 .js .grid__link {
-	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
 
@@ -33,7 +32,6 @@ body {
 }
 
 .js .grid__item {
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
@@ -60,15 +58,12 @@ body {
 	text-transform: uppercase;
 	opacity: 0;
 	color: #fff;
-	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
 }
 
 .grid__item:hover .grid__title {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -95,18 +90,14 @@ body {
 	opacity: 0.6;
 	background: rgba(0,0,0,0.8);
 	box-shadow: 0 0 0 0 rgba(0,0,0,0.8);
-	-webkit-transform: translateZ(-1px) scale(0.95);
 	transform: translateZ(-1px) scale(0.95);
-	-webkit-transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
 	transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 .isolayer--shadow .grid__item:hover .grid__link::before {
 	opacity: 0.2;
 	box-shadow: 0 0 20px 10px rgba(0,0,0,0.8);
-	-webkit-transform: translateZ(-1px) scale(1);
 	transform: translateZ(-1px) scale(1);
 }
 
@@ -124,7 +115,7 @@ body {
 
 .isolayer--deco1 {
 	width: 1200px;
-	height: 900px;
+	height: 500px;
 }
 
 .isolayer--deco1 .grid__link .layer:first-child:not(img) {
@@ -156,7 +147,7 @@ body {
 }
 
 .isolayer--deco2 {
-	width: 1200px;
+	width: 1100px;
 	height: 80vh;
 }
 
@@ -195,8 +186,8 @@ body {
 .isolayer--deco3 .layer {
 	text-align: center;
 	background: #fff;
-	-webkit-transform-origin: 0% 50%;
-	transform-origin: 0% 50%;
+	-ms-transform-origin: 0% 50%;
+	    transform-origin: 0% 50%;
 }
 
 .isolayer--deco3 .grid__link:hover .layer:not(:first-child) {
@@ -266,8 +257,8 @@ body {
 }
 
 .isolayer--deco4 .grid__link .layer {
-	-webkit-transform-origin: 50% 100%;
-	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	    transform-origin: 50% 100%;
 }
 
 .isolayer--deco4 .grid__link div.layer {
@@ -293,24 +284,14 @@ body {
 }
 
 .grid--effect-flip .grid__item.animate {
-	-webkit-transform: translateY(800px);
-	transform: translateY(800px);
-	-webkit-animation: moveUp 1s cubic-bezier(0.2,1,0.3,1) forwards;
+	-ms-transform: translateY(800px);
+	    transform: translateY(800px);
 	animation: moveUp 1s cubic-bezier(0.2,1,0.3,1) forwards;
-}
-
-@-webkit-keyframes moveUp {
-	100% {
-		opacity: 1; 
-		-webkit-transform: translateY(0px);
-		transform: translateY(0px);
-	}
 }
 
 @keyframes moveUp {
 	100% {
-		opacity: 1; 
-		-webkit-transform: translateY(0px);
+		opacity: 1;
 		transform: translateY(0px);
 	}
 }
@@ -318,7 +299,6 @@ body {
 /* Loading effect */
 .js .grid {
 	opacity: 0;
-	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
 
@@ -339,22 +319,12 @@ body {
 	border: 3px solid #fff;
 	border-right-color: #323f5c;
 	border-radius: 50%;
-	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
-	-webkit-animation: rotateCircle 0.7s linear infinite forwards;
 	animation: rotateCircle 0.7s linear infinite forwards;
-}
-
-@-webkit-keyframes rotateCircle {
-	to {
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
 }
 
 @keyframes rotateCircle {
 	to {
-		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
 }

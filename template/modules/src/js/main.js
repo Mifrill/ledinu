@@ -10,10 +10,10 @@ $('.sl-slide-news').slick({
 $('#datepicker').datepicker();
 
 $('#date').change(function(){
-    $('#datepicker').datepicker('setDate', $(this).val());
+	$('#datepicker').datepicker('setDate', $(this).val());
 });
 $('#datepicker').change(function(){
-    $('#date').attr('value',$(this).val());
+	$('#date').attr('value',$(this).val());
 });
 
 $("#scroll-menu").on("click","a", function (event) {
@@ -22,3 +22,4 @@ $("#scroll-menu").on("click","a", function (event) {
 		top = $(id).offset().top;
 	$('body,html').animate({scrollTop: top}, 1500);
 });
+
