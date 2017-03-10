@@ -28,7 +28,8 @@ mixin first-deco(start)
 			.layer
 			img.grid__img.layer(src='assets/img/deco/'+path, alt='0'+path)
 
-mixin second-deco(title, words, delay)
+mixin second-deco(title, words, delay, start)
+	- var path = start +'.png'
 	li.grid__item(class="wow slideInRight" data-wow-delay=''+delay+'00ms')
 		a.grid__link(href='#')
 			.layer
@@ -36,6 +37,7 @@ mixin second-deco(title, words, delay)
 			.layer
 				span.decoletter= title
 				span.deconumber= words
+			img.grid__img.layer(src='assets/img/deco/'+path, alt='0'+path)
 
 mixin sciense-deco(img, delay, url)
 	li.grid__item(class="wow slideInLeft" data-wow-delay=''+delay+'00ms')
@@ -44,8 +46,8 @@ mixin sciense-deco(img, delay, url)
 			.layer
 			.layer
 			img.grid__img.layer(src='assets/img/sciense/'+img+'.png', alt='0'+img)
-mixin slider-mission(text)
-	div(class="slide-news")
-		a(href="#")
-			span(class="slide-news-text")
-				h3= text
+mixin slider-video(n)
+	div( class="sl" id="out-mobile")
+		div(class="sl-slide-video" id="video-slide")
+			div(class="item-video important")
+				video(src="assets/video/"+n+".mp4")

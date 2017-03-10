@@ -1,13 +1,30 @@
-section.section.section--cards
+section.section.section--cards(id="education")
 	h2.section__heading(class="wow rotateInDownLeft" data-wow-delay="300ms") Семинары
 	p.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="100ms")
 		| It is to this violence of the rain that we must attribute the verdure at the bottom of the thickest woods.
 	.isolayer.isolayer--deco3
 		ul.grid
 			each m in rightDeco3
-				+second-deco('Имя', 'название', m)
+				+second-deco('Имя', 'название', m, 1)
 
 
 section.interval
-	p.interval__text(class="wow zoomIn" data-wow-delay="100ms")
-		| Isometric projection is a method for visually representing three-dimensional objects in two dimensions in technical and engineering drawings.
+	.grid
+		figure.effect-romeo
+			img(src='assets/img/layer/5.jpg', alt='img17')
+			figcaption
+				h2
+					| Wild 
+					span Romeo
+				p Romeo never knows what he wants. He seemed to be very cross about something.
+				|  
+				a(href='#') View more
+		figure.effect-romeo
+			img(src='assets/img/layer/6.jpg', alt='img18')
+			figcaption
+				h2
+					| Wild 
+					span Romeo
+				p Romeo never knows what he wants. He seemed to be very cross about something.
+				|  
+				a(href='#') View more

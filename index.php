@@ -3,33 +3,31 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>pageTitle</title>
+		<title>ledinu</title>
 		<!-- build:remove:dev -->
 		<link rel="stylesheet" href="assets/css/all.min.css">
 		<!-- /build -->	</head>
 	<body>
 		<header>
 			<div class="navbar navbar-inverse navbar-fixed-top wow flipInX" role="navigation"
-			data-wow-delay="100ms">
+			data-wow-delay="100ms" id="top-menu">
 				<div class="container">
 					<div class="navbar-header">
 						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 							<span
 							class="icon-bar"></span>
-						</button><a class="navbar-brand" href="#">ledinu</a>
+						</button><a class="navbar-brand icon-icon" href="#header"></a>
 
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="scroll-menu">
-							<li class="active"><a href="#header">Home</a>
+							<li><a href="#mission">Моя миссия				</a>
 							</li>
-							<li><a href="#mission">mission				</a>
+							<li><a href="#education">Образование</a>
 							</li>
-							<li><a href="#portfolio">portfolio</a>
+							<li><a href="#sciense">Наука</a>
 							</li>
-							<li><a href="#why-us">why-us				</a>
-							</li>
-							<li><a href="#sciense">sciense</a>
+							<li><a href="#why-us">why-us					</a>
 							</li>
 						</ul>
 					</div>
@@ -37,8 +35,8 @@
 			</div>
 			<div class="header-content" id="header"></div>
 		</header>
-		<section class="section section--right section--portraits">
-			 <h2 class="section__heading wow fadeInDown" data-wow-delay="100ms" data-wow-duration="3.5s">Архитектор <em>своей</em> реальности</h2>
+		<section class="section section--right section--portraits" id="secion-main">
+			 <h2 class="section__heading wow fadeInDown" data-wow-delay="100ms" data-wow-duration="3.5s">Архитектор своей реальности</h2>
 
 			<p class="section__subtitle wow bounceInRight" data-wow-delay="200ms"
 			data-wow-duration="3.5s">Even whilst the arched or doubled hypocotyl is still beneath the ground,
@@ -73,27 +71,57 @@
 				</ul>
 				</div>
 		</section>
-		<section class="interval">
-			<p class="interval__text wow zoomIn" data-wow-delay="100ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor
-				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+		<section class="interval" id="grid">
+			<div class="grid">
+				<figure class="effect-layla">
+					<img src="assets/img/layer/1.jpg" alt="img06">
+					<figcaption>
+						 <h2>Crazy<span>Layla</span></h2>
+
+						<p>When Layla appears, she brings an eternal summer along.</p><a href="#">View more</a>
+
+					</figcaption>
+				</figure>
+				<figure class="effect-layla">
+					<img src="assets/img/layer/2.jpg" alt="img03">
+					<figcaption>
+						 <h2>Crazy<span>Layla</span></h2>
+
+						<p>When Layla appears, she brings an eternal summer along.</p><a href="#">View more</a>
+
+					</figcaption>
+				</figure>
+			</div>
 		</section>
-		<section id="mission">
-			<div class="sl" id="sl-news">
-				<div class="sl-slide-news">
-					<div class="slide-news"><a href="#"><span class="slide-news-text">
-                <h3>моя первая миссия</h3></span></a>
+		<section id="video-slide">
+			<div class="sl" id="sl-video">
+				<div class="sl-slide-video">
+					<div class="sl" id="out-mobile">
+						<div class="sl-slide-video" id="video-slide">
+							<div class="item-video important">
+								<video src="assets/video/1.mp4"></video>
+							</div>
+						</div>
 					</div>
-					<div class="slide-news"><a href="#"><span class="slide-news-text">
-                <h3>моя вторая миссия</h3></span></a>
+					<div class="sl" id="out-mobile">
+						<div class="sl-slide-video" id="video-slide">
+							<div class="item-video important">
+								<video src="assets/video/2.mp4"></video>
+							</div>
+						</div>
 					</div>
-					<div class="slide-news"><a href="#"><span class="slide-news-text">
-                <h3>чё две же хватит</h3></span></a>
+					<div class="sl" id="out-mobile">
+						<div class="sl-slide-video" id="video-slide">
+							<div class="item-video important">
+								<video src="assets/video/3.mp4"></video>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="portfolio">
-			 <h1 id="our_portfolio">PORTOFOLIO</h1>
+		<section id="mission">
+			 <h1 class="wow fadeInDown" id="my_mission" data-wow-delay="100ms" data-wow-duration="3.5s">Моя МИССИЯ</h1>
 
 			<div class="flex-container">
 				<div class="flex-element element-1">
@@ -105,88 +133,9 @@
 				<div class="flex-element element-3">
 					<p>loremdxtrxdtxdrt</p>
 				</div>
-				<div class="flex-element element-4">
-					<p>loremdtxdtr</p>
-				</div>
-				<div class="flex-element element-5">
-					<p>loremfghxdfg</p>
-				</div>
 			</div>
 			<div class="button button-order">
-				<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
-			</div>
-		</section>
-		<section class="why-us" id="why-us">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center section-intro">
-						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>Why Us?</span></h2>
-
-						<p class="lead wow fadeInUp" data-wow-delay="600ms">Simple and only reason, We are the Best! Let&apos;s see some highlights:</p>
-					</div>
-					<div class="col-md-12 highlight-boxes">
-						<div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
-							<div class="featured-content-box text-center"><i class="tn-heart ico-lg text-warning"></i>
-
-								 <h3>Confucius Says</h3>
-
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-warning">Read More</button>
-							</div>
-						</div>
-						<div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
-							<div class="featured-content-box text-center"><i class="tn-server ico-lg text-info"></i>
-
-								 <h3>Confucius Says</h3>
-
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-info">Read More</button>
-							</div>
-						</div>
-						<div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
-							<div class="featured-content-box text-center"><i class="tn-anchor ico-lg text-success"></i>
-
-								 <h3>Confucius Says</h3>
-
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-primary">Read More</button>
-							</div>
-						</div>
-						<div class="col-md-4 wow fadeInUp">
-							<div class="featured-content-box text-center"><i class="tn-agenda ico-lg text-danger"></i>
-
-								 <h3>Confucius Says</h3>
-
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-danger">Read More</button>
-							</div>
-						</div>
-						<div class="col-md-4 wow fadeInUp" data-wow-delay="300ms">
-							<div class="featured-content-box text-center"><i class="tn-headphone ico-lg text-warning"></i>
-
-								 <h3>Confucius Says</h3>
-
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-warning">Read More</button>
-							</div>
-						</div>
-						<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-							<div class="featured-content-box text-center"><i class="tn-dashboard ico-lg text-info"></i>
-
-								 <h3>Confucius Says</h3>
-
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-info">Read More</button>
-							</div>
-						</div>
-					</div>
-				</div>
+				<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">КОНСУЛЬТАЦИЯ</button>
 			</div>
 		</section>
 		<section class="section section--intro">
@@ -270,12 +219,29 @@
 				</ul>
 			</div>
 		</section>
-		<section class="interval">
-			<p class="interval__text wow zoomIn" data-wow-delay="100ms">Axonometric projection is a type of parallel projection used for creating
-				a pictorial drawing of an object, where the object is rotated along one
-				or more of its axes relative to the plane of projection.</p>
+		<section class="interval" id="oscar">
+			<div class="grid">
+				<figure class="effect-oscar">
+					<img src="assets/img/layer/3.jpg" alt="img09">
+					<figcaption>
+						 <h2>Warm <span>Oscar</span></h2>
+
+						<p>Oscar is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
+
+					</figcaption>
+				</figure>
+				<figure class="effect-oscar">
+					<img src="assets/img/layer/4.jpg" alt="img10">
+					<figcaption>
+						 <h2>Warm <span>Oscar</span></h2>
+
+						<p>Oscar is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
+
+					</figcaption>
+				</figure>
+			</div>
 		</section>
-		<section class="section section--cards">
+		<section class="section section--cards" id="education">
 			 <h2 class="section__heading wow rotateInDownLeft" data-wow-delay="300ms">Семинары</h2>
 
 			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="100ms">It is to this violence of the rain that we must attribute the verdure
@@ -285,79 +251,99 @@
 					<li class="grid__item wow slideInRight" data-wow-delay="100ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="200ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="300ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="400ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1000ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1100ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1200ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1300ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1400ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
 				</ul>
 			</div>
 		</section>
 		<section class="interval">
-			<p class="interval__text wow zoomIn" data-wow-delay="100ms">Isometric projection is a method for visually representing three-dimensional
-				objects in two dimensions in technical and engineering drawings.</p>
+			<div class="grid">
+				<figure class="effect-romeo">
+					<img src="assets/img/layer/5.jpg" alt="img17">
+					<figcaption>
+						 <h2>Wild <span>Romeo</span></h2>
+
+						<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						<a
+						href="#">View more</a>
+					</figcaption>
+				</figure>
+				<figure class="effect-romeo">
+					<img src="assets/img/layer/6.jpg" alt="img18">
+					<figcaption>
+						 <h2>Wild <span>Romeo</span></h2>
+
+						<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						<a
+						href="#">View more</a>
+					</figcaption>
+				</figure>
+			</div>
 		</section>
 		<section class="section section--shots section--right" id="sciense">
 			 <h2 class="section__heading wow rotateInDownRight" data-wow-delay="300ms">Научная работа</h2>
@@ -444,6 +430,79 @@
 					</li>
 				</ul>
 				</div>
+		</section>
+		<section class="why-us" id="why-us">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center section-intro">
+						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>Why Us?</span></h2>
+
+						<p class="lead wow fadeInUp" data-wow-delay="600ms">Simple and only reason, We are the Best! Let&apos;s see some highlights:</p>
+					</div>
+					<div class="col-md-12 highlight-boxes">
+						<div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
+							<div class="featured-content-box text-center"><i class="tn-heart ico-lg text-warning"></i>
+
+								 <h3>Confucius Says</h3>
+
+								<p>Never study for others what you would not capture for the freedom of it.</p>
+								<button
+								class="btn btn-warning">Read More</button>
+							</div>
+						</div>
+						<div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
+							<div class="featured-content-box text-center"><i class="tn-server ico-lg text-info"></i>
+
+								 <h3>Confucius Says</h3>
+
+								<p>Never study for others what you would not capture for the freedom of it.</p>
+								<button
+								class="btn btn-info">Read More</button>
+							</div>
+						</div>
+						<div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+							<div class="featured-content-box text-center"><i class="tn-anchor ico-lg text-success"></i>
+
+								 <h3>Confucius Says</h3>
+
+								<p>Never study for others what you would not capture for the freedom of it.</p>
+								<button
+								class="btn btn-primary">Read More</button>
+							</div>
+						</div>
+						<div class="col-md-4 wow fadeInUp">
+							<div class="featured-content-box text-center"><i class="tn-agenda ico-lg text-danger"></i>
+
+								 <h3>Confucius Says</h3>
+
+								<p>Never study for others what you would not capture for the freedom of it.</p>
+								<button
+								class="btn btn-danger">Read More</button>
+							</div>
+						</div>
+						<div class="col-md-4 wow fadeInUp" data-wow-delay="300ms">
+							<div class="featured-content-box text-center"><i class="tn-headphone ico-lg text-warning"></i>
+
+								 <h3>Confucius Says</h3>
+
+								<p>Never study for others what you would not capture for the freedom of it.</p>
+								<button
+								class="btn btn-warning">Read More</button>
+							</div>
+						</div>
+						<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+							<div class="featured-content-box text-center"><i class="tn-dashboard ico-lg text-info"></i>
+
+								 <h3>Confucius Says</h3>
+
+								<p>Never study for others what you would not capture for the freedom of it.</p>
+								<button
+								class="btn btn-info">Read More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<footer>
 			<div id="content"></div>

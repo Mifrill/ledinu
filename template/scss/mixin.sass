@@ -1,4 +1,4 @@
-/* var and mixins */
+/* ------------------------ var and mixins ------------------------ */
 $color: #FFF
 
 $ip: -light
@@ -33,21 +33,27 @@ $if: -full
 =bi
 	background-repeat: no-repeat
 	background-size: cover
+=rocker
+	border-bottom-right-radius: 950px 47px
+	border-bottom-left-radius: 900px 47px
+=important
+	display: none!important
 =button-call($w, $h, $c, $f)
 	.button
 		button 
 			width: $w
 			height: $h
-			background-color: $color-green
-			border-radius: 10px
+			border-radius: 80px
 			margin-bottom: 10px
 			color: $c
 			font-size: $f
 			font-weight: bold
 			border-width: 0px
 			&:active
-				border-width: 1px
-				border-color: $color-green
+				border-width: 0px
+				border-color: transparent
+
+/* ------------------------ animation ------------------------*/
 @keyframes move
 	from
 		padding-right: 0px
@@ -65,80 +71,53 @@ $if: -full
 
 @keyframes buttonOrder1
 	from
-		left: 35%
+		left: 50%
 	to
-		left: 17%
+		left: 30%
 @keyframes buttonOrder2
 	from
 		left: 50%
 	to
-		left: 35%
+		left: 50%
 @keyframes buttonOrder3
 	from
 		left: 50%
 	to
-		left: 50%
-@keyframes buttonOrder4
-	from
-		left: 50%
-	to
-		left: 65%
-@keyframes buttonOrder5
-	from
-		left: 65%
-	to
-		left: 82%
-
+		left: 75%
 @keyframes buttonOrderBack1
-	from
-		left: 35%
-	to
-		left: 17%
-
-@keyframes buttonOrderForw2
-	from
-		left: 17%
-	to
-		left: 35%
-
-@keyframes buttonOrderBack2
 	from
 		left: 50%
 			
 	to
-		left: 35%
-
-@keyframes buttonOrderForw3
+		left: 30%
+@keyframes buttonOrderBack2
 	from
-		left: 35%
+		left: 30%
 			
 	to
 		left: 50%
 
 @keyframes buttonOrderBack3
 	from
-		left: 65%
-			
-	to
-		left: 50%
-
-@keyframes buttonOrderForw4
-	from
 		left: 50%
 			
 	to
-		left: 65%
-
-@keyframes buttonOrderBack4
+		left: 75%
+@keyframes buttonOrderForw1
 	from
-		left: 82%
+		left: 50%
 			
 	to
-		left: 65%
-
-@keyframes buttonOrderForw5
+		left: 30%
+@keyframes buttonOrderForw2
 	from
-		left: 65%
+		left: 75%
 			
 	to
-		left: 82%
+		left: 50%
+@keyframes buttonOrderForw3
+	from
+		left: 50%
+			
+	to
+		left: 75%

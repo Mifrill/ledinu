@@ -1,5 +1,6 @@
-/* ---------------------------- General Style ----------------------------- */
-/* var and mixins */
+/* ---------------------------- General Style -----------------------------*/
+/* ------------------------ var and mixins ------------------------ */
+/* ------------------------ animation ------------------------*/
 @import url(component.css);
 @import url(demo.css);
 @import url(style.css);
@@ -8,6 +9,7 @@
     padding-right: 0px; }
   to {
     padding-right: 200px; } }
+
 @keyframes color {
   from {
     color: blue;
@@ -15,71 +17,61 @@
   to {
     color: white;
     padding-left: 45%; } }
+
 @keyframes buttonOrder1 {
   from {
-    left: 35%; }
+    left: 50%; }
   to {
-    left: 17%; } }
+    left: 30%; } }
+
 @keyframes buttonOrder2 {
   from {
     left: 50%; }
   to {
-    left: 35%; } }
+    left: 50%; } }
+
 @keyframes buttonOrder3 {
   from {
     left: 50%; }
   to {
-    left: 50%; } }
-@keyframes buttonOrder4 {
-  from {
-    left: 50%; }
-  to {
-    left: 65%; } }
-@keyframes buttonOrder5 {
-  from {
-    left: 65%; }
-  to {
-    left: 82%; } }
+    left: 75%; } }
+
 @keyframes buttonOrderBack1 {
   from {
-    left: 35%; }
+    left: 50%; }
   to {
-    left: 17%; } }
-@keyframes buttonOrderForw2 {
-  from {
-    left: 17%; }
-  to {
-    left: 35%; } }
+    left: 30%; } }
+
 @keyframes buttonOrderBack2 {
   from {
-    left: 50%; }
-  to {
-    left: 35%; } }
-@keyframes buttonOrderForw3 {
-  from {
-    left: 35%; }
+    left: 30%; }
   to {
     left: 50%; } }
+
 @keyframes buttonOrderBack3 {
   from {
-    left: 65%; }
+    left: 50%; }
   to {
-    left: 50%; } }
-@keyframes buttonOrderForw4 {
+    left: 75%; } }
+
+@keyframes buttonOrderForw1 {
   from {
     left: 50%; }
   to {
-    left: 65%; } }
-@keyframes buttonOrderBack4 {
+    left: 30%; } }
+
+@keyframes buttonOrderForw2 {
   from {
-    left: 82%; }
+    left: 75%; }
   to {
-    left: 65%; } }
-@keyframes buttonOrderForw5 {
+    left: 50%; } }
+
+@keyframes buttonOrderForw3 {
   from {
-    left: 65%; }
+    left: 50%; }
   to {
-    left: 82%; } }
+    left: 75%; } }
+
 /* Global style */
 * {
   font-family: "GothamProBold";
@@ -161,13 +153,10 @@ input, select, button {
 
 /* just header and footer styles */
 /* ------------------------ header -------------------------------- */
-header {
-  background-color: gold; }
-
 /* ------------------------ footer -------------------------------- */
 /* styles */
 section .slick-dots {
-  top: 150px; }
+  top: 100px; }
   section .slick-dots li {
     margin: 0 -3px;
     height: 50%; }
@@ -192,12 +181,12 @@ section .slick-dots {
     .slick-dots li button {
       font-size: 0;
       line-height: 0;
-      width: 20px;
-      height: 20px;
-      padding: 10px;
+      width: 35px;
+      height: 10px;
+      padding: 5px;
       border-radius: 50px;
       cursor: pointer;
-      border: 3px solid white;
+      border: 3px solid #FFF;
       outline: none;
       background: transparent; }
       .slick-dots li button:hover, .slick-dots li button:focus {
@@ -216,21 +205,19 @@ section .slick-dots {
         opacity: .25;
         color: black; }
     .slick-dots li.slick-active button:before {
-      margin-left: 12px;
-      margin-top: 5px;
+      margin-left: 7.5px;
+      margin-top: 7px;
       opacity: 1;
-      color: black;
       font-size: 0;
       line-height: 0;
-      width: 20px;
-      height: 20px;
-      padding: 10px;
-      -moz-border-radius: 50px;
-      -webkit-border-radius: 50px;
+      width: 35px;
+      height: 10px;
+      padding: 5px;
+      border-radius: 50px;
       cursor: pointer;
-      border: 3px solid white;
+      border: 3px solid #FFF;
       outline: none;
-      background-color: white; }
+      background-color: #FFF; }
 
 .typed-cursor {
   opacity: 0;
@@ -462,21 +449,47 @@ input[type="search"] {
   box-sizing: content-box; }
   input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none; }
+
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-/* ------------------------  Section main_start -------------------------- */
+/* ------------------------  Section navbar menu -------------------------- */
+.navbar-inverse {
+  opacity: 0.6; }
+  .navbar-inverse:active, .navbar-inverse :focus {
+    outline: none; }
+
+.navbar-nav {
+  margin: 10px; }
+
+.navbar-toggle {
+  padding: 18px; }
+
+/* ------------------------  Section secion-main -------------------------- */
+section#secion-main .section__subtitle:hover {
+  font-size: 9.5em;
+  font-weight: bolder; }
+
+/* ------------------------  Section video_start ------------------------- */
+section#video-slide {
+  width: 100%;
+  margin-bottom: -3%;
+  z-index: 2; }
+
+video {
+  width: 100%;
+  border-bottom-right-radius: 950px 47px;
+  border-bottom-left-radius: 900px 47px; }
+
 /* ------------------------  Section mission_start ----------------------- */
 section#mission {
-  min-height: 900px; }
-
-/* ------------------------  Section portfolio_start --------------------- */
-section#portfolio {
+  border-bottom-right-radius: 950px 47px;
+  border-bottom-left-radius: 900px 47px;
   z-index: 0;
   line-height: 45px; }
 
-#our_portfolio {
+#my_mission {
   color: blue;
   z-index: 99;
   line-height: 60px;
@@ -507,11 +520,13 @@ section#portfolio {
 
 .element-1 {
   background-image: url(../img/basic/1-light.jpg);
+  transition: background-image 1s linear;
   background-repeat: no-repeat;
   background-size: cover; }
   .element-1:hover {
     z-index: 5; }
     .element-1:hover:before {
+      transition: all 1s ease;
       display: none; }
   .element-1 .button-order {
     position: absolute;
@@ -520,11 +535,13 @@ section#portfolio {
 
 .element-2 {
   background-image: url(../img/basic/2-light.jpg);
+  transition: background-image 1s linear;
   background-repeat: no-repeat;
   background-size: cover; }
   .element-2:hover {
     z-index: 5; }
     .element-2:hover:before {
+      transition: all 1s ease;
       display: none; }
   .element-2 .button-order {
     position: absolute;
@@ -533,39 +550,15 @@ section#portfolio {
 
 .element-3 {
   background-image: url(../img/basic/3-light.jpg);
+  transition: background-image 1s linear;
   background-repeat: no-repeat;
   background-size: cover; }
   .element-3:hover {
     z-index: 5; }
     .element-3:hover:before {
+      transition: all 1s ease;
       display: none; }
   .element-3 .button-order {
-    position: absolute;
-    z-index: 6;
-    top: 85%; }
-
-.element-4 {
-  background-image: url(../img/basic/4-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .element-4:hover {
-    z-index: 5; }
-    .element-4:hover:before {
-      display: none; }
-  .element-4 .button-order {
-    position: absolute;
-    z-index: 6;
-    top: 85%; }
-
-.element-5 {
-  background-image: url(../img/basic/5-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .element-5:hover {
-    z-index: 5; }
-    .element-5:hover:before {
-      display: none; }
-  .element-5 .button-order {
     position: absolute;
     z-index: 6;
     top: 85%; }
@@ -582,14 +575,6 @@ section#portfolio {
   animation-name: buttonOrder3;
   animation-duration: 1s; }
 
-.element-4 .button-order {
-  animation-name: buttonOrder4;
-  animation-duration: 1s; }
-
-.element-5 .button-order {
-  animation-name: buttonOrder5;
-  animation-duration: 1s; }
-
 .element-1 .order-back {
   animation-name: buttonOrderBack1;
   animation-duration: 1s; }
@@ -602,141 +587,185 @@ section#portfolio {
   animation-name: buttonOrderBack3;
   animation-duration: 1s; }
 
-.element-4 .order-back {
-  animation-name: buttonOrderBack4;
+.element-1 .order-forw {
+  animation-name: buttonOrderForw1;
   animation-duration: 1s; }
 
-.element-2 .order-forward {
+.element-2 .order-forw {
   animation-name: buttonOrderForw2;
   animation-duration: 1s; }
 
-.element-3 .order-forward {
+.element-3 .order-forw {
   animation-name: buttonOrderForw3;
   animation-duration: 1s; }
 
-.element-4 .order-forward {
-  animation-name: buttonOrderForw4;
-  animation-duration: 1s; }
-
-.element-5 .order-forward {
-  animation-name: buttonOrderForw5;
-  animation-duration: 1s; }
-
 .element-1 .button-order {
-  left: 17%; }
+  left: 30%; }
 
 .element-2 .button-order {
-  left: 35%; }
-
-.element-3 .button-order {
   left: 50%; }
 
-.element-4 .button-order {
-  left: 65%; }
+.element-3 .button-order {
+  left: 75%; }
 
-.element-5 .button-order {
-  left: 82%; }
+/* ------------------------  button-call migrate --------------------- */
+.button button {
+  width: 475px;
+  height: 100px;
+  border-radius: 80px;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 37.5px;
+  font-weight: bold;
+  border-width: 0px; }
+  .button button:active {
+    border-width: 0px;
+    border-color: transparent; }
 
-.element-1 {
-  background-image: url(../img/basic/1-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .element-1:hover {
-    background-image: url(../img/basic/1-full.jpg);
+.button-order {
+  z-index: 99; }
+  .button-order button.btn-primary {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 86%;
+    margin-left: -237.5px;
+    line-height: 30px;
+    padding: 20px 10px;
+    letter-spacing: -2px;
+    outline: none; }
+    .button-order button.btn-primary:active, .button-order button.btn-primary :focus {
+      outline: none; }
+
+/* ------------------------  Section sciense ----------------------- */
+/* ------------------------  Section why-us ----------------------- */
+section#why-us {
+  margin: 2% 0 5% 0; }
+
+/* ------------------------  Section portfolio_start --------------------- */
+@media (min-width: 992px) {
+  .element-1 {
+    background-image: url(../img/basic/1-light.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -300px;
-    padding-right: 200px;
-    animation-name: move;
-    animation-duration: 2s; }
-    .element-1:hover:before {
-      display: none; }
-    .element-1:hover p {
-      animation-name: color;
-      animation-duration: 1s;
-      color: white;
-      padding-left: 45%; }
-
-.element-2 {
-  background-image: url(../img/basic/2-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .element-2:hover {
-    background-image: url(../img/basic/2-full.jpg);
+    background-size: cover; }
+    .element-1:hover {
+      background-image: url(../img/basic/1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-right: 200px;
+      animation-name: move;
+      animation-duration: 2s; }
+      .element-1:hover:before {
+        display: none; }
+      .element-1:hover p {
+        animation-name: color;
+        animation-duration: 1s;
+        color: white;
+        padding-left: 45%; }
+  .element-2 {
+    background-image: url(../img/basic/2-light.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -300px;
-    padding-right: 200px;
-    animation-name: move;
-    animation-duration: 2s; }
-    .element-2:hover:before {
-      display: none; }
-    .element-2:hover p {
-      animation-name: color;
-      animation-duration: 1s;
-      color: white;
-      padding-left: 45%; }
-
-.element-3 {
-  background-image: url(../img/basic/3-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .element-3:hover {
-    background-image: url(../img/basic/3-full.jpg);
+    background-size: cover; }
+    .element-2:hover {
+      background-image: url(../img/basic/2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-right: 200px;
+      animation-name: move;
+      animation-duration: 2s; }
+      .element-2:hover:before {
+        display: none; }
+      .element-2:hover p {
+        animation-name: color;
+        animation-duration: 1s;
+        color: white;
+        padding-left: 45%; }
+  .element-3 {
+    background-image: url(../img/basic/3-light.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -300px;
-    padding-right: 200px;
-    animation-name: move;
-    animation-duration: 2s; }
-    .element-3:hover:before {
-      display: none; }
-    .element-3:hover p {
-      animation-name: color;
-      animation-duration: 1s;
-      color: white;
-      padding-left: 45%; }
+    background-size: cover; }
+    .element-3:hover {
+      background-image: url(../img/basic/3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-right: 200px;
+      animation-name: move;
+      animation-duration: 2s; }
+      .element-3:hover:before {
+        display: none; }
+      .element-3:hover p {
+        animation-name: color;
+        animation-duration: 1s;
+        color: white;
+        padding-left: 45%; } }
 
-.element-4 {
-  background-image: url(../img/basic/4-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .element-4:hover {
-    background-image: url(../img/basic/4-full.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -300px;
-    padding-right: 200px;
-    animation-name: move;
-    animation-duration: 2s; }
-    .element-4:hover:before {
-      display: none; }
-    .element-4:hover p {
-      animation-name: color;
-      animation-duration: 1s;
-      color: white;
-      padding-left: 45%; }
+/* ------------------------  Section mission_start --------------------- */
+@media (max-width: 992px) {
+  .slick-dots {
+    display: none !important; }
+  .flex-container {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    height: 2025px; }
+    .flex-container .flex-element p {
+      font-size: 5em;
+      line-height: 60px;
+      padding-top: 202.5px;
+      color: #FFF; }
+    .flex-container .element-3 {
+      -ms-flex-order: -1;
+          order: -1; }
+    .flex-container .element-2 {
+      -ms-flex-order: -2;
+          order: -2; }
+  .element-1 {
+    background-image: url(../img/basic/1.jpg);
+    background-repeat: no-repeat; }
+    .element-1:hover {
+      transform: translate3d(0, 0, 0);
+      transition: opacity 0.55s, transform 0.35s;
+      opacity: 0.8; }
+  .element-1:before {
+    display: none; }
+  .element-2 {
+    background-image: url(../img/basic/2.jpg);
+    background-repeat: no-repeat; }
+    .element-2:hover {
+      transform: translate3d(0, 0, 0);
+      transition: opacity 0.55s, transform 0.35s;
+      opacity: 0.8; }
+  .element-2:before {
+    display: none; }
+  .element-3 {
+    background-image: url(../img/basic/3.jpg);
+    background-repeat: no-repeat; }
+    .element-3:hover {
+      transform: translate3d(0, 0, 0);
+      transition: opacity 0.55s, transform 0.35s;
+      opacity: 0.8; }
+  .element-3:before {
+    display: none; }
+  .element-4 {
+    background-image: url(../img/basic/4.jpg);
+    background-repeat: no-repeat; }
+    .element-4:hover {
+      transform: translate3d(0, 0, 0);
+      transition: opacity 0.55s, transform 0.35s;
+      opacity: 0.8; }
+  .element-4:before {
+    display: none; }
+  .element-5 {
+    background-image: url(../img/basic/5.jpg);
+    background-repeat: no-repeat; }
+    .element-5:hover {
+      transform: translate3d(0, 0, 0);
+      transition: opacity 0.55s, transform 0.35s;
+      opacity: 0.8; }
+  .element-5:before {
+    display: none; } }
 
-.element-5 {
-  background-image: url(../img/basic/5-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .element-5:hover {
-    background-image: url(../img/basic/5-full.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -300px;
-    padding-right: 200px;
-    animation-name: move;
-    animation-duration: 2s; }
-    .element-5:hover:before {
-      display: none; }
-    .element-5:hover p {
-      animation-name: color;
-      animation-duration: 1s;
-      color: white;
-      padding-left: 45%; }
-
-@media (min-width: 0px) and (max-width: 320px) {
-  .header {
-    color: red; } }
+@media (max-width: 480px) {
+  .flex-container {
+    height: 1625px; }
+    .flex-container .flex-element p {
+      padding-top: 162.5px; } }

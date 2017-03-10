@@ -13,17 +13,38 @@
 
 @import "style.css"
 
-/* ------------------------  Section main_start -------------------------- */
+/* ------------------------  Section navbar menu -------------------------- */
+.navbar-inverse
+	opacity: 0.6
+	&:active, :focus
+		outline: none
+.navbar-nav
+	margin: 10px
+.navbar-toggle
+	padding: 18px
+#scroll-menu
+/* ------------------------  Section secion-main -------------------------- */
+section#secion-main
+	.section__subtitle
+		&:hover
+			font-size: 9.5em
+			font-weight: bolder
 
+/* ------------------------  Section video_start ------------------------- */
+section#video-slide 
+	width: 100%
+	margin-bottom: -3%
+	z-index: 2	
+
+video
+	width: 100%
+	+rocker
 /* ------------------------  Section mission_start ----------------------- */
 section#mission
-	min-height: 900px
-
-/* ------------------------  Section portfolio_start --------------------- */
-section#portfolio
+	+rocker
 	z-index: 0
 	line-height: 45px
-#our_portfolio
+#my_mission
 	color: blue
 	z-index: 99
 	line-height: 60px
@@ -50,70 +71,77 @@ section#portfolio
 			color: blue
 			z-index: 1
 
-@for $i from 1 through 5
+@for $i from 1 through 3
 	.element-#{$i}
 		background-image: url(../img/basic/#{$i}#{$ip}.jpg)
+		transition: background-image 1s linear
 		+bi
 		&:hover
 			z-index: 5
 			&:before
+				transition: all 1s ease
 				+dn
 		.button-order
 			+pa
 			z-index: 6
 			top: 85%
-@for $i from 1 through 5
+@for $i from 1 through 3
 	.element-#{$i}
 		.button-order
 			animation-name: buttonOrder#{$i}
 			animation-duration: 1s
-@for $i from 1 through 4
+@for $i from 1 through 3
 	.element-#{$i}
 		.order-back
 			animation-name: buttonOrderBack#{$i}
 			animation-duration: 1s
-@for $i from 2 through 5
+@for $i from 1 through 3
 	.element-#{$i}
-		.order-forward
+		.order-forw
 			animation-name: buttonOrderForw#{$i}
 			animation-duration: 1s
-
 .element-1
 	.button-order
-		left: 17%
-
+		left: 30%
 .element-2
 	.button-order
-		left: 35%
-
+		left: 50%
 .element-3
 	.button-order
+		left: 75%
+
+/* ------------------------  button-call migrate --------------------- */
++button-call(475px, 100px, $color, 37.5px)
+.button-order
+	z-index: 99
+	button.btn-primary
+		+pa
+		+tc
 		left: 50%
+		top: 86%
+		margin-left: -(475/2) +px
+		line-height: 30px
+		padding: 20px 10px 
+		letter-spacing: -2px
+		outline: none
+		&:active, :focus
+			outline: none
 
-.element-4
-	.button-order
-		left: 65%
+/* ------------------------  Section sciense ----------------------- */
 
-.element-5
-	.button-order
-		left: 82%
-@for $i from 1 through 5
-	.element-#{$i}
-		background-image: url(../img/basic/#{$i}#{$ip}.jpg)
-		+bi
-		&:hover
-			&:before
-				+dn
-			p
-				animation-name: color
-				animation-duration: 1s
-				color: white
-				padding-left: 45%
-			background-image: url(../img/basic/#{$i}#{$if}.jpg)
-			+bi
-			background-position: -300px
-			padding-right: 200px
-			animation-name: move
-			animation-duration: 2s
+section#sciense
+	.isolayer.isolayer--deco4
+		ul.grid
+			li.grid__item
+				img
+
+
+
+/* ------------------------  Section why-us ----------------------- */
+
+section#why-us
+	margin: 2% 0 5% 0
+
+
 @import media
 

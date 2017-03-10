@@ -90,6 +90,56 @@ $(document).ready(function(){
 			}
 		});
 	})();
+/* ------------------------  Section portfolio_start --------------------- */
+	$(function(){
+		var myArray = ["1", "2", "3"];
+		$.each(myArray, function(value){
+			$( $(".flex-element").eq(value) ).hover(
+
+				function(){
+					if ($('#mission>.button-order').length) {
+						$( $(".flex-element").eq(value) ).append( $('#mission>.button-order') );
+					}
+					$( $(".flex-element").eq(value) ).append( $('.flex-element>.button-order') );
+
+				},
+
+				function(){
+					if ($('.element-1>.button-order').length) {
+						$('.flex-element>.button-order').addClass("order-back")
+					}
+					if ($('.element-2>.button-order').length) {
+						$('.flex-element>.button-order').removeClass( "order-forw" );
+					}
+					if ($('.element-3>.button-order').length) {
+						$('.flex-element>.button-order').toggleClass("order-back order-forw")
+					}
+
+				}
+			)
+		});
+	});
+
+	$(function(){
+		$(':button').click(function(){
+			$( ".flex-element>.button-order" ).removeClass( "order-back order-forw" );
+			$('#mission').append( $('.flex-element>.button-order') );
+		})
+	});
+
+	$('#video').mouseover(
+		function(){
+			$( ".flex-element>.button-order" ).last().removeClass( "order-back order-forw" );
+			$('#mission').append( $('.flex-element>.button-order') );
+		}
+	);
+	$('.section--intro').mouseover(
+		function(){
+			$( ".flex-element>.button-order" ).last().removeClass( "order-back order-forw" );
+			$('#mission').append( $('.flex-element>.button-order') );
+
+		}
+	);
 
 	if(isMobile.any()){
 		console.log('mobile');

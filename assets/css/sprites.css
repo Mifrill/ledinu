@@ -16,3 +16,9 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.icon-icon {
+  background-image: url(../img/spitesheet.png);
+  background-position: 0px 0px;
+  width: 99px;
+  height: 69px;
+}

@@ -1,7 +1,7 @@
 /* styles */
 section {
 	.slick-dots{
-		top: 150px; 
+		top: 100px; 
 		li {
 			margin: 0 -3px;
 			height: 50%;
@@ -29,12 +29,12 @@ section {
 	    button {
 		    font-size: 0;
 		    line-height: 0;
-		    width: 20px;
-		    height: 20px;
-		    padding: 10px;
+		    width: 35px;
+		    height: 10px;
+		    padding: 5px;
 		    border-radius: 50px;
 		    cursor: pointer;
-		    border: 3px solid white;
+		    border: 3px solid $color;
 		    outline: none;
 		    background: transparent;
 		    &:hover, &:focus {
@@ -58,21 +58,19 @@ section {
 		    }
 		}
 		&.slick-active button:before {
-			margin-left: 12px;
-		    margin-top: 5px;
+			margin-left: 7.5px;
+		    margin-top: 7px;
 		    opacity: 1;
-		    color: black;
 		    font-size: 0;
 		    line-height: 0;
-		    width: 20px;
-		    height: 20px;
-		    padding: 10px;
-		    -moz-border-radius: 50px;
-		    -webkit-border-radius: 50px;
+		    width: 35px;
+		    height: 10px;
+		    padding: 5px;
+		    border-radius: 50px;
 		    cursor: pointer;
-		    border: 3px solid white;
+		    border: 3px solid $color;
 		    outline: none;
-		    background-color: white;
+		    background-color: $color;
 		}
 	}
 }

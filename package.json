@@ -48,6 +48,7 @@
     "gulp-uglifyjs": "^0.6.2",
     "load-grunt-config": "^0.19.2",
     "load-grunt-tasks": "^3.5.2",
+    "node-sass": "^4.5.0",
     "pug": "^2.0.0-beta11",
     "time-grunt": "^1.1.0"
   },
