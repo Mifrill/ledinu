@@ -141,6 +141,7 @@ $(document).ready(function(){
 		}
 	);
 
+
 	if(isMobile.any()){
 		console.log('mobile');
 	}

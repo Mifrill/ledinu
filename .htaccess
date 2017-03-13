@@ -47,3 +47,5 @@ FileETag none
    ExpiresByType text/html "access 1 month"
    ExpiresDefault "access 1 month"
 </IfModule>
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI "\.(?:gif|jpe?g|png)$" no-gzip

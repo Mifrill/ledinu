@@ -4,7 +4,14 @@ head
 	title ledinu
 	= '\n'
 	<!-- build:remove:dev -->
-	link(rel="stylesheet" href="assets/css/all.min.css")
+	script(type='text/javascript').
+		function loadCSS(hf) {
+			var ms=document.createElement("link");ms.rel="stylesheet";
+			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+		}
+		loadCSS("assets/css/all.min.css");
+	noscript
+		link(rel="stylesheet" href="assets/css/all.min.css")
 	= '\n'
 	<!-- /build -->
 	<!-- build:remove:dist -->

@@ -1,10 +1,9 @@
-$('.sl-slide-video').slick({
+$('#sl-video').slick({
 	dots: true,
 	autoplay: true,
-	autoplaySpeed: 2000,
+	autoplaySpeed: 7000,
 	arrows: false,
 	infinite: true,
-	pauseOnHover: true,
 });
 
 $('#datepicker').datepicker();
@@ -35,4 +34,13 @@ $(function(){
     $('.navbar-collapse').removeClass('in');
     event.stopPropagation();
   });
+});
+
+$('.effect-oscar').addClass(':hover');
+
+$('#sl-video .slick-slide').find('video').prop('muted', true);
+var video = $('#video-slide .slick-active').find('video').get(0).play();
+$('#sl-video').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    $('#sl-video .slick-slide').find('video').get(0).pause();
+    $('#sl-video .slick-active').find('video').get(0).play();
 });

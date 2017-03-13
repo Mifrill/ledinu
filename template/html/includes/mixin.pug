@@ -37,7 +37,7 @@ mixin second-deco(title, words, delay, start)
 			.layer
 				span.decoletter= title
 				span.deconumber= words
-			img.grid__img.layer(src='assets/img/deco/'+path, alt='0'+path)
+			img.grid__img.layer(src='assets/img/education/'+path, alt='0'+path)
 
 mixin sciense-deco(img, delay, url)
 	li.grid__item(class="wow slideInLeft" data-wow-delay=''+delay+'00ms')
@@ -47,7 +47,5 @@ mixin sciense-deco(img, delay, url)
 			.layer
 			img.grid__img.layer(src='assets/img/sciense/'+img+'.png', alt='0'+img)
 mixin slider-video(n)
-	div( class="sl" id="out-mobile")
-		div(class="sl-slide-video" id="video-slide")
-			div(class="item-video important")
-				video(src="assets/video/"+n+".mp4")
+	div(class="item-video important")
+		video(src="assets/video/"+n+".mp4")

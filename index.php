@@ -5,7 +5,16 @@
 		<meta name="viewport" content="width=device-width">
 		<title>ledinu</title>
 		<!-- build:remove:dev -->
-		<link rel="stylesheet" href="assets/css/all.min.css">
+		<script type="text/javascript">
+			function loadCSS(hf) {
+			      	var ms=document.createElement("link");ms.rel="stylesheet";
+			      	ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+			      }
+			      loadCSS("assets/css/all.min.css");
+		</script>
+		<noscript>
+			<link rel="stylesheet" href="assets/css/all.min.css">
+		</noscript>
 		<!-- /build -->	</head>
 	<body>
 		<header>
@@ -27,7 +36,7 @@
 							</li>
 							<li><a href="#sciense">Наука</a>
 							</li>
-							<li><a href="#why-us">why-us					</a>
+							<li><a href="#contacts">Контакты				</a>
 							</li>
 						</ul>
 					</div>
@@ -39,10 +48,9 @@
 			 <h2 class="section__heading wow fadeInDown" data-wow-delay="100ms" data-wow-duration="3.5s">Архитектор своей реальности</h2>
 
 			<p class="section__subtitle wow bounceInRight" data-wow-delay="200ms"
-			data-wow-duration="3.5s">Even whilst the arched or doubled hypocotyl is still beneath the ground,
-				it circumnutates as much as the pressure of the surrounding soil will permit.</p>
-			<div
-			class="isolayer isolayer--deco2">
+			data-wow-duration="3.5s">Ларькина Наталья Юрьевна практикующий педагог-психолог с 2011 г. - доцент
+				каф. ГиСН</p>
+			<div class="isolayer isolayer--deco2">
 				<ul class="grid">
 					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1000ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/><img class="grid__img layer" src="assets/img/layer/7.jpg" alt="07.jpg"/></a>
 					</li>
@@ -69,12 +77,12 @@
 					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1200ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/12.jpg" alt="012.jpg"/><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/></a>
 					</li>
 				</ul>
-				</div>
+			</div>
 		</section>
 		<section class="interval" id="grid">
 			<div class="grid">
 				<figure class="effect-layla">
-					<img src="assets/img/layer/1.jpg" alt="img06">
+					<img src="assets/img/basic/inter-1.jpg" alt="inter-1">
 					<figcaption>
 						 <h2>Crazy<span>Layla</span></h2>
 
@@ -83,7 +91,7 @@
 					</figcaption>
 				</figure>
 				<figure class="effect-layla">
-					<img src="assets/img/layer/2.jpg" alt="img03">
+					<img src="assets/img/basic/inter-2.jpg" alt="inter-2">
 					<figcaption>
 						 <h2>Crazy<span>Layla</span></h2>
 
@@ -94,28 +102,13 @@
 			</div>
 		</section>
 		<section id="video-slide">
-			<div class="sl" id="sl-video">
-				<div class="sl-slide-video">
-					<div class="sl" id="out-mobile">
-						<div class="sl-slide-video" id="video-slide">
-							<div class="item-video important">
-								<video src="assets/video/1.mp4"></video>
-							</div>
-						</div>
+			<div class="sl">
+				<div class="sl-slide-video" id="sl-video">
+					<div class="item-video important">
+						<video src="assets/video/1.mp4"></video>
 					</div>
-					<div class="sl" id="out-mobile">
-						<div class="sl-slide-video" id="video-slide">
-							<div class="item-video important">
-								<video src="assets/video/2.mp4"></video>
-							</div>
-						</div>
-					</div>
-					<div class="sl" id="out-mobile">
-						<div class="sl-slide-video" id="video-slide">
-							<div class="item-video important">
-								<video src="assets/video/3.mp4"></video>
-							</div>
-						</div>
+					<div class="item-video important">
+						<video src="assets/video/2.mp4"></video>
 					</div>
 				</div>
 			</div>
@@ -139,6 +132,8 @@
 			</div>
 		</section>
 		<section class="section section--intro">
+			 <h2 class="section__heading wow rotateInDownLeft" data-wow-delay="300ms">Общественная жизнь</h2>
+
 			<div class="isolayer isolayer--deco1 isolayer--shadow">
 				<ul class="grid">
 					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
@@ -219,23 +214,23 @@
 				</ul>
 			</div>
 		</section>
-		<section class="interval" id="oscar">
+		<section class="interval" id="romeo">
 			<div class="grid">
-				<figure class="effect-oscar">
-					<img src="assets/img/layer/3.jpg" alt="img09">
+				<figure class="effect-romeo">
+					<img src="assets/img/deco/inter-1_2.jpg" alt="img09">
 					<figcaption>
-						 <h2>Warm <span>Oscar</span></h2>
+						 <h2>Пресс-  <span>конференции</span></h2>
 
-						<p>Oscar is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
+						<p>romeo is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
 
 					</figcaption>
 				</figure>
-				<figure class="effect-oscar">
-					<img src="assets/img/layer/4.jpg" alt="img10">
+				<figure class="effect-romeo">
+					<img src="assets/img/deco/inter-2_2.jpg" alt="img10">
 					<figcaption>
-						 <h2>Warm <span>Oscar</span></h2>
+						 <h2>Публичные <span>выступления</span></h2>
 
-						<p>Oscar is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
+						<p>romeo is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
 
 					</figcaption>
 				</figure>
@@ -251,96 +246,96 @@
 					<li class="grid__item wow slideInRight" data-wow-delay="100ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/1.png" alt="01.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="200ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/2.png" alt="02.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="300ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/3.png" alt="03.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="400ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/4.png" alt="04.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/5.png" alt="05.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/6.png" alt="06.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/7.png" alt="07.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/8.png" alt="08.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/9.png" alt="09.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1000ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/10.png" alt="010.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1100ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/11.png" alt="011.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1200ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/12.png" alt="012.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1300ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/13.png" alt="013.png"/></a>
 					</li>
 					<li class="grid__item wow slideInRight" data-wow-delay="1400ms"><a class="grid__link" href="#">
               <div class="layer"></div>
               <div class="layer"></div>
-              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
+              <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/14.png" alt="014.png"/></a>
 					</li>
 				</ul>
 			</div>
 		</section>
 		<section class="interval">
 			<div class="grid">
-				<figure class="effect-romeo">
-					<img src="assets/img/layer/5.jpg" alt="img17">
+				<figure class="effect-oscar">
+					<img src="assets/img/sciense/inter-2_3.jpg" alt="inter2">
 					<figcaption>
-						 <h2>Wild <span>Romeo</span></h2>
+						 <h2>РИНЦ:<span>17</span></h2>
 
-						<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
-						<a
-						href="#">View more</a>
+						<p>АНАЛИЗ ПУБЛИКАЦИОННОЙ АКТИВНОСТИ</p> <a href="http://elibrary.ru/author_profile.asp?id=365326"
+						target="blank"></a>
+
 					</figcaption>
 				</figure>
-				<figure class="effect-romeo">
-					<img src="assets/img/layer/6.jpg" alt="img18">
+				<figure class="effect-oscar">
+					<img src="assets/img/sciense/inter-1_3.jpg" alt="inter1">
 					<figcaption>
-						 <h2>Wild <span>Romeo</span></h2>
+						 <h2>Индекс Хирша:<span> 4</span></h2>
 
-						<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
-						<a
-						href="#">View more</a>
+						<p>СПИСОК МОИХ ПУБЛИКАЦИЙ</p> <a href="http://elibrary.ru/author_items.asp?authorid=365326"
+						target="blank"></a>
+
 					</figcaption>
 				</figure>
 			</div>
@@ -348,10 +343,11 @@
 		<section class="section section--shots section--right" id="sciense">
 			 <h2 class="section__heading wow rotateInDownRight" data-wow-delay="300ms">Научная работа</h2>
 
-			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="100ms">To raise new questions, new possibilities, to regard old problems from
-				a new angle, requires creative imagination and marks real advance in science.</p>
-			<div
-			class="isolayer isolayer--deco4">
+			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="100ms">Сфера научных интересов: Привычная двигательная активность детей и подростков;
+				Эмоциональная ригидность у лиц с низким уровнем привычной двигательной
+				активности; Развитие эмоционального интеллекта; Формирование профессионального
+				самоопределения обучающихся.</p>
+			<div class="isolayer isolayer--deco4">
 				<ul class="grid">
 					<li class="grid__item wow slideInLeft" data-wow-delay="100ms"><a class="grid__link" href="#">
               <div class="layer"></div>
@@ -429,15 +425,15 @@
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/15.png" alt="015"/></a>
 					</li>
 				</ul>
-				</div>
+			</div>
 		</section>
-		<section class="why-us" id="why-us">
+		<section class="why-us" id="contacts">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center section-intro">
-						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>Why Us?</span></h2>
+						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>Контакты</span></h2>
 
-						<p class="lead wow fadeInUp" data-wow-delay="600ms">Simple and only reason, We are the Best! Let&apos;s see some highlights:</p>
+						<p class="lead wow fadeInUp" data-wow-delay="600ms">Как со мной связаться</p>
 					</div>
 					<div class="col-md-12 highlight-boxes">
 						<div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
@@ -508,13 +504,13 @@
 			<div id="content"></div>
 		</footer>
 		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
-		aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="background">
 						<form class="row" action="POST">
-							<input type="name" placeholder="имя">
-							<input type="phone" placeholder="телефон">
+							<input type="text" placeholder="имя">
+							<input type="tel" placeholder="телефон">
 							<input id="date" type="text" placeholder="Дата">
 							<div class="ui-datepicker-inlin" id="datepicker"></div>
 							<button type="submit" name="do_login">Отправить заявку</button>
@@ -524,7 +520,7 @@
 			</div>
 		</div>
 		<!-- build:remove:dev -->
-		<script src="assets/js/all.min.js"></script>
+		<script async src="assets/js/all.min.js"></script>
 		<!-- /build -->	</body>
 
 </html>

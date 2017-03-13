@@ -1,10 +1,10 @@
-div(class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true")
+div(class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel")
 	div(class="modal-dialog modal-lg")
 		div(class="modal-content")
 			div(class="background")
 				form(action="POST" class="row")
-					input(type="name" placeholder="имя")
-					input(type="phone" placeholder="телефон")
+					input(type="text" placeholder="имя")
+					input(type="tel" placeholder="телефон")
 					input(id="date" type="text" placeholder="Дата")
 					div(id="datepicker" class="ui-datepicker-inlin")
 					button(type="submit" name="do_login") Отправить заявку
