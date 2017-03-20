@@ -21,10 +21,11 @@ mixin third-deco(start, delay)
 
 mixin first-deco(start)
 	- var path = start +'.png'
+	- var layer = start + 15 + '.png'
 	li.grid__item(class="wow bounceInDown" data-wow-delay="200ms")
 		a.grid__link(href='#')
 			.layer
-			.layer
+			img.grid__img.layer(src='assets/img/deco/'+layer, alt='0'+layer)
 			.layer
 			img.grid__img.layer(src='assets/img/deco/'+path, alt='0'+path)
 
@@ -40,10 +41,11 @@ mixin second-deco(title, words, delay, start)
 			img.grid__img.layer(src='assets/img/education/'+path, alt='0'+path)
 
 mixin sciense-deco(img, delay, url)
+	- var layer = img + 15
 	li.grid__item(class="wow slideInLeft" data-wow-delay=''+delay+'00ms')
 		a.grid__link(href=''+url)
 			.layer
-			.layer
+			img.grid__img.layer(src='assets/img/sciense/'+layer+'.png', alt='0'+layer)
 			.layer
 			img.grid__img.layer(src='assets/img/sciense/'+img+'.png', alt='0'+img)
 mixin slider-video(n)

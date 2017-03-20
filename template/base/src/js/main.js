@@ -152,7 +152,18 @@ $(document).ready(function(){
 
 	$(window).scroll(function() {
 		var top = $(document).scrollTop();
+	});
 
+	$('#sl-video .slick-slide').find('video').prop('muted', true);
+	var video = $('#video-slide .slick-active').find('video').get(0).play();
 
+	$('#sl-video').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    	$('#sl-video .slick-slide').find('video').get(0).pause();
+    	var video = $('#sl-video .slick-active').find('video').get(0).play();
+	});
+
+	$('body').scrollspy({ target: '.navbar-collapse' });
+	$('[data-spy="scroll"]').each(function () {
+  		var $spy = $(this).scrollspy('refresh')
 	});
 });

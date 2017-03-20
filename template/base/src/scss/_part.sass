@@ -2,6 +2,23 @@
 
 /* ------------------------ header -------------------------------- */
 header
-			
+	.navbar
+		.container
+			font-size: 1.5em
+			.navbar-toggle
+				&:focus
+					background-color: darken($color-black, 20%)
+			button, .btn-primary
+				background-color: $color-orange
+				border-color: transparent
+				margin-top: 1.5%
+				&:hover
+					border-color: $color
+					border-width: thin
+				&:active, :focus
+					border-color: $color
+					outline: none
+					background-color: lighten($color-orange, 10%)
+
 /* ------------------------ footer -------------------------------- */
 footer

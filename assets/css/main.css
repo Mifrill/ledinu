@@ -12,7 +12,7 @@
 
 @keyframes color {
   from {
-    color: blue;
+    color: #CE8932;
     padding-left: 0; }
   to {
     color: white;
@@ -153,6 +153,22 @@ input, select, button {
 
 /* just header and footer styles */
 /* ------------------------ header -------------------------------- */
+header .navbar .container {
+  font-size: 1.5em; }
+  header .navbar .container .navbar-toggle:focus {
+    background-color: black; }
+  header .navbar .container button, header .navbar .container .btn-primary {
+    background-color: #CE8932;
+    border-color: transparent;
+    margin-top: 1.5%; }
+    header .navbar .container button:hover, header .navbar .container .btn-primary:hover {
+      border-color: #FFF;
+      border-width: thin; }
+    header .navbar .container button:active, header .navbar .container button :focus, header .navbar .container .btn-primary:active, header .navbar .container .btn-primary :focus {
+      border-color: #FFF;
+      outline: none;
+      background-color: #d8a15b; }
+
 /* ------------------------ footer -------------------------------- */
 /* styles */
 section .slick-dots {
@@ -265,6 +281,74 @@ section .slick-dots {
   z-index: 1; }
 
 /* -----------------------------------  modal ----------------------------- */
+.modal-content {
+  background-color: transparent; }
+  .modal-content .background {
+    background-color: transparent; }
+
+.modal-header {
+  background-color: #CE8932; }
+  .modal-header .close {
+    margin-top: 1vh; }
+  .modal-header h4 {
+    color: #FFF;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center; }
+
+form.navbar-form {
+  font-size: 1.5em;
+  display: table;
+  margin: 3% auto; }
+  form.navbar-form .input-group .form-control {
+    margin-bottom: 1%;
+    font-size: 1.3em;
+    text-align: center;
+    height: 7vh;
+    border-radius: 0; }
+    form.navbar-form .input-group .form-control:hover {
+      border-color: #CE8932; }
+    form.navbar-form .input-group .form-control:focus, form.navbar-form .input-group .form-control :active {
+      border-color: #CE8932; }
+  form.navbar-form .btn {
+    font-size: 1.7em;
+    background-color: #CE8932;
+    margin-bottom: 3%;
+    min-width: 55%; }
+    form.navbar-form .btn:hover {
+      color: #FFF;
+      border-color: #FFF;
+      border-width: thin; }
+    form.navbar-form .btn:active, form.navbar-form .btn :focus {
+      background-color: #d8a15b;
+      border-color: #FFF;
+      outline: none; }
+
+#btn-consultation:focus {
+  color: #FFF;
+  outline: none; }
+
+.ui-datepicker-inline {
+  margin: auto; }
+
+.ui-datepicker-inlin {
+  margin: 3% 0% 3% 0%;
+  color: #272822; }
+
+.ui-datepicker-calendar {
+  background-color: #CE8932;
+  border-radius: 1%; }
+
+.ui-datepicker table {
+  margin: 1% 0 .4em; }
+
+.alert {
+  margin-bottom: 3%;
+  text-align: center; }
+
+.alert-success {
+  margin-top: 3%; }
+
 article,
 aside,
 details,
@@ -476,6 +560,8 @@ section#video-slide {
   width: 100%;
   margin-bottom: -3%;
   z-index: 2; }
+  section#video-slide:active, section#video-slide :focus {
+    outline: none; }
 
 video {
   width: 100%;
@@ -490,7 +576,7 @@ section#mission {
   line-height: 45px; }
 
 #my_mission {
-  color: blue;
+  color: #CE8932;
   z-index: 99;
   line-height: 60px;
   font-size: 75px;
@@ -515,7 +601,7 @@ section#mission {
       padding-top: 452.5px;
       font-size: 50px;
       text-align: center;
-      color: blue;
+      color: #FFF;
       z-index: 1; }
 
 .element-1 {
@@ -625,6 +711,7 @@ section#mission {
 .button-order {
   z-index: 99; }
   .button-order button.btn-primary {
+    background-color: #CE8932;
     position: absolute;
     text-align: center;
     left: 50%;
@@ -634,8 +721,12 @@ section#mission {
     padding: 20px 10px;
     letter-spacing: -2px;
     outline: none; }
+    .button-order button.btn-primary:hover {
+      border-color: #FFF;
+      border-width: thin; }
     .button-order button.btn-primary:active, .button-order button.btn-primary :focus {
-      outline: none; }
+      outline: none;
+      background-color: #d8a15b; }
 
 /* ------------------------  Section sciense ----------------------- */
 /* ------------------------  Section why-us ----------------------- */
@@ -724,7 +815,7 @@ section#contacts {
     .element-1:hover {
       transform: translate3d(0, 0, 0);
       transition: opacity 0.55s, transform 0.35s;
-      opacity: 0.8; }
+      opacity: 0.7; }
   .element-1:before {
     display: none; }
   .element-2 {
@@ -733,7 +824,7 @@ section#contacts {
     .element-2:hover {
       transform: translate3d(0, 0, 0);
       transition: opacity 0.55s, transform 0.35s;
-      opacity: 0.8; }
+      opacity: 0.7; }
   .element-2:before {
     display: none; }
   .element-3 {
@@ -742,7 +833,7 @@ section#contacts {
     .element-3:hover {
       transform: translate3d(0, 0, 0);
       transition: opacity 0.55s, transform 0.35s;
-      opacity: 0.8; }
+      opacity: 0.7; }
   .element-3:before {
     display: none; }
   .element-4 {
@@ -751,7 +842,7 @@ section#contacts {
     .element-4:hover {
       transform: translate3d(0, 0, 0);
       transition: opacity 0.55s, transform 0.35s;
-      opacity: 0.8; }
+      opacity: 0.7; }
   .element-4:before {
     display: none; }
   .element-5 {
@@ -760,7 +851,7 @@ section#contacts {
     .element-5:hover {
       transform: translate3d(0, 0, 0);
       transition: opacity 0.55s, transform 0.35s;
-      opacity: 0.8; }
+      opacity: 0.7; }
   .element-5:before {
     display: none; } }
 

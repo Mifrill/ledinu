@@ -35,17 +35,19 @@ section#video-slide
 	width: 100%
 	margin-bottom: -3%
 	z-index: 2	
-
+	&:active, :focus
+		outline: none
 video
 	width: 100%
 	+rocker
+
 /* ------------------------  Section mission_start ----------------------- */
 section#mission
 	+rocker
 	z-index: 0
 	line-height: 45px
 #my_mission
-	color: blue
+	color: $color-orange
 	z-index: 99
 	line-height: 60px
 	font-size: 50px + 25px
@@ -68,7 +70,7 @@ section#mission
 			padding-top: (905 / 2) + px
 			font-size: 50px
 			+tc
-			color: blue
+			color: $color
 			z-index: 1
 
 @for $i from 1 through 3
@@ -115,6 +117,7 @@ section#mission
 .button-order
 	z-index: 99
 	button.btn-primary
+		background-color: $color-orange
 		+pa
 		+tc
 		left: 50%
@@ -124,8 +127,12 @@ section#mission
 		padding: 20px 10px 
 		letter-spacing: -2px
 		outline: none
+		&:hover
+			border-color: $color
+			border-width: thin
 		&:active, :focus
 			outline: none
+			background-color: lighten($color-orange, 10%)
 
 /* ------------------------  Section sciense ----------------------- */
 

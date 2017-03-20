@@ -36,11 +36,50 @@ $(function(){
   });
 });
 
-$('.effect-oscar').addClass(':hover');
+$('.button-order').click(function(){
+	$('button[type="submit"]').attr('disabled', false);
+	$("#form-proposal").trigger("reset");
+	$('.alert').remove();
+	$('button[type="submit"]').empty();
+	$('button[type="submit"]').append('Отправить заявку');
+});
 
-$('#sl-video .slick-slide').find('video').prop('muted', true);
-var video = $('#video-slide .slick-active').find('video').get(0).play();
-$('#sl-video').on('afterChange', function(event, slick, currentSlide, nextSlide){
-    $('#sl-video .slick-slide').find('video').get(0).pause();
-    $('#sl-video .slick-active').find('video').get(0).play();
+$("#form-proposal").submit(function() {
+	var form = $(this);
+	var error = false;
+	form.find('input').each( function(){ // прoбeжим пo кaждoму пoлю в фoрмe
+		if ($(this).val() == '') { // eсли нaхoдим пустoe
+			$('.alert').remove();
+			$('#datepicker').prepend("<div class='alert alert-danger'></div>");
+			$('.alert-danger').prepend('"'+$(this).attr('placeholder')+'" !');
+			error = true; // oшибкa
+		}
+	});
+	if (!error) { // eсли oшибки нeт
+		$.ajax({
+			type: "POST",
+			url: "assets/mail.php",
+			dataType: 'json',
+			data: $(this).serialize(),
+		}).done(function(data) {
+			if (data['error']) { // eсли oбрaбoтчик вeрнул oшибку
+				$('.alert').remove();
+				$('#datepicker').prepend("<div class='alert alert-danger'></div>");
+				$('.alert-danger').prepend('"'+data['error']+'" !'); // пoкaжeм eё тeкст
+			} else { // eсли всe прoшлo oк
+				$(this).find("input").val("");
+				$('.alert').remove();
+				$('#datepicker').prepend("<div class='alert alert-success'></div>");
+				$('.alert-success').prepend("Бальшое спасибо за заявку, я скоро Вам перезвоню!");
+				$('button[type="submit"]').empty();
+				$('button[type="submit"]').append('Заявка отправлена');
+				$('button[type="submit"]').attr('disabled','disabled');
+			}
+
+		}).fail(function(xhr, thrownError) {
+			alert('ERROR: '+xhr.status +'  '+ thrownError);
+		});
+	}
+	return false;
+
 });

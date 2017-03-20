@@ -1,8 +1,12 @@
 /* ------------------------ var and mixins ------------------------ */
 $color: #FFF
-
+$color-black: #272822
+$color-orange: #CE8932
+$color-blue: #6CA0CF
 $ip: -light
 $if: -full
+
+$o: 3%
 =links($link, $visit, $hover, $active)
 	a
 		color: $link
@@ -63,7 +67,7 @@ $if: -full
 
 @keyframes color
 	from
-		color: blue
+		color: $color-orange
 		padding-left: 0
 	to
 		color: white
