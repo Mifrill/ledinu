@@ -17,7 +17,8 @@
   ],
   "dependencies": {
     "jquery": "^3.1.1",
-    "bootstrap": "*"
+    "bootstrap": "*",
+    "jquery-timepicker-wvega": "^1.3.5"
   },
   "devDependencies": {
     "slick-carousel": "^1.6.0",
@@ -28,6 +29,8 @@
     "masonry": "^4.1.1",
     "imagesloaded": "^4.1.1",
     "dynamics.js": "^1.1.1",
-    "typed.js": "^1.1.4"
+    "typed.js": "^1.1.4",
+    "jqueryui-timepicker-addon": "^1.6.3",
+    "jt.timepicker": "jquery-timepicker-jt#^1.11.10"
   }
 }

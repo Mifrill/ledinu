@@ -3,6 +3,7 @@
 /* ------------------------ animation ------------------------*/
 @import url(component.css);
 @import url(demo.css);
+@import url(jquery.timepicker.css);
 @import url(style.css);
 @keyframes move {
   from {
@@ -168,6 +169,9 @@ header .navbar .container {
       border-color: #FFF;
       outline: none;
       background-color: #d8a15b; }
+
+#scroll-menu li .btn-primary {
+  margin-top: 5%; }
 
 /* ------------------------ footer -------------------------------- */
 /* styles */
@@ -348,6 +352,10 @@ form.navbar-form {
 
 .alert-success {
   margin-top: 3%; }
+
+.ui-timepicker-container {
+  left: 2%;
+  /* margin-left: -13vh; */ }
 
 article,
 aside,
@@ -549,6 +557,9 @@ input[type="checkbox"], input[type="radio"] {
 
 .navbar-toggle {
   padding: 18px; }
+
+#scroll-menu {
+  left: -203%px; }
 
 /* ------------------------  Section secion-main -------------------------- */
 section#secion-main .section__subtitle:hover {
@@ -854,6 +865,10 @@ section#contacts {
       opacity: 0.7; }
   .element-5:before {
     display: none; } }
+
+@media (max-width: 768px) {
+  #scroll-menu li .btn-primary {
+    margin-top: 1.5%; } }
 
 @media (max-width: 480px) {
   .flex-container {

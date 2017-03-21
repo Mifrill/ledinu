@@ -49,8 +49,10 @@
 							</li>
 							<li><a href="#contacts">Контакты</a>
 							</li>
-							<button class="btn btn-primary center-block visible-sm visible-xs" data-toggle="modal"
-							data-target=".bs-example-modal-lg">КОНСУЛЬТАЦИЯ</button>
+							<li>
+								<button class="btn btn-primary center-block visible-sm visible-xs" data-toggle="modal"
+								data-target=".bs-example-modal-lg">КОНСУЛЬТАЦИЯ</button>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -496,13 +498,13 @@
 							 <h4 class="modal-title">Записаться на консультацию</h4>
 
 						</div>
-						<form class="row navbar-form" action="" id="form-proposal">
+						<form class="row navbar-form" action="POST" id="form-proposal">
 							<div class="input-group ">
 								<input class="form-control" type="text" placeholder="Как к Вам обращаться"
 								name="name">
 								<input class="form-control" type="tel" placeholder="Укажите телефон" name="phone">
-								<input class="form-control" id="date" type="hidden" placeholder="Выберите доступную дату в календаре"
-								name="date">
+								<input class="timepicker form-control" id="time" type="" name="time">
+								<input class="form-control" id="date" type="" name="date">
 							</div>
 							<div class="ui-datepicker-inlin" id="datepicker"></div>
 							<button class="btn center-block" type="submit" name="do_login" id="btn-consultation">Отправить заявку</button>

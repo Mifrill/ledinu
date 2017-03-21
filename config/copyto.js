@@ -3,7 +3,7 @@ module.exports = {
     files: [
       {cwd: 'template/img/additional/', src: ['**/*'], dest: 'assets/img/additional/', expand: true},
       {cwd: 'template/css/', src: ['**/*'], dest: 'assets/css/', expand: true},
-      {cwd: 'libs/jquery-ui/themes/humanity/images/', src: ['**/*'], dest: 'assets/css/', expand: true},
+      {cwd: 'libs/jquery-ui/themes/humanity/images/', src: ['**/*'], dest: 'assets/css/images/', expand: true},
       {cwd: 'template/php/', src: ['**/*'], dest: 'assets/', expand: true},
       {cwd: 'template/modules/', src: ['data.json'], dest: 'assets/js/', expand: true},
     ],

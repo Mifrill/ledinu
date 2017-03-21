@@ -5,10 +5,11 @@ div(class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labe
 				div(class="modal-header")
 					button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times;
 					h4(class="modal-title") Записаться на консультацию
-				form(action="" class="row navbar-form" id="form-proposal")
+				form(action="POST" class="row navbar-form" id="form-proposal")
 					div(class="input-group ")
 						input(type="text" placeholder="Как к Вам обращаться" name="name" class="form-control" )
 						input(type="tel" placeholder="Укажите телефон" name="phone" class="form-control" )
-						input(id="date" type="hidden" placeholder="Выберите доступную дату в календаре" name="date" class="form-control")
+						input(id="time" type="" name="time" class="timepicker form-control")
+						input(id="date" type="" name="date" class="form-control")
 					div(id="datepicker" class="ui-datepicker-inlin")
 					button(type="submit" name="do_login" class="btn center-block" id="btn-consultation") Отправить заявку

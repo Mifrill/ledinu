@@ -1,6 +1,9 @@
 $(document).ready(function(){
 	new WOW().init();
-
+/* for validation on W3C add placeholder by JavaScript */
+	$('#date').attr('placeholder', "Выберите доступную дату в календаре");
+	$('#time').attr('placeholder', "Выберите доступное время из списка");
+/* for images decorations */
 	(function() {
 		function getRandomInt(min, max) {
 			return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -103,7 +106,7 @@ $(document).ready(function(){
 					$( $(".flex-element").eq(value) ).append( $('.flex-element>.button-order') );
 
 				},
-
+/* correct tranfer form/to */
 				function(){
 					if ($('.element-1>.button-order').length) {
 						$('.flex-element>.button-order').addClass("order-back")
@@ -119,7 +122,7 @@ $(document).ready(function(){
 			)
 		});
 	});
-
+/* button comming back */
 	$(function(){
 		$(':button').click(function(){
 			$( ".flex-element>.button-order" ).removeClass( "order-back order-forw" );
@@ -140,7 +143,20 @@ $(document).ready(function(){
 
 		}
 	);
+/* video slider autoRun Video */
+	$('#sl-video .slick-slide').find('video').prop('muted', true);
+	var video = $('#video-slide .slick-active').find('video').get(0).play();
 
+	$('#sl-video').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    	$('#sl-video .slick-slide').find('video').get(0).pause();
+    	var video = $('#sl-video .slick-active').find('video').get(0).play();
+	});
+
+/* script from bootstrap for Spying menu scroll */
+	$('body').scrollspy({ target: '.navbar-collapse' });
+	$('[data-spy="scroll"]').each(function () {
+  		var $spy = $(this).scrollspy('refresh')
+	});
 
 	if(isMobile.any()){
 		console.log('mobile');
@@ -154,16 +170,4 @@ $(document).ready(function(){
 		var top = $(document).scrollTop();
 	});
 
-	$('#sl-video .slick-slide').find('video').prop('muted', true);
-	var video = $('#video-slide .slick-active').find('video').get(0).play();
-
-	$('#sl-video').on('afterChange', function(event, slick, currentSlide, nextSlide){
-    	$('#sl-video .slick-slide').find('video').get(0).pause();
-    	var video = $('#sl-video .slick-active').find('video').get(0).play();
-	});
-
-	$('body').scrollspy({ target: '.navbar-collapse' });
-	$('[data-spy="scroll"]').each(function () {
-  		var $spy = $(this).scrollspy('refresh')
-	});
 });
