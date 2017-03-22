@@ -1,9 +1,9 @@
 module.exports = {
   dist: {
     src: [
+      'template/pages/src/js/*.js',
       'template/base/src/js/*.js', 
       'template/modules/src/js/*.js', 
-      'template/pages/src/js/*.js',
     ],
     dest: 'assets/js/build.js'
   },

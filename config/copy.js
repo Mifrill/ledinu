@@ -11,5 +11,12 @@ module.exports = {
     cwd: 'template/video/',
     src: '**',
     dest: 'assets/video',
-  }
+  },
+
+  uiIcon: {
+    expand: true,
+    cwd: 'libs/jquery-ui/themes/humanity/images/', 
+    src: ['**/*'], 
+    dest: 'assets/css/images/',
+  },
 };

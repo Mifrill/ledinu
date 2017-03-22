@@ -29,15 +29,6 @@ return datepicker.regional.ru;
 
 } ) );
 
-$('#datepicker').datepicker({
-	dateFormat: "dd-mm-yy",
-	minDate: 0,
-	maxDate: "+2m +1w +3d",
-	beforeShowDay: function(date) {
-		var day = date.getDay();
-		return [(day != 0)]; /* && day != 2 */
-	}
-});
 
 $('#date').change(function(){
 	$('#datepicker').datepicker('setDate', $(this).val());
@@ -45,7 +36,6 @@ $('#date').change(function(){
 $('#datepicker').change(function(){
 	$('#date').attr('value',$(this).val());
 });
-
 $('#sl-video').slick({
 	dots: true,
 	autoplay: true,
@@ -70,9 +60,9 @@ $("#scroll-menu>li>a").click(function(){
 
 $(function(){
   $(document).click(function(event) {
-    if ($(event.target).closest("#scroll-menu>li>a").length) return;
-    $('.navbar-collapse').removeClass('in');
-    event.stopPropagation();
+	if ($(event.target).closest("#scroll-menu>li>a").length) return;
+	$('.navbar-collapse').removeClass('in');
+	event.stopPropagation();
   });
 });
 
@@ -87,58 +77,3 @@ $('.button-order').click(function(){
 });
 
 */
-
-$("#form-proposal").submit(function() {
-	var form = $(this);
-	var error = false;
-
-/* validation on client side */
-	form.find('input').each( function(){ // прoбeжим пo кaждoму пoлю в фoрмe
-		if ($(this).val() == '') { // eсли нaхoдим пустoe
-			$('.alert').remove();
-			$('#datepicker').prepend("<div class='alert alert-danger'></div>");
-			$('.alert-danger').prepend('"'+$(this).attr('placeholder')+'" !');
-			error = true; // oшибкa
-		}
-	});
-/* ajax if No error */
-	if (!error) {
-		$.ajax({
-			type: "POST",
-			url: "assets/mail.php",
-			dataType: 'json',
-			data: $(this).serialize(),
-		}).done(function(data) {
-			if (data['error']) { // if php script get error on server side
-				$('.alert').remove();
-				$('#datepicker').prepend("<div class='alert alert-warning'></div>");
-				$('.alert-warning').prepend('"'+data['error']+'" !'); // show error from placeholder
-			} else { // if no error from server side
-				//$(this).find("input").val("");
-				$('.alert').remove();
-				$('#datepicker').prepend("<div class='alert alert-success'></div>");
-				$('.alert-success').prepend("Бальшое спасибо за заявку, я скоро Вам перезвоню!");
-				$('button[type="submit"]').empty();
-				$('button[type="submit"]').append('Заявка отправлена');
-				$('button[type="submit"]').attr('disabled','disabled');
-			}
-/* if spicify error from server */
-		}).fail(function(xhr, thrownError) {
-			$('.alert').remove();
-			$('#datepicker').prepend("<div class='alert alert-danger'></div>");
-			$('.alert-danger').prepend('SERVER ERROR: '+xhr.status +'  '+ thrownError);
-		});
-	}
-	return false;
-
-});
-	var CustomStartTime = '17:00';
-	var CustomEndTime = '20';
-
-$('input.timepicker').timepicker({
-	minTime: CustomStartTime,
-	maxHour: CustomEndTime,
-
-
-}, console.log($.TimePicker.prototype.open)
-);

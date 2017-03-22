@@ -1,6 +1,7 @@
 #Dont' touch this
 RewriteEngine On
 Order Deny,Allow
+Options All -Indexes
 
 #Disallowed files
 <Files settings.pcef>
@@ -26,6 +27,7 @@ FileETag none
     Order allow,deny
     Deny from all
 </FilesMatch>
+
 <IfModule mod_deflate.c>
     <filesMatch "\.(rdf|js|css||png|jpeg|html)$">
         SetOutputFilter DEFLATE
