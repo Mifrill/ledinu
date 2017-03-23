@@ -9,7 +9,6 @@ datepicker.regional.ru = {
 	closeText: "Закрыть",
 	prevText: "&#x3C;Пред",
 	nextText: "След&#x3E;",
-	currentText: "Сегодня",
 	monthNames: [ "Январь","Февраль","Март","Апрель","Май","Июнь",
 	"Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь" ],
 	monthNamesShort: [ "Янв","Фев","Мар","Апр","Май","Июн",
@@ -29,13 +28,6 @@ return datepicker.regional.ru;
 
 } ) );
 
-
-$('#date').change(function(){
-	$('#datepicker').datepicker('setDate', $(this).val());
-});
-$('#datepicker').change(function(){
-	$('#date').attr('value',$(this).val());
-});
 $('#sl-video').slick({
 	dots: true,
 	autoplay: true,

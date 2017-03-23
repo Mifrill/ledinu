@@ -170,8 +170,17 @@ header .navbar .container {
       outline: none;
       background-color: #d8a15b; }
 
-#scroll-menu li .btn-primary {
-  margin-top: 5%; }
+#scroll-menu {
+  text-align: center; }
+  #scroll-menu li .btn-primary {
+    margin-top: 5%; }
+
+.ui-datepicker-buttonpane.ui-widget-content button.ui-datepicker-current.ui-state-default.ui-priority-secondary.ui-corner-all {
+  width: 100%;
+  margin-left: 0; }
+
+.ui-timepicker-container.ui-timepicker-no-scrollbar.ui-timepicker-standard.ui-helper-hidden.ui-timepicker-hidden {
+  display: block; }
 
 /* ------------------------ footer -------------------------------- */
 /* styles */

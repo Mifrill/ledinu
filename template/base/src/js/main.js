@@ -6,6 +6,7 @@ $(document).ready(function(){
 /* for validation on W3C add placeholder by JavaScript */
 		$('#date').attr('placeholder', dataJs.InputPickDate);
 		$('#time').attr('placeholder', dataJs.InputPickTime);
+
 /* for images decorations */
 		(function() {
 			function getRandomInt(min, max) {
@@ -151,14 +152,14 @@ $(document).ready(function(){
 		var video = $('#video-slide .slick-active').find('video').get(0).play();
 
 		$('#sl-video').on('afterChange', function(event, slick, currentSlide, nextSlide){
-	    	$('#sl-video .slick-slide').find('video').get(0).pause();
-	    	var video = $('#sl-video .slick-active').find('video').get(0).play();
+			$('#sl-video .slick-slide').find('video').get(0).pause();
+			var video = $('#sl-video .slick-active').find('video').get(0).play();
 		});
 
 /* script from bootstrap for Spying menu scroll */
 		$('body').scrollspy({ target: '.navbar-collapse' });
 		$('[data-spy="scroll"]').each(function () {
-	  		var $spy = $(this).scrollspy('refresh')
+			var $spy = $(this).scrollspy('refresh')
 		});
 
 		if(isMobile.any()){
@@ -235,27 +236,67 @@ $(document).ready(function(){
 			}
 				
 		};
-		$('.button-order').click(function(){
-			$('#datepicker').datepicker({
-				dateFormat: "dd-mm-yy",
-				minDate: 0,
-				maxDate: "+2m +3w +1d",
-				beforeShowDay: disableDays,
-	/*			onSelect: function(){
+
+
+		$('#datepicker').datepicker({
+			dateFormat: "dd-mm-yy",
+			minDate: 0,
+			maxDate: "+2m +3w +1d",
+			beforeShowDay: disableDays,
+			onSelect: function(date) {
+/* if choose satarday */
+				if($('.ui-timepicker-container').length === 0){
+					
 					console.log(123);
-				},*/
-			});
+				}
+/*				
+				if($('.ui-timepicker-container').length != 0){
+					$('.ui-timepicker-container').queue(function (next) {
+						console.log(123);
+					$('.ui-timepicker-container').detach();
+					next();
+				  });
+				}
+*/
+				if(moment($(this).val(), "DD-MM-YYYY").format("d") == 6){
+					var CustomEndTime = dataJs.EndTimeSatarday;
+					var CustomStartTime = dataJs.StartTimeSatarday;
+				}else{
+					var CustomEndTime = dataJs.EndTime;
+					var CustomStartTime = dataJs.StartTime;
+				}
+
+				/* Time Picker */	
+
+				$('input.timepicker').timepicker({
+					minTime: CustomStartTime,
+					maxHour: CustomEndTime,
+				});
+
+				setTimeout(function() {
+					$('#time').attr('type','');
+				}, 100);
+				$('#date').attr('value',$(this).val());
+				
+			},
+			//showButtonPanel: true,
+			//currentText: dataJs.InputPickTime,
+
 		});
-/* Time Picker */
-		
-		var CustomEndTime = dataJs.EndTime;
-		var CustomStartTime = dataJs.StartTime;
-		$('input.timepicker').timepicker({
-/*			defaultTime: '17:00',*/
-			minTime: CustomStartTime,
-			maxHour: CustomEndTime,
-		}, console.log($.TimePicker.methods)
-		);
+			
+		$( "#date" ).change();
+
+		$('#date').change(function(){
+			$('.ui-timepicker-container').reattach();
+		});
+
+
+
+/* Override method GotoToday */
+		$.datepicker._gotoToday = function(){
+
+		};
+
 
 	});
 });

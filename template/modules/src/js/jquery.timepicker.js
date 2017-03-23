@@ -38,7 +38,6 @@
 
         $.TimePicker = function() {
             var widget = this;
-
             widget.container = $('.ui-timepicker-container');
             widget.ui = widget.container.find('.ui-timepicker');
 
@@ -193,8 +192,7 @@
 
             register: function(node, options) {
                 var widget = this, i = {}; // timepicker instance object
-
-                i.element = $(node);
+                i.element = $(node); //$('.ui-widget-content>button.ui-corner-all');
 
                 if (i.element.data('TimePicker')) {
                     return;
@@ -363,6 +361,7 @@
             },
 
             open: function(i) {
+
                 var widget = this,
                     selectedTime = i.getTime(),
                     arrange = i.options.dynamic && selectedTime;
@@ -634,7 +633,7 @@
             startMinutes: null,
             startTime: null,
             interval: 60,
-            dynamic: true,
+            dynamic: false,
             theme: 'standard',
             zindex: null,
             dropdown: true,
@@ -857,5 +856,6 @@
                 }
             };
         })();
+
     })();
 }));

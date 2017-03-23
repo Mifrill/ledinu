@@ -57,6 +57,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		$time = trim(htmlspecialchars($_POST["time"]));
 
 		$json = array();
+/* choose correct time for Satarday by Json */
+		if ( (strftime("%w", strtotime($date) )) != 6){
+			$correctTimeEnd = $dataJs->EndTime;
+			$correctTimeStart = $dataJs->StartTime;
+		}else{
+			$correctTimeEnd = $dataJs->EndTimeSatarday;
+			$correctTimeStart = $dataJs->StartTimeSatarday;
+		}
 /* Rule for correct input */
 		if(!$name) {
 			echo ErrorHundler($dataJs->ErrorNameEmpty);
@@ -85,24 +93,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		}elseif(!preg_match("/^([0-9]{2})-([0-9]{2})-([0-9]{4})$/", $date)){
 			echo ErrorHundler($dataJs->ErrorDateCorrect);
 			die();
+		}elseif( (strftime("%Y-%m-%d", strtotime($date) ) ) < date('Y-m-d') ){
+			echo ErrorHundler($dataJs->ErrorDatePast);
+			die();
 		}elseif( (strftime("%w", strtotime($date) )) == 0){
 			echo ErrorHundler($dataJs->ErrorDateSunday);
 			die();
 		}elseif(!$time){
 			echo ErrorHundler($dataJs->ErrorTimeEmpty);
 			die();
-		}elseif(!preg_match("/^([0-9]{2}):([0-9]{2})$/", $time)){
+		}elseif(!preg_match("/^([0-9]{2}):([0]{2})$/", $time)){
 			echo ErrorHundler($dataJs->ErrorTimeCorrect);
+			die();
+		}elseif( $time > ($correctTimeEnd.':00') ){
+			echo ErrorHundler($dataJs->ErrorTimeLate);
+			die();
+		}elseif( $time < $correctTimeStart ){
+			echo ErrorHundler($dataJs->ErrorTimeEarly);
 			die();
 		}else{
 /* Rule for check busy date and time */
 
-/*			foreach($dataJs->BookedOutTime as $item=>$value) {
-				if($time != $item){
-					
-				}
-			}
-*/
 			$arrayJSONtime = ($dataJs->BookedOutTime->$time);
 			foreach ($arrayJSONtime as $k => $v) {
 				if($v == $date){
@@ -143,7 +154,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 			$dataJs->BookedOutTime->$time = $arrayJSONtime;
 
 /* NULL vars for iterations */
-			$amount = 0;
+			//$amount = 0;
 			$amountCheck = 0;
 /* object iteration */
 			foreach($dataJs->BookedOutTime as $item=>$value) {
@@ -152,18 +163,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 						$amountCheck++; // find Such Date 
 					}
 				}
-				$amount++; // find lenght of available time object
+				//$amount++; // find lenght of available time object
 			}
 			if ( (strftime("%w", strtotime($date) )) != 6){
 				$amount = 4;
+			}else{
+				$amount = 9;
 			}
 
 			if($amount == $amountCheck){
 				$addJson[] = $date; // array_push to add input date
 				$dataJs->BookedOutDates = $addJson; // rewrite new array to object
-				$amount = 0;
+				//$amount = 0;
 				$amountCheck = 0;
 			}
+/* Write Client Tel - Name - Date - Time */
+			$addJson = $dataJs->clients;
+			$addJson[] = $name ." - " . $phone . " - " . $date . " - " . $time;
+			$dataJs->clients = $addJson;
 
 			$dataJs  = json_encode($dataJs);
 			file_put_contents( __DIR__ . DIRECTORY_SEPARATOR . 'data.json', $dataJs);

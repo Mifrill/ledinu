@@ -492,7 +492,7 @@
 								<input class="form-control" type="text" placeholder="Как к Вам обращаться"
 								name="name">
 								<input class="form-control" type="tel" placeholder="Укажите телефон" name="phone">
-								<input class="timepicker form-control" id="time" type="" name="time">
+								<input class="timepicker form-control" id="time" type="hidden" name="time">
 								<input class="form-control" id="date" type="hidden" name="date">
 							</div>
 							<div class="ui-datepicker-inlin" id="datepicker"></div>

@@ -1,10 +1,12 @@
 {
 	"InputPickDate": "Выберите доступную дату в календаре",
-	"InputPickTime": "Выберите доступное время из списка",
+	"InputPickTime": "Выберите доступное время",
 	"ThankYou": "Большое спасибо за заявку, я скоро Вам перезвоню!",
 	"BidSend": "Заявка отправлена",
 	"StartTime": "17:00",
+	"StartTimeSatarday": "08:00",
 	"EndTime": 20,
+	"EndTimeSatarday": 16,
 	"ErrorNameEmpty": "Укажите обращение к Вам",
 	"ErrorNameNumeric": "Не позывной в армии, а Имя",
 	"ErrorNameShort": "Имя слишком короткое",
@@ -16,9 +18,12 @@
 	"ErrorDateCorrect": "Неверный формат даты",
 	"ErrorDateBusy": "На эту дату все время уже занято",
 	"ErrorDateSunday": "В воскресенье я занята",
+	"ErrorDatePast": "Отпусти своё прошлое и живи дальше",
 	"ErrorTimeEmpty": "Необходимо указать свободное время",
 	"ErrorTimeCorrect": "Неверный формат времени",
 	"ErrorTimeBusy": "Текущее время уже занято",
+	"ErrorTimeLate": "Очень поздно для консультаций",
+	"ErrorTimeEarly": "Слишком рано для консультаций",
 	"email": "ledinu@mail.ru",
 	"subject": "Новая заявка с сайта Ledinu.ru",
 	"to_name": "Наталье Юрьевне",
@@ -51,5 +56,7 @@
 		],
 		"20:00":[
 		]
-	}
+	},
+	"clients": [
+		]
 }
