@@ -19,6 +19,23 @@ var isMobile = {
 	}
 };
 
+/* correct pre-load images */
+$(function () {
+  $('img[data-src]').each(function () {
+    var image = $(this);
+
+    image.attr({
+      src: image.data('src')
+    }).removeAttr('data-src');
+
+    if (!image.get(0).complete) {
+      image.parent().addClass('loading');
+      image.bind('load', function () {
+        $(this).unbind('load').parent().removeClass('loading');
+      });
+    }
+  });
+});
 
 /*! modernizr 3.3.1 (Custom Build) | MIT *
  * https://modernizr.com/download/?-cssanimations-prefixed-setclasses !*/
@@ -5260,37 +5277,35 @@ $(document).ready(function(){
 			maxDate: "+2m +3w +1d",
 			beforeShowDay: disableDays,
 			onSelect: function(date) {
-/* if choose satarday */
-				if($('.ui-timepicker-container').length === 0){
-					
-					console.log(123);
-				}
-/*				
-				if($('.ui-timepicker-container').length != 0){
-					$('.ui-timepicker-container').queue(function (next) {
-						console.log(123);
-					$('.ui-timepicker-container').detach();
+/* Destroy timepicker in queue !important */
+				$('#time').val('');
+				$('.alert-danger').remove();
+				$('input.timepicker').queue(function (next) {
+					//$( "#date" ).change();
+					$('input.timepicker').timepicker('destroy');
+
 					next();
-				  });
-				}
-*/
-				if(moment($(this).val(), "DD-MM-YYYY").format("d") == 6){
-					var CustomEndTime = dataJs.EndTimeSatarday;
-					var CustomStartTime = dataJs.StartTimeSatarday;
-				}else{
-					var CustomEndTime = dataJs.EndTime;
-					var CustomStartTime = dataJs.StartTime;
-				}
-
-				/* Time Picker */	
-
-				$('input.timepicker').timepicker({
-					minTime: CustomStartTime,
-					maxHour: CustomEndTime,
 				});
+/* validation day if need to changed time in Timepicker */
+				if(moment($(this).val(), "DD-MM-YYYY").format("d") == 6){
+					CustomEndTime = dataJs.EndTimeSatarday;
+					CustomStartTime = dataJs.StartTimeSatarday;
+				}else{
+					CustomEndTime = dataJs.EndTime;
+					CustomStartTime = dataJs.StartTime;
+				}
+
+				$('#time').data({ time : CustomStartTime, endTime: CustomEndTime });
+
+				/* Time Picker init again with new parameters*/	
 
 				setTimeout(function() {
+					$('input.timepicker').timepicker({
+						minTime: $('#time').data('time'),
+						maxHour: $('#time').data('endTime'),
+					});
 					$('#time').attr('type','');
+
 				}, 100);
 				$('#date').attr('value',$(this).val());
 				
@@ -5299,20 +5314,36 @@ $(document).ready(function(){
 			//currentText: dataJs.InputPickTime,
 
 		});
-			
-		$( "#date" ).change();
-
-		$('#date').change(function(){
-			$('.ui-timepicker-container').reattach();
+/* each for check busy date and time from json data file */
+		$('input.timepicker').click(function(){
+/* if client choose sunday anyway */
+			if(moment($('#date').val(), "DD-MM-YYYY").format("d") == 0){
+				$('.ui-timepicker-viewport>li').remove();
+			}else{
+				$.each(dataJs.BookedOutTime, function( time, arrayDate ) {
+					$.each(this, function( index, dateValue ) {
+						if($('#date').val() == dateValue){
+							$('.ui-timepicker-viewport>li>a:contains('+time+')').parent().remove()
+						}
+					});
+				});
+			}
 		});
 
+/*		
+		$('#date').change(function(){
+			delete CustomEndTime;
+			delete CustomStartTime;
 
+		});
+*/
 
 /* Override method GotoToday */
+/*
 		$.datepicker._gotoToday = function(){
-
+			
 		};
-
+*/
 
 	});
 });

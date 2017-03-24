@@ -19,3 +19,20 @@ var isMobile = {
 	}
 };
 
+/* correct pre-load images */
+$(function () {
+  $('img[data-src]').each(function () {
+    var image = $(this);
+
+    image.attr({
+      src: image.data('src')
+    }).removeAttr('data-src');
+
+    if (!image.get(0).complete) {
+      image.parent().addClass('loading');
+      image.bind('load', function () {
+        $(this).unbind('load').parent().removeClass('loading');
+      });
+    }
+  });
+});

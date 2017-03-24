@@ -93,6 +93,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		}elseif(!preg_match("/^([0-9]{2})-([0-9]{2})-([0-9]{4})$/", $date)){
 			echo ErrorHundler($dataJs->ErrorDateCorrect);
 			die();
+		}elseif(preg_match("/^([0]{1}[0]{1})-([0-9]{2})-([0-9]{4})$/", $date)){
+			echo ErrorHundler($dataJs->ErrorDateCorrect);
+			die();
 		}elseif( (strftime("%Y-%m-%d", strtotime($date) ) ) < date('Y-m-d') ){
 			echo ErrorHundler($dataJs->ErrorDatePast);
 			die();
