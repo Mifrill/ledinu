@@ -161,7 +161,7 @@ header .navbar .container {
   header .navbar .container button, header .navbar .container .btn-primary {
     background-color: #CE8932;
     border-color: transparent;
-    margin-top: 1.5%; }
+    margin-top: 2%; }
     header .navbar .container button:hover, header .navbar .container .btn-primary:hover {
       border-color: #FFF;
       border-width: thin; }
@@ -169,6 +169,13 @@ header .navbar .container {
       border-color: #FFF;
       outline: none;
       background-color: #d8a15b; }
+
+.tel-to-call {
+  position: absolute;
+  left: 60%; }
+  .tel-to-call a {
+    color: #FFF;
+    font-size: 2em; }
 
 #scroll-menu {
   text-align: center; }
@@ -877,7 +884,14 @@ section#contacts {
 
 @media (max-width: 768px) {
   #scroll-menu li .btn-primary {
-    margin-top: 1.5%; } }
+    margin-top: 1.5%; }
+  header .navbar .container button {
+    margin-top: 1.5%; }
+  .tel-to-call {
+    left: 25vw;
+    top: 15%; }
+    .tel-to-call a {
+      font-size: 1.6em; } }
 
 @media (max-width: 480px) {
   .flex-container {

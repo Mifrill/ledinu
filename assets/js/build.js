@@ -6249,7 +6249,7 @@ $('#sl-video').slick({
 });
 
 
-$(".container").on("click","a", function (event) {
+$(".container").on("click","a:not(#tel-call-id)", function (event) {
 	event.preventDefault();
 	var id  = $(this).attr('href'),
 		top = $(id).offset().top;

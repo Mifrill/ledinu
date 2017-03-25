@@ -27,6 +27,8 @@
 							class="icon-bar"></span>
 						</button><a class="navbar-brand icon-icon" href="#header"></a>
 
+						<div class="tel-to-call hidden-sm"><a href="tel:+79129216022" id="tel-call-id">8 (912) 921 60 22	</a>
+						</div>
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="scroll-menu">

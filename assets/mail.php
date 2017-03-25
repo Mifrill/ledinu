@@ -1,16 +1,39 @@
 <?php
-/* function get str Error message > add message to array error, and encode to json format */
+/** function get str Error message > add message to array error, and encode to json format  
+ * @param $msg |string
+ * @return Erro array |json
+ * @throw null
+ */
 function ErrorHundler($msg){
 	$json['error'] = $msg;
 	return json_encode($json);
 }
-/* The function of converting headers to the correct encoding */
+/** The function of converting headers to the correct encoding |special for Class CorrectEmail
+ * @param $msg |string
+ * @param $data_charset |string
+ * @param $send_charset |string
+ * @return right code for send email |string
+ * @throw null
+ */
 function mime_header_encode($str, $data_charset, $send_charset) { 
 	if($data_charset != $send_charset)
 	$str=iconv($data_charset,$send_charset.'//IGNORE',$str);
 	return ('=?'.$send_charset.'?B?'.base64_encode($str).'?=');
 }
-/* Class to send a message in the desired encoding */
+/** Class to send a message in the desired encoding
+ * 
+ * @param $from_email |string
+ * @param $name |string
+ * @param $to_mail |string
+ * @param $to_name |string
+ * @param $subject of mail |string
+ * @param $data_charset |string
+ * @param $send_charset |string
+ * @param $body text for email |string
+ * @param $type |string
+ * @return mail send function
+ * @throw null
+ */
 class CorrectEmail {
 	public $from_email;
 	public $from_name;
@@ -38,7 +61,14 @@ class CorrectEmail {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
-	/* get JSON from base data file */
+	
+/** get JSON from base data file 
+ * 
+ * @param content from json file $j
+ * @return content from file
+ * @throw 404 if file not found
+ */
+
 	try{
 		$j = file_get_contents( __DIR__ . DIRECTORY_SEPARATOR . 'data.json' );
 		if (!$j) {
