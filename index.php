@@ -58,29 +58,41 @@
 				каф. ГиСН</p>
 			<div class="isolayer isolayer--deco2">
 				<ul class="grid">
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1000ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/><img class="grid__img layer" src="assets/img/layer/7.jpg" alt="07.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1000ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/><img class="grid__img layer" src="assets/img/layer/7.jpg" alt="07.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1100ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="200ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="300ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/><img class="grid__img layer" src="assets/img/layer/6.jpg" alt="06.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/><img class="grid__img layer" src="assets/img/layer/6.jpg" alt="06.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="400ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/><img class="grid__img layer" src="assets/img/layer/1.jpg" alt="01.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/><img class="grid__img layer" src="assets/img/layer/1.jpg" alt="01.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="500ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="600ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/6.jpg" alt="06.jpg"/><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/6.jpg" alt="06.jpg"/><img class="grid__img layer" src="assets/img/layer/5.jpg" alt="05.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="100ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/1.jpg" alt="01.jpg"/><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/1.jpg" alt="01.jpg"/><img class="grid__img layer" src="assets/img/layer/2.jpg" alt="02.jpg"/><img class="grid__img layer" src="assets/img/layer/3.jpg" alt="03.jpg"/><img class="grid__img layer" src="assets/img/layer/4.jpg" alt="04.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="700ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/7.jpg" alt="07.jpg"/><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/7.jpg" alt="07.jpg"/><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="800ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/8.jpg" alt="08.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="900ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/><img class="grid__img layer" src="assets/img/layer/12.jpg" alt="012.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/><img class="grid__img layer" src="assets/img/layer/12.jpg" alt="012.jpg"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1200ms"><a class="grid__link" href="#"><img class="grid__img layer" src="assets/img/layer/12.jpg" alt="012.jpg"/><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/></a>
+					<li class="grid__item wow bounceInDown" data-wow-offset="-300" data-wow-delay="1200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href=""><img class="grid__img layer" src="assets/img/layer/12.jpg" alt="012.jpg"/><img class="grid__img layer" src="assets/img/layer/11.jpg" alt="011.jpg"/><img class="grid__img layer" src="assets/img/layer/10.jpg" alt="010.jpg"/><img class="grid__img layer" src="assets/img/layer/9.jpg" alt="09.jpg"/></a>
 					</li>
 				</ul>
 			</div>
@@ -90,19 +102,21 @@
 				<figure class="effect-layla">
 					<img src="assets/img/basic/inter-1.jpg" alt="inter-1">
 					<figcaption>
-						 <h2>Crazy<span>Layla</span></h2>
+						 <h2>Для самых  <span>маленьких</span></h2>
 
-						<p>When Layla appears, she brings an eternal summer along.</p><a href="#">View more</a>
+						<p>Дошкольного образования - залог успехов в школе</p><a href="http://bit.ly/2okt0aQ"
+						target="blank">View more</a>
 
 					</figcaption>
 				</figure>
 				<figure class="effect-layla">
 					<img src="assets/img/basic/inter-2.jpg" alt="inter-2">
 					<figcaption>
-						 <h2>Crazy<span>Layla</span></h2>
+						 <h2>Дети и <span>подростки</span></h2>
 
-						<p>When Layla appears, she brings an eternal summer along.</p><a href="#">View more</a>
-
+						<p>Как изменилось мышление детей и подростков, и что с этим делать?</p>
+						<a
+						href="http://bit.ly/2oXhAIR" target="blank">View more</a>
 					</figcaption>
 				</figure>
 			</div>
@@ -115,6 +129,9 @@
 					</div>
 					<div class="item-video important">
 						<video src="assets/video/2.mp4"></video>
+					</div>
+					<div class="item-video important">
+						<video src="assets/video/3.mp4"></video>
 					</div>
 				</div>
 			</div>
@@ -142,63 +159,78 @@
 
 			<div class="isolayer isolayer--deco1 isolayer--shadow">
 				<ul class="grid">
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/16.png" alt="016.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/17.png" alt="017.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/2.png" alt="02.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/18.png" alt="018.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/3.png" alt="03.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/19.png" alt="019.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/4.png" alt="04.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/20.png" alt="020.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/5.png" alt="05.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/21.png" alt="021.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/6.png" alt="06.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/22.png" alt="022.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/7.png" alt="07.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/23.png" alt="023.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/8.png" alt="08.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/24.png" alt="024.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/9.png" alt="09.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/25.png" alt="025.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/10.png" alt="010.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/26.png" alt="026.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/11.png" alt="011.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/27.png" alt="027.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/12.png" alt="012.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/28.png" alt="028.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/13.png" alt="013.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/29.png" alt="029.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/14.png" alt="014.png"/></a>
 					</li>
-					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/30.png" alt="030.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/15.png" alt="015.png"/></a>
 					</li>
@@ -212,7 +244,8 @@
 					<figcaption>
 						 <h2>Пресс-  <span>конференции</span></h2>
 
-						<p>romeo is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
+						<p>romeo is a decent man. He used to clean porches with pleasure.</p><a href="http://bit.ly/2oByhH3"
+						target="blank">View more</a>
 
 					</figcaption>
 				</figure>
@@ -221,7 +254,8 @@
 					<figcaption>
 						 <h2>Публичные <span>выступления</span></h2>
 
-						<p>romeo is a decent man. He used to clean porches with pleasure.</p><a href="#">View more</a>
+						<p>romeo is a decent man. He used to clean porches with pleasure.</p><a href="http://bit.ly/2pVJSod"
+						target="blank">View more</a>
 
 					</figcaption>
 				</figure>
@@ -234,74 +268,74 @@
 				at the bottom of the thickest woods.</p>
 			<div class="isolayer isolayer--deco3">
 				<ul class="grid">
-					<li class="grid__item wow slideInRight" data-wow-delay="100ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-news-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/15.png" alt="015.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/1.png" alt="01.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="200ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-newsOfDepartment-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/16.png" alt="016.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/2.png" alt="02.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="300ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-infoCenter-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/17.png" alt="017.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/3.png" alt="03.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="400ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-disscusChildHealth-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/18.png" alt="018.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/4.png" alt="04.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/19.png" alt="019.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/5.png" alt="05.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/20.png" alt="020.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/6.png" alt="06.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/21.png" alt="021.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/7.png" alt="07.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/22.png" alt="022.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/8.png" alt="08.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/23.png" alt="023.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/9.png" alt="09.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="1000ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="1000ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/24.png" alt="024.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/10.png" alt="010.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="1100ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="1100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/25.png" alt="025.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/11.png" alt="011.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="1200ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="1200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/26.png" alt="026.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/12.png" alt="012.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="1300ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="1300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/27.png" alt="027.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/13.png" alt="013.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="1400ms"><a class="grid__link" href="#">
-              <div class="layer"></div>
-              <div class="layer"></div>
+					<li class="grid__item wow slideInRight" data-wow-delay="1400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
+              <div class="layer"></div><img class="grid__img layer" src="assets/img/education/28.png" alt="028.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/14.png" alt="014.png"/></a>
 					</li>
 				</ul>
@@ -334,69 +368,86 @@
 		<section class="section section--shots section--right" id="sciense">
 			 <h2 class="section__heading wow rotateInDownRight" data-wow-delay="300ms">Научная работа</h2>
 
-			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="100ms">Сфера научных интересов: Привычная двигательная активность детей и подростков;
-				Эмоциональная ригидность у лиц с низким уровнем привычной двигательной
-				активности; Развитие эмоционального интеллекта; Формирование профессионального
-				самоопределения обучающихся.</p>
+			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="100ms">Сфера научных интересов:
+				<br>Привычная двигательная активность детей и подростков
+				<br>Эмоциональная ригидность у лиц с низким уровнем привычной двигательной
+				активности
+				<br>Развитие эмоционального интеллекта
+				<br>Формирование профессионального самоопределения обучающихся</p>
 			<div class="isolayer isolayer--deco4">
 				<ul class="grid">
-					<li class="grid__item wow slideInLeft" data-wow-delay="100ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-news-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/16.png" alt="016"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/1.png" alt="01"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-newsOfDepartment-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/17.png" alt="017"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/2.png" alt="02"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="300ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-infoCenter-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/18.png" alt="018"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/3.png" alt="03"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="400ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-disscusChildHealth-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/19.png" alt="019"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/4.png" alt="04"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="500ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/20.png" alt="020"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/5.png" alt="05"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="600ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/21.png" alt="021"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/6.png" alt="06"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="700ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/22.png" alt="022"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/7.png" alt="07"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="800ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/23.png" alt="023"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/8.png" alt="08"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="900ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/24.png" alt="024"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/9.png" alt="09"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="1000ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="1000ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/25.png" alt="025"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/10.png" alt="010"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="1100ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="1100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/26.png" alt="026"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/11.png" alt="011"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="1200ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="1200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/27.png" alt="027"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/12.png" alt="012"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="1300ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="1300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/28.png" alt="028"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/13.png" alt="013"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="1400ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="1400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/29.png" alt="029"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/14.png" alt="014"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="1500ms"><a class="grid__link" href="#">
+					<li class="grid__item wow slideInLeft" data-wow-delay="1500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/30.png" alt="030"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/15.png" alt="015"/></a>
 					</li>
@@ -419,7 +470,7 @@
 
 								<p>Never study for others what you would not capture for the freedom of it.</p>
 								<button
-								class="btn btn-warning">Read More</button>
+								class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
@@ -429,7 +480,7 @@
 
 								<p>Never study for others what you would not capture for the freedom of it.</p>
 								<button
-								class="btn btn-info">Read More</button>
+								class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
@@ -439,7 +490,7 @@
 
 								<p>Never study for others what you would not capture for the freedom of it.</p>
 								<button
-								class="btn btn-primary">Read More</button>
+								class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp">
@@ -449,7 +500,7 @@
 
 								<p>Never study for others what you would not capture for the freedom of it.</p>
 								<button
-								class="btn btn-danger">Read More</button>
+								class="btn btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp" data-wow-delay="300ms">
@@ -459,7 +510,7 @@
 
 								<p>Never study for others what you would not capture for the freedom of it.</p>
 								<button
-								class="btn btn-warning">Read More</button>
+								class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
@@ -469,7 +520,7 @@
 
 								<p>Never study for others what you would not capture for the freedom of it.</p>
 								<button
-								class="btn btn-info">Read More</button>
+								class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
 							</div>
 						</div>
 					</div>
@@ -500,6 +551,86 @@
 							<div class="ui-datepicker-inlin" id="datepicker"></div>
 							<button class="btn center-block" type="submit" name="do_login" id="btn-consultation">Отправить заявку</button>
 						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-news-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+		aria-hidden="true" id="myLargeModalLabel">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title">Актуальные новости</h4>
+
+						</div>
+						<object type="application/pdf" data="assets/pdf/news.pdf" width="100%"
+						height="500" style="height: 85vh;">No Support</object>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-problemOfActivity-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title">Учителя и врачи обсудят проблемы подавления психической активности личности - Тюменская линия</h4>
+
+						</div>
+						<object type="application/pdf" data="assets/pdf/problems_of_suppressing_the_mental_activity.pdf"
+						width="100%" height="500" style="height: 85vh;">No Support</object>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-newsOfDepartment-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title">Новости департамента образования</h4>
+
+						</div>
+						<object type="application/pdf" data="assets/pdf/News_of_the_Department_of_Education.pdf"
+						width="100%" height="500" style="height: 85vh;">No Support</object>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-disscusChildHealth-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title">Ученые-физиологи, врачи и педагоги обсудили детское здоровье</h4>
+
+						</div>
+						<object type="application/pdf" data="assets/pdf/discuss_of_children's_health.pdf"
+						width="100%" height="500" style="height: 85vh;">No Support</object>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-infoCenter-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title">Информационно-методический центр г. Тюмени</h4>
+
+						</div>
+						<object type="application/pdf" data="assets/pdf/Information_and_Methodical_Center.pdf"
+						width="100%" height="500" style="height: 85vh;">No Support</object>
 					</div>
 				</div>
 			</div>

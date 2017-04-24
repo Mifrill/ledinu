@@ -756,6 +756,9 @@ section#mission {
       background-color: #d8a15b; }
 
 /* ------------------------  Section sciense ----------------------- */
+section#sciense .section__subtitle {
+  text-align: left; }
+
 /* ------------------------  Section why-us ----------------------- */
 section#contacts {
   margin: 2% 0 5% 0; }

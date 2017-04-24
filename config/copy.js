@@ -8,9 +8,16 @@ module.exports = {
   
   video: {
     expand: true,
-    cwd: 'template/video/',
+    cwd: 'template/media/video/',
     src: '**',
     dest: 'assets/video',
+  },
+
+  pdf: {
+    expand: true,
+    cwd: 'template/media/pdf/',
+    src: '**',
+    dest: 'assets/pdf',
   },
 
   uiIcon: {

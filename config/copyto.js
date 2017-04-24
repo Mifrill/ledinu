@@ -1,7 +1,7 @@
 module.exports = {
   stuff: {
     files: [
-      {cwd: 'template/img/additional/', src: ['**/*'], dest: 'assets/img/additional/', expand: true},
+      {cwd: 'template/media/img/additional/', src: ['**/*'], dest: 'assets/img/additional/', expand: true},
       {cwd: 'template/css/', src: ['**/*'], dest: 'assets/css/', expand: true},
       {cwd: 'template/php/', src: ['**/*'], dest: 'assets/', expand: true},
       {cwd: 'template/', src: ['data.json'], dest: 'assets/', expand: true},
