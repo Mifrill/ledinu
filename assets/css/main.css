@@ -901,3 +901,7 @@ section#contacts {
     height: 1625px; }
     .flex-container .flex-element p {
       padding-top: 162.5px; } }
+
+/* ------------------------  Modal ----------------------- */
+#masterClassNav, #presentationsNav {
+  font-size: 1.35em; }

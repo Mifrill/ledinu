@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
@@ -288,27 +288,27 @@
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/18.png" alt="018.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/4.png" alt="04.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
+					<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-conference-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/19.png" alt="019.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/5.png" alt="05.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-masterClass-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/20.png" alt="020.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/6.png" alt="06.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/21.png" alt="021.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/7.png" alt="07.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-articles-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/22.png" alt="022.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/8.png" alt="08.png"/></a>
 					</li>
-					<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-presentations-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/23.png" alt="023.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/9.png" alt="09.png"/></a>
@@ -396,27 +396,27 @@
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/19.png" alt="019"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/4.png" alt="04"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
+					<li class="grid__item wow slideInLeft" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-conference-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/20.png" alt="020"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/5.png" alt="05"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInLeft" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-masterClass-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/21.png" alt="021"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/6.png" alt="06"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInLeft" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/22.png" alt="022"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/7.png" alt="07"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInLeft" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-articles-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/23.png" alt="023"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/8.png" alt="08"/></a>
 					</li>
-					<li class="grid__item wow slideInLeft" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+					<li class="grid__item wow slideInLeft" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-presentations-modal-lg"
 						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/24.png" alt="024"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/sciense/9.png" alt="09"/></a>
@@ -458,7 +458,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center section-intro">
-						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>Контакты</span></h2>
+						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>Полезные материалы</span></h2>
 
 						<p class="lead wow fadeInUp" data-wow-delay="600ms">Как со мной связаться</p>
 					</div>
@@ -466,61 +466,61 @@
 						<div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
 							<div class="featured-content-box text-center"><i class="tn-heart ico-lg text-warning"></i>
 
-								 <h3>Confucius Says</h3>
+								 <h3>Контакты</h3>
 
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
+								<p>Социальные сети и другие публичные ресурсы</p>
+								<button class="btn btn-warning"
+								data-toggle="modal" data-target=".bs-social-modal-lg">Просмотреть</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
 							<div class="featured-content-box text-center"><i class="tn-server ico-lg text-info"></i>
 
-								 <h3>Confucius Says</h3>
+								 <h3>Мастер-классы</h3>
 
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
+								<p>Психологические тренинги</p>
+								<button class="btn btn-info" data-toggle="modal"
+								data-target=".bs-masterClass-modal-lg">Посмотреть</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
 							<div class="featured-content-box text-center"><i class="tn-anchor ico-lg text-success"></i>
 
-								 <h3>Confucius Says</h3>
+								 <h3>Конференции</h3>
 
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
+								<p>Выступления на региональных и областных форумах</p>
+								<button class="btn btn-primary"
+								data-toggle="modal" data-target=".bs-conference-modal-lg">Просмотреть</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp">
 							<div class="featured-content-box text-center"><i class="tn-agenda ico-lg text-danger"></i>
 
-								 <h3>Confucius Says</h3>
+								 <h3>Актуальные статьи</h3>
 
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
+								<p>Научно-популярные материалы</p>
+								<button class="btn btn-danger" data-toggle="modal"
+								data-target=".bs-articles-modal-lg">Прочитать</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp" data-wow-delay="300ms">
 							<div class="featured-content-box text-center"><i class="tn-headphone ico-lg text-warning"></i>
 
-								 <h3>Confucius Says</h3>
+								 <h3>Другие материалы</h3>
 
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
+								<p>Заметки, новости</p>
+								<button class="btn btn-warning" data-toggle="modal"
+								data-target=".bs-newsOfDepartment-modal-lg">Ознакомиться</button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
 							<div class="featured-content-box text-center"><i class="tn-dashboard ico-lg text-info"></i>
 
-								 <h3>Confucius Says</h3>
+								 <h3>Запись на консультацию</h3>
 
-								<p>Never study for others what you would not capture for the freedom of it.</p>
-								<button
-								class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">Read More</button>
+								<p>Укажите доступное время и дату</p>
+								<button class="btn btn-info" data-toggle="modal"
+								data-target=".bs-example-modal-lg">Заполнить форму</button>
 							</div>
 						</div>
 					</div>
@@ -556,7 +556,7 @@
 			</div>
 		</div>
 		<div class="modal fade bs-news-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-		aria-hidden="true" id="myLargeModalLabel">
+		aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="background">
@@ -572,13 +572,13 @@
 			</div>
 		</div>
 		<div class="modal fade bs-problemOfActivity-modal-lg" tabindex="-1" role="dialog"
-		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Учителя и врачи обсудят проблемы подавления психической активности личности - Тюменская линия</h4>
+							 <h4 class="modal-title">Учителя и врачи обсудят проблемы подавления психической активности личности</h4>
 
 						</div>
 						<object type="application/pdf" data="assets/pdf/problems_of_suppressing_the_mental_activity.pdf"
@@ -588,7 +588,7 @@
 			</div>
 		</div>
 		<div class="modal fade bs-newsOfDepartment-modal-lg" tabindex="-1" role="dialog"
-		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="background">
@@ -604,7 +604,7 @@
 			</div>
 		</div>
 		<div class="modal fade bs-disscusChildHealth-modal-lg" tabindex="-1" role="dialog"
-		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="background">
@@ -620,7 +620,7 @@
 			</div>
 		</div>
 		<div class="modal fade bs-infoCenter-modal-lg" tabindex="-1" role="dialog"
-		aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myLargeModalLabel">
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="background">
@@ -631,6 +631,152 @@
 						</div>
 						<object type="application/pdf" data="assets/pdf/Information_and_Methodical_Center.pdf"
 						width="100%" height="500" style="height: 85vh;">No Support</object>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-masterClass-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title">Мастер классы</h4>
+
+							<ul class="nav nav-tabs" id="masterClassNav">
+								<li class="active"><a href="#fat" data-toggle="tab">Избыточная масса тела</a>
+								</li>
+								<li><a href="#emo" data-toggle="tab">Креативная психотерапия</a>
+								</li>
+								<li><a href="#neuro" data-toggle="tab">"Детские неврозы: проблемы и решения"	</a>
+								</li>
+								<li><a href="#sport" data-toggle="tab">Участие в спорт. соревнованиях				</a>
+								</li>
+								<li><a href="#timemanager" data-toggle="tab">"Тайм менеджмент"	</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="fat">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/v34dg0Afw84eq9"
+									width="100%" height="500" style="height: 85vh;">Fat people</iframe>
+								</div>
+								<div class="tab-pane" id="emo">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/pSfp3imzdAC2JB"
+									width="100%" height="500" style="height: 85vh;">Creative psychotherapy of emotional disorders</iframe>
+								</div>
+								<div class="tab-pane" id="neuro">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/h8prKi8bQNhEvI"
+									width="100%" height="500" style="height: 85vh;">Children's neuroses</iframe>
+								</div>
+								<div class="tab-pane" id="sport">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/zniSoW0i7QPIKY"
+									width="100%" height="500" style="height: 85vh;">sport competitions</iframe>
+								</div>
+								<div class="tab-pane" id="timemanager">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/KMjEvKaoRiYQZx"
+									width="100%" height="500" style="height: 85vh;">time management</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-conference-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title">МЕЖВЕДОМСТВЕННАЯ ГОРОДСКАЯ  НАУЧНО-ПРАКТИЧЕСКАЯ  КОНФЕРЕНЦИЯ </h4>
+
+							<ul class="nav nav-tabs" id="masterClassNav">
+								<li><a href="#conf2014" data-toggle="tab">Программа 2014 года</a>
+								</li>
+								<li><a href="#conf2015" data-toggle="tab">Программа 2015 года</a>
+								</li>
+								<li class="active"><a href="#conf2016" data-toggle="tab">Программа 2016 года	</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane" id="conf2014">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/iGgsClaxjvigVi"
+									width="100%" height="500" style="height: 85vh;">conference 2014</iframe>
+								</div>
+								<div class="tab-pane" id="conf2015">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/JxP5GZNKKqyWS"
+									width="100%" height="500" style="height: 85vh;">conference 2015</iframe>
+								</div>
+								<div class="tab-pane active" id="conf2016">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/bNIeGpXZHjry0K"
+									width="100%" height="500" style="height: 85vh;">conference 2016</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-articles-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title"> Статьи</h4>
+
+							<ul class="nav nav-tabs" id="presentationsNav">
+								<li class="active"><a href="#fat" data-toggle="tab">Псевдонаучная статья, ну если реально не о чём, а называется статья, ёпт</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="fat">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/wv5h9hBlzKO3C7"
+									width="100%" height="500" style="height: 85vh;">Project for 9-graders "Perspective"</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-presentations-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title"> Презентации</h4>
+
+							<ul class="nav nav-tabs" id="presentationsNav">
+								<li class="active"><a href="#fat" data-toggle="tab">Методы коррекции и развития социально-эмоциональной сферы дошкольников</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="fat">
+									<iframe src="//www.slideshare.net/slideshow/embed_code/key/JGFfpDjMTebtO9"
+									width="100%" height="500" style="height: 85vh;">Problems of teacher interaction with preschoolers</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bs-social-modal-lg" tabindex="-1" role="dialog"
+		aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="background">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 <h4 class="modal-title"> Социальные сети</h4>
+
+						</div>
 					</div>
 				</div>
 			</div>
