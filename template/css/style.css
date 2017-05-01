@@ -414,7 +414,7 @@ figure.effect-romeo h2 {
 }
 
 figure.effect-romeo p {
-	padding: 0.25em 2em;
+	padding: 2.25em 2em;
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 }
@@ -425,8 +425,8 @@ figure.effect-romeo:hover h2 {
 }
 
 figure.effect-romeo:hover p {
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,100%,0);
-	transform: translate3d(0,-50%,0) translate3d(0,100%,0);
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,70%,0);
+	transform: translate3d(0,-50%,0) translate3d(0,70%,0);
 }
 
 /*---------------*/

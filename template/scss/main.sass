@@ -60,7 +60,17 @@ section#mission
 	left: 50%
 	margin-left: -50px * 5
 	font-weight: bold
-
+#my_mission_text
+	color: $color-orange
+	z-index: 99
+	line-height: 40px
+	font-size: 50px
+	max-width: 70px * 10
+	+tc
+	+pa
+	margin-top: 15%
+	left: 50%
+	margin-left: -70px * 5
 .flex-container
 	+df
 	height: 905px
@@ -135,18 +145,19 @@ section#mission
 		&:active, :focus
 			outline: none
 			background-color: lighten($color-orange, 10%)
-
+/* ------------------------  Section social life ----------------------- */
+section.section.section--intro
+	h3
+		font-size: 1.5em
+	p.section__subtitle
+		margin-top: -2%
+section.interval#romeo
+	.grid
+		#RomeoCityConference
+			figcaption
+				h2
+					margin-top: 13%
 /* ------------------------  Section sciense ----------------------- */
-
-section#sciense
-	.section__subtitle
-		text-align: left
-	.isolayer.isolayer--deco4
-		ul.grid
-			li.grid__item
-				img
-
-
 
 /* ------------------------  Section why-us ----------------------- */
 
