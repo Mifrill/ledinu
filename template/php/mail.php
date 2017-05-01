@@ -120,6 +120,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		}elseif(!$date){
 			echo ErrorHundler($dataJs->ErrorDateEmpty);
 			die();
+		}elseif(new DateTime($date) > (new DateTime)->modify($dataJs->EndFutureDate)){
+			echo ErrorHundler($dataJs->ErrorDateFuture);
+			die();
 		}elseif(!preg_match("/^([0-9]{2})-([0-9]{2})-([0-9]{4})$/", $date)){
 			echo ErrorHundler($dataJs->ErrorDateCorrect);
 			die();

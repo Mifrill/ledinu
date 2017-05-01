@@ -241,7 +241,7 @@ $(document).ready(function(){
 		$('#datepicker').datepicker({
 			dateFormat: "dd-mm-yy",
 			minDate: 0,
-			maxDate: "+2m +3w +1d",
+			maxDate: dataJs.EndFutureDate,
 			beforeShowDay: disableDays,
 			onSelect: function(date) {
 /* Destroy timepicker in queue !important */
