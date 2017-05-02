@@ -5034,7 +5034,7 @@ if ( typeof define === 'function' && define.amd ) {
 $(document).ready(function(){
 	new WOW().init();
 
-	$.getJSON('assets/data.json', function(dataJs) {
+	$.getJSON('assets/data.json', {_: new Date().getTime()}, function(dataJs) {
 
 /* for validation on W3C add placeholder by JavaScript */
 		$('#date').attr('placeholder', dataJs.InputPickDate);

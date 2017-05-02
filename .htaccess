@@ -43,6 +43,12 @@ FileETag none
     <FilesMatch "\.(js|css|swf)$">
         Header set Cache-Control "max-age=604800"
     </FilesMatch>
+    
+    # no-cache
+    <FilesMatch "\.(json)$">
+        Header unset Cache-Control
+    </FilesMatch>
+
 </IfModule>
 <IfModule mod_expires.c>
    ExpiresActive On
