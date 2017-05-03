@@ -11,7 +11,7 @@ module.exports = {
 	    	'pug', 
 	    	'html-prettyprinter', 
 	    	'processhtml:dev',
-	    	'copyto:stuff',
+			'copyto:stuff',
 	    ],
 	},
 };
