@@ -10,16 +10,59 @@ $(document).ready(function(){
 		$('#scroll-menu>li>a:eq(2)').text(dataJs.content.menuSciense);
 		$('#scroll-menu>li>a:eq(3)').text(dataJs.content.menuContacts);
 		$('#scroll-menu>li>.btn-primary').last().text(dataJs.content.buttonOrder);
-		$('#section-main>h1').text(dataJs.content.sectionMain_H1);
-		$('#section-main>p').html(dataJs.content.sectionMain_subtitle);
-		$('#grid-effect-layla1>figcaption').html(dataJs.content.id.grid1);
-		$('#grid-effect-layla2>figcaption').html(dataJs.content.id.grid2);
-		$('#my_mission').text(dataJs.content.id.my_mission);
-		$('#my_mission_text').text(dataJs.content.id.my_mission_text);
-		$('.element-1>p').text(dataJs.content.element1);
-		$('.element-2>p').text(dataJs.content.element2);
-		$('.element-3>p').text(dataJs.content.element3);
+
+		$('#section-main>h1').text(dataJs.content.sectionMain.H1);
+		$('#section-main>p').html(dataJs.content.sectionMain.subtitle);
+		$('#grid-effect-layla1>figcaption').html(dataJs.content.sectionMain.grid1);
+		$('#grid-effect-layla2>figcaption').html(dataJs.content.sectionMain.grid2);
+
+		$('#my_mission').text(dataJs.content.section_mission.my_mission);
+		$('#my_mission_text').text(dataJs.content.section_mission.my_mission_text);
+		$('.element-1>p').text(dataJs.content.section_mission.element1);
+		$('.element-2>p').text(dataJs.content.section_mission.element2);
+		$('.element-3>p').text(dataJs.content.section_mission.element3);
 		$('.button-order>.btn-primary').text(dataJs.content.buttonOrder);
+
+		$('.section--intro>h2').text(dataJs.content.sectionIntro.h2);
+		$('.section--intro>h3:eq(0)').text(dataJs.content.sectionIntro.h3);
+		$('.section--intro>p').text(dataJs.content.sectionIntro.p);
+		$('.section--intro>h3:eq(1)').text(dataJs.content.sectionIntro.h3_2);
+		$('.section--intro>h3:eq(2)').text(dataJs.content.sectionIntro.h3_3);
+		$('#effect-romeo1>figcaption').html(dataJs.content.sectionIntro.romeo1);
+		$('#RomeoCityConference>figcaption').html(dataJs.content.sectionIntro.romeo2);
+
+		$('#education>h2:eq(0)').text(dataJs.content.sectionEducation.h2);
+		$('#education>h2:eq(1)').text(dataJs.content.sectionEducation.h2_1);
+		$('#education>p:eq(0)').text(dataJs.content.sectionEducation.p);
+		$('#education>p:eq(1)').text(dataJs.content.sectionEducation.p_1);
+		$('#education>p:eq(2)').text(dataJs.content.sectionEducation.p_2);
+		$('#education>p:eq(3)').text(dataJs.content.sectionEducation.p_3);
+		$('#education>p:eq(4)').text(dataJs.content.sectionEducation.p_4);
+		$('#education>p:eq(5)').text(dataJs.content.sectionEducation.p_5);
+
+		$('#effect-oscar1>figcaption').html(dataJs.content.sectionSciense.oscar1);
+		$('#effect-oscar2>figcaption').html(dataJs.content.sectionSciense.oscar2);
+		$('#sciense>h2').text(dataJs.content.sectionSciense.h2);
+		$('#sciense>p:eq(0)').text(dataJs.content.sectionSciense.p);
+		$('#sciense>p:eq(1)').text(dataJs.content.sectionSciense.p_1);
+		$('#sciense>p:eq(2)').text(dataJs.content.sectionSciense.p_2);
+		$('#sciense>p:eq(3)').text(dataJs.content.sectionSciense.p_3);
+		$('#sciense>p:eq(4)').text(dataJs.content.sectionSciense.p_4);
+
+		$('#contacts>.container>.row>.text-center>h2').html(dataJs.content.sectionContacs.h2);
+		$('#contacts>.container>.row>.text-center>p').text(dataJs.content.sectionContacs.p);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(0)').text(dataJs.content.sectionContacs.boxH3);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(0)').text(dataJs.content.sectionContacs.boxP);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(1)').text(dataJs.content.sectionContacs.boxH3_1);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(1)').text(dataJs.content.sectionContacs.boxP_1);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(2)').text(dataJs.content.sectionContacs.boxH3_2);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(2)').text(dataJs.content.sectionContacs.boxP_2);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(3)').text(dataJs.content.sectionContacs.boxH3_3);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(3)').text(dataJs.content.sectionContacs.boxP_3);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(4)').text(dataJs.content.sectionContacs.boxH3_4);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(4)').text(dataJs.content.sectionContacs.boxP_4);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(5)').text(dataJs.content.sectionContacs.boxH3_5);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(5)').text(dataJs.content.sectionContacs.boxP_5);
 /* for validation on W3C add placeholder by JavaScript */
 		$('#date').attr('placeholder', dataJs.InputPickDate);
 		$('#time').attr('placeholder', dataJs.InputPickTime);

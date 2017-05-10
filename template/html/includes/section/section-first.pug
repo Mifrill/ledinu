@@ -1,26 +1,18 @@
 section.section.section--intro
-	h2.section__heading(class="wow rotateInDownLeft" data-wow-delay="300ms") Общественная жизнь
-	h3.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="250ms") Родительские собрания в школах города:
-	p.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="200ms") гимназия 1, 13, 17, гимназия 21, 38, гимназия 49, 63, 68, 70, 89
-	h3.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="150ms") Профориентационные проекты для школьников "Стратегия жизни" и "Перспектива"
-	h3.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="100ms") Тренинги для педагогов - участников конкурса "Учитель года"
+	h2.section__heading(class="wow rotateInDownLeft" data-wow-delay="300ms") 
+	h3.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="250ms") 
+	p.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="200ms") 
+	h3.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="150ms") 
+	h3.section__subtitle(class="wow rotateInDownLeft" data-wow-delay="100ms") 
 	.isolayer.isolayer--deco1.isolayer--shadow
 		ul.grid
 			each m in rightDecoIntro
 				+first-deco(m, '')
 section.interval(id="romeo")
 	div(class="grid")
-		figure(class="effect-romeo")
+		figure(class="effect-romeo" id="effect-romeo1")
 			img(src="assets/img/deco/inter-1_2.jpg" alt="img09")
 			figcaption
-				h2 Пресс-  
-					span конференции
-				p 
-				a(href="http://bit.ly/2oByhH3" target='blank') View more
 		figure(class="effect-romeo" id="RomeoCityConference")
 			img(src="assets/img/deco/inter-2_2.jpg" alt="img10")
 			figcaption
-				h2 Межведомственная городская 
-					span научно-практическая конференция
-				p  "Фундаментальные и прикладные аспекты психофизиологического здоровья детей дошкольного и школьного возраста" 
-				a(data-toggle="modal" data-target=".bs-conference-modal-lg") View more

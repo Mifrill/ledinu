@@ -143,245 +143,213 @@
 			</div>
 		</section>
 		<section class="section section--intro">
-			 <h2 class="section__heading wow rotateInDownLeft" data-wow-delay="300ms">Общественная жизнь</h2>
+			 <h2 class="section__heading wow rotateInDownLeft" data-wow-delay="300ms"> </h2>
 
-			 <h3 class="section__subtitle wow rotateInDownLeft" data-wow-delay="250ms">Родительские собрания в школах города:</h3>
+			 <h3 class="section__subtitle wow rotateInDownLeft" data-wow-delay="250ms"> </h3>
 
-			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="200ms">гимназия 1, 13, 17, гимназия 21, 38, гимназия 49, 63, 68, 70, 89</p>
-			<h3
-			class="section__subtitle wow rotateInDownLeft" data-wow-delay="150ms">Профориентационные проекты для школьников "Стратегия жизни" и "Перспектива"</h3>
-				<h3
-				class="section__subtitle wow rotateInDownLeft" data-wow-delay="100ms">Тренинги для педагогов - участников конкурса "Учитель года"</h3>
-					<div class="isolayer isolayer--deco1 isolayer--shadow">
-						<ul class="grid">
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="200ms"></p>
+			 <h3 class="section__subtitle wow rotateInDownLeft" data-wow-delay="150ms"> </h3>
+
+			 <h3 class="section__subtitle wow rotateInDownLeft" data-wow-delay="100ms"> </h3>
+
+			<div class="isolayer isolayer--deco1 isolayer--shadow">
+				<ul class="grid">
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/16.png" alt="016.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/1.png" alt="01.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/17.png" alt="017.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/2.png" alt="02.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/18.png" alt="018.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/3.png" alt="03.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/19.png" alt="019.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/4.png" alt="04.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/20.png" alt="020.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/5.png" alt="05.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/21.png" alt="021.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/6.png" alt="06.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/22.png" alt="022.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/7.png" alt="07.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/23.png" alt="023.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/8.png" alt="08.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/24.png" alt="024.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/9.png" alt="09.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/25.png" alt="025.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/10.png" alt="010.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/26.png" alt="026.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/11.png" alt="011.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/27.png" alt="027.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/12.png" alt="012.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/28.png" alt="028.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/13.png" alt="013.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/29.png" alt="029.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/14.png" alt="014.png"/></a>
-							</li>
-							<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
-								href="">
+					</li>
+					<li class="grid__item wow bounceInDown" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-example-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/30.png" alt="030.png"/>
               <div class="layer"></div><img class="grid__img layer" src="assets/img/deco/15.png" alt="015.png"/></a>
-							</li>
-						</ul>
-					</div>
+					</li>
+				</ul>
+			</div>
 		</section>
 		<section class="interval" id="romeo">
 			<div class="grid">
-				<figure class="effect-romeo">
+				<figure class="effect-romeo" id="effect-romeo1">
 					<img src="assets/img/deco/inter-1_2.jpg" alt="img09">
-					<figcaption>
-						 <h2>Пресс-  <span>конференции</span></h2>
-
-						<p></p><a href="http://bit.ly/2oByhH3" target="blank">View more</a>
-
-					</figcaption>
+					<figcaption></figcaption>
 				</figure>
 				<figure class="effect-romeo" id="RomeoCityConference">
 					<img src="assets/img/deco/inter-2_2.jpg" alt="img10">
-					<figcaption>
-						 <h2>Межведомственная городская <span>научно-практическая конференция</span></h2>
-
-						<p>"Фундаментальные и прикладные аспекты психофизиологического здоровья детей
-							дошкольного и школьного возраста"</p><a data-toggle="modal" data-target=".bs-conference-modal-lg">View more</a>
-
-					</figcaption>
+					<figcaption></figcaption>
 				</figure>
 			</div>
 		</section>
 		<section class="section section--cards" id="education">
-			 <h2 class="section__heading wow rotateInDownLeft" data-wow-delay="300ms">Семинары</h2>
+			 <h2 class="section__heading wow rotateInDownLeft" data-wow-delay="300ms"> </h2>
 
-			 <h2 class="wow rotateInDownLeft" data-wow-delay="100ms">Студенты ОДО, ОЗО ППО института психологии и педагогики ТюмГУ</h2>
+			 <h2 class="wow rotateInDownLeft" data-wow-delay="100ms"> </h2>
 
-			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="200ms">"Роль педагога психолога в организации психологической службы"</p>
-			<p class="section__subtitle wow rotateInDownLeft"
-			data-wow-delay="180ms">Психолого-педагогические проблемы взаимодействия педагога с дошкольниками</p>
-			<p
-			class="section__subtitle wow rotateInDownLeft" data-wow-delay="160ms">Адаптация дошкольников к дошкольному учреждению</p>
-				<p class="section__subtitle wow rotateInDownLeft"
-				data-wow-delay="140ms">"Психологическая служба ОУ, ДОУ"</p>
-				<p class="section__subtitle wow rotateInDownLeft"
-				data-wow-delay="120ms">"Детские неврозы: проблемы и решения"</p>
-				<p class="section__subtitle wow rotateInDownLeft"
-				data-wow-delay="100ms">Креативная психотерапия</p>
-				<div class="isolayer isolayer--deco3">
-					<ul class="grid">
-						<li class="grid__item wow slideInRight" data-wow-delay="100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-news-modal-lg"
-							href="">
+			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="200ms"></p>
+			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="180ms"></p>
+			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="160ms"></p>
+			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="140ms"></p>
+			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="120ms"></p>
+			<p class="section__subtitle wow rotateInDownLeft" data-wow-delay="100ms"></p>
+			<div class="isolayer isolayer--deco3">
+				<ul class="grid">
+					<li class="grid__item wow slideInRight" data-wow-delay="100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-news-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/15.png" alt="015.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/1.png" alt="01.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-newsOfDepartment-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-newsOfDepartment-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/16.png" alt="016.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/2.png" alt="02.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-infoCenter-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-infoCenter-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/17.png" alt="017.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/3.png" alt="03.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-disscusChildHealth-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-disscusChildHealth-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/18.png" alt="018.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/4.png" alt="04.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-conference-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="500ms"><a class="grid__link" data-toggle="modal" data-target=".bs-conference-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/19.png" alt="019.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/5.png" alt="05.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-masterClass-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="600ms"><a class="grid__link" data-toggle="modal" data-target=".bs-masterClass-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/20.png" alt="020.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/6.png" alt="06.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="700ms"><a class="grid__link" data-toggle="modal" data-target=".bs-problemOfActivity-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/21.png" alt="021.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/7.png" alt="07.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-articles-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="800ms"><a class="grid__link" data-toggle="modal" data-target=".bs-articles-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/22.png" alt="022.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/8.png" alt="08.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-presentations-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="900ms"><a class="grid__link" data-toggle="modal" data-target=".bs-presentations-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/23.png" alt="023.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/9.png" alt="09.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="1000ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="1000ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/24.png" alt="024.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/10.png" alt="010.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="1100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="1100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/25.png" alt="025.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/11.png" alt="011.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="1200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="1200ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/26.png" alt="026.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/12.png" alt="012.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="1300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="1300ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/27.png" alt="027.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/13.png" alt="013.png"/></a>
-						</li>
-						<li class="grid__item wow slideInRight" data-wow-delay="1400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
-							href="">
+					</li>
+					<li class="grid__item wow slideInRight" data-wow-delay="1400ms"><a class="grid__link" data-toggle="modal" data-target=".bs-undefined-modal-lg"
+						href="">
               <div class="layer"></div><img class="grid__img layer" src="assets/img/education/28.png" alt="028.png"/>
               <div class="layer"><span class="decoletter">Имя</span><span class="deconumber">название</span></div><img class="grid__img layer" src="assets/img/education/14.png" alt="014.png"/></a>
-						</li>
-					</ul>
-				</div>
+					</li>
+				</ul>
+			</div>
 		</section>
 		<section class="interval">
 			<div class="grid">
-				<figure class="effect-oscar">
+				<figure class="effect-oscar" id="effect-oscar1">
 					<img src="assets/img/sciense/inter-2_3.jpg" alt="inter2">
-					<figcaption>
-						 <h2>РИНЦ:<span>17</span></h2>
-
-						<p>АНАЛИЗ ПУБЛИКАЦИОННОЙ АКТИВНОСТИ</p> <a href="http://elibrary.ru/author_profile.asp?id=365326"
-						target="blank"></a>
-
-					</figcaption>
+					<figcaption></figcaption>
 				</figure>
-				<figure class="effect-oscar">
+				<figure class="effect-oscar" id="effect-oscar2">
 					<img src="assets/img/sciense/inter-1_3.jpg" alt="inter1">
-					<figcaption>
-						 <h2>Индекс Хирша:<span> 4</span></h2>
-
-						<p>СПИСОК МОИХ ПУБЛИКАЦИЙ</p> <a href="http://elibrary.ru/author_items.asp?authorid=365326"
-						target="blank"></a>
-
-					</figcaption>
+					<figcaption></figcaption>
 				</figure>
 			</div>
 		</section>
 		<section class="section section--shots section--right" id="sciense">
-			 <h2 class="section__heading wow rotateInDownRight" data-wow-delay="300ms">Научная работа</h2>
+			 <h2 class="section__heading wow rotateInDownRight" data-wow-delay="300ms"></h2>
 
-			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="100ms">Сфера научных интересов:</p>
-			<p class="section__subtitle wow rotateInDownRight"
-			data-wow-delay="80ms">Привычная двигательная активность детей и подростков</p>
-			<p class="section__subtitle wow rotateInDownRight"
-			data-wow-delay="60ms">Эмоциональная ригидность у лиц с низким уровнем привычной двигательной
-				активности</p>
-			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="40ms">Развитие эмоционального интеллекта</p>
-			<p class="section__subtitle wow rotateInDownRight"
-			data-wow-delay="20ms">Формирование профессионального самоопределения обучающихся</p>
+			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="100ms"></p>
+			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="80ms"></p>
+			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="60ms"></p>
+			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="40ms"></p>
+			<p class="section__subtitle wow rotateInDownRight" data-wow-delay="20ms"></p>
 			<div class="isolayer isolayer--deco4">
 				<ul class="grid">
 					<li class="grid__item wow slideInLeft" data-wow-delay="100ms"><a class="grid__link" data-toggle="modal" data-target=".bs-news-modal-lg"
@@ -466,7 +434,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center section-intro">
-						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>Полезные материалы</span></h2>
+						 <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span> </span></h2>
 
 						<p class="lead wow fadeInUp" data-wow-delay="600ms"></p>
 					</div>
@@ -474,60 +442,55 @@
 						<div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
 							<div class="featured-content-box text-center"><i class="tn-heart ico-lg text-warning"></i>
 
-								 <h3>Контакты</h3>
+								 <h3> </h3>
 
-								<p>Социальные сети и другие публичные ресурсы</p>
-								<button class="btn btn-warning"
-								data-toggle="modal" data-target=".bs-social-modal-lg">Просмотреть</button>
+								<p></p>
+								<button class="btn btn-warning" data-toggle="modal" data-target=".bs-social-modal-lg"></button>
 							</div>
 						</div>
 						<div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
 							<div class="featured-content-box text-center"><i class="tn-server ico-lg text-info"></i>
 
-								 <h3>Мастер-классы</h3>
+								 <h3> </h3>
 
-								<p>для педагогов и психологов</p>
-								<button class="btn btn-info" data-toggle="modal"
-								data-target=".bs-masterClass-modal-lg">Посмотреть</button>
+								<p></p>
+								<button class="btn btn-info" data-toggle="modal" data-target=".bs-masterClass-modal-lg"></button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
 							<div class="featured-content-box text-center"><i class="tn-anchor ico-lg text-success"></i>
 
-								 <h3>Конференции</h3>
+								 <h3> </h3>
 
-								<p>Выступления на региональных и областных форумах</p>
-								<button class="btn btn-primary"
-								onclick="window.open('http://bit.ly/2pVJSod')">Просмотреть</button>
+								<p></p>
+								<button class="btn btn-primary" onclick="window.open('http://bit.ly/2pVJSod')"></button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp">
 							<div class="featured-content-box text-center"><i class="tn-agenda ico-lg text-danger"></i>
 
-								 <h3>Профориентационные проекты</h3>
+								 <h3> </h3>
 
-								<p>для школьников</p>
-								<button class="btn btn-danger" data-toggle="modal" data-target=".bs-articles-modal-lg">Прочитать</button>
+								<p></p>
+								<button class="btn btn-danger" data-toggle="modal" data-target=".bs-articles-modal-lg"></button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp" data-wow-delay="300ms">
 							<div class="featured-content-box text-center"><i class="tn-headphone ico-lg text-warning"></i>
 
-								 <h3>Презентации</h3>
+								 <h3> </h3>
 
-								<p>в копилку психолога</p>
-								<button class="btn btn-warning" data-toggle="modal"
-								data-target=".bs-presentations-modal-lg">Ознакомиться</button>
+								<p></p>
+								<button class="btn btn-warning" data-toggle="modal" data-target=".bs-presentations-modal-lg"></button>
 							</div>
 						</div>
 						<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
 							<div class="featured-content-box text-center"><i class="tn-dashboard ico-lg text-info"></i>
 
-								 <h3>Запись на консультацию</h3>
+								 <h3> </h3>
 
-								<p>Укажите доступное время и дату</p>
-								<button class="btn btn-info" data-toggle="modal"
-								data-target=".bs-example-modal-lg">Заполнить форму</button>
+								<p></p>
+								<button class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg"></button>
 							</div>
 						</div>
 					</div>
