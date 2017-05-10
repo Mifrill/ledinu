@@ -257,6 +257,8 @@ section .slick-dots {
 
 .typed-cursor {
   opacity: 0;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite; }
 
 /* -----------  special CONTENT for lighten and radken fon-image ---------- */
@@ -554,6 +556,8 @@ table {
 
 input[type="search"] {
   -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
   input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none; }
@@ -578,7 +582,7 @@ input[type="checkbox"], input[type="radio"] {
   left: -203%px; }
 
 /* ------------------------  Section secion-main -------------------------- */
-section#secion-main .section__subtitle:hover {
+section#seciton-main .section__subtitle:hover {
   font-size: 9.5em;
   font-weight: bolder; }
 
@@ -628,12 +632,10 @@ section#mission {
   margin-left: -350px; }
 
 .flex-container {
-  display: -ms-flexbox;
   display: flex;
   height: 905px; }
   .flex-container .flex-element {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
     z-index: 0; }
     .flex-container .flex-element p {
       position: relative;
@@ -844,8 +846,7 @@ section#contacts {
   .slick-dots {
     display: none !important; }
   .flex-container {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
     height: 2025px; }
     .flex-container .flex-element p {
       font-size: 5em;
@@ -853,11 +854,9 @@ section#contacts {
       padding-top: 506.25px;
       color: #FFF; }
     .flex-container .element-3 {
-      -ms-flex-order: -1;
-          order: -1; }
+      order: -1; }
     .flex-container .element-2 {
-      -ms-flex-order: -2;
-          order: -2; }
+      order: -2; }
   .element-1 {
     background-image: url(../img/basic/1.jpg);
     background-repeat: no-repeat; }
@@ -923,6 +922,7 @@ section#contacts {
     .flex-container .flex-element p {
       padding-top: 162.5px; } }
 
+/* TODO adaptive */
 /* ------------------------  Modal ----------------------- */
 #masterClassNav, #presentationsNav {
   font-size: 1.35em; }

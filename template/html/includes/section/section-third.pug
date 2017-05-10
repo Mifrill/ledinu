@@ -1,31 +1,15 @@
-section.section.section--right.section--portraits(id='secion-main')
-	h2.section__heading(class="wow fadeInDown" data-wow-delay="100ms" data-wow-duration="3.5s")
-		| Архитектор своей реальности
+section.section.section--right.section--portraits(id='section-main')
+	h1.section__heading(class="wow fadeInDown" data-wow-delay="100ms" data-wow-duration="3.5s")
 	p.section__subtitle(class="wow bounceInRight" data-wow-delay="200ms" data-wow-duration="3.5s")
-		| Ларькина Наталья Юрьевна практикующий педагог-психолог
-		br
-		| с 2006 - 2011, 2015 - доцент кафедры
-		br
-		| психология и педагогика детсва ИПиП ТюмГУ
-		br
-		| кандидат биологических наук
 	.isolayer.isolayer--deco2
 		ul.grid
 			each m in rightDeco2
 				+third-deco(m, m, '')
 section.interval(id="grid")
 	div(class="grid")
-		figure(class="effect-layla")
+		figure(class="effect-layla" id="grid-effect-layla1")
 			img(src="assets/img/basic/inter-1.jpg" alt="inter-1")
 			figcaption
-				h2 Для самых  
-					span маленьких
-				p Дошкольного образования  - залог успехов в школе
-				a(href="http://bit.ly/2okt0aQ" target='blank') View more
-		figure(class="effect-layla")
+		figure(class="effect-layla" id="grid-effect-layla2")
 			img(src="assets/img/basic/inter-2.jpg" alt="inter-2")
 			figcaption
-				h2 Дети и 
-					span подростки
-				p Как изменилось мышление детей и подростков, и что с этим делать?
-				a(href="http://bit.ly/2oXhAIR" target='blank') View more

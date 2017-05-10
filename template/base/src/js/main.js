@@ -1,8 +1,25 @@
 $(document).ready(function(){
+
 	new WOW().init();
 
 	$.getJSON('assets/data.json', {_: new Date().getTime()}, function(dataJs) {
-
+/* content on page from json file */
+		$('#tel-call-id').text(dataJs.content.telcallid);
+		$('#scroll-menu>li>a').first().text(dataJs.content.menuMission);
+		$('#scroll-menu>li>a:eq(1)').text(dataJs.content.menuEduc);
+		$('#scroll-menu>li>a:eq(2)').text(dataJs.content.menuSciense);
+		$('#scroll-menu>li>a:eq(3)').text(dataJs.content.menuContacts);
+		$('#scroll-menu>li>.btn-primary').last().text(dataJs.content.buttonOrder);
+		$('#section-main>h1').text(dataJs.content.sectionMain_H1);
+		$('#section-main>p').html(dataJs.content.sectionMain_subtitle);
+		$('#grid-effect-layla1>figcaption').html(dataJs.content.id.grid1);
+		$('#grid-effect-layla2>figcaption').html(dataJs.content.id.grid2);
+		$('#my_mission').text(dataJs.content.id.my_mission);
+		$('#my_mission_text').text(dataJs.content.id.my_mission_text);
+		$('.element-1>p').text(dataJs.content.element1);
+		$('.element-2>p').text(dataJs.content.element2);
+		$('.element-3>p').text(dataJs.content.element3);
+		$('.button-order>.btn-primary').text(dataJs.content.buttonOrder);
 /* for validation on W3C add placeholder by JavaScript */
 		$('#date').attr('placeholder', dataJs.InputPickDate);
 		$('#time').attr('placeholder', dataJs.InputPickTime);
