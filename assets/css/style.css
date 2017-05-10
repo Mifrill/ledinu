@@ -35,7 +35,6 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
@@ -90,12 +89,9 @@
 
 figure.effect-lily img {
 	max-width: none;
-	width: -webkit-calc(100% + 50px);
 	width: calc(100% + 50px);
 	opacity: 0.7;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-40px,0, 0);
 	transform: translate3d(-40px,0,0);
 }
 
@@ -114,19 +110,16 @@ figure.effect-lily figcaption > div {
 
 figure.effect-lily h2,
 figure.effect-lily p {
-	-webkit-transform: translate3d(0,40px,0);
 	transform: translate3d(0,40px,0);
 }
 
 figure.effect-lily h2 {
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
 figure.effect-lily p {
 	color: rgba(255,255,255,0.8);
 	opacity: 0;
-	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
 }
 
@@ -138,14 +131,11 @@ figure.effect-lily:hover p {
 figure.effect-lily:hover img,
 figure.effect-lily:hover h2,
 figure.effect-lily:hover p {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-lily:hover p {
-	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
-	-webkit-transition-duration: 0.35s;
 	transition-duration: 0.35s;
 }
 
@@ -159,11 +149,9 @@ figure.effect-sadie figcaption::before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
 	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
 	content: '';
 	opacity: 0;
-	-webkit-transform: translate3d(0,50%,0);
 	transform: translate3d(0,50%,0);
 }
 
@@ -173,15 +161,12 @@ figure.effect-sadie h2 {
 	left: 0;
 	width: 100%;
 	color: #484c61;
-	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
 	transition: transform 0.35s, color 0.35s;
-	-webkit-transform: translate3d(0,-50%,0);
 	transform: translate3d(0,-50%,0);
 }
 
 figure.effect-sadie figcaption::before,
 figure.effect-sadie p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -192,20 +177,17 @@ figure.effect-sadie p {
 	padding: 2em;
 	width: 100%;
 	opacity: 0;
-	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
 }
 
 figure.effect-sadie:hover h2 {
 	color: #fff;
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 }
 
 figure.effect-sadie:hover figcaption::before ,
 figure.effect-sadie:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -214,17 +196,13 @@ figure.effect-sadie:hover p {
 /*---------------*/
 
 figure.effect-roxy {
-	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
 	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
 
 figure.effect-roxy img {
 	max-width: none;
-	width: -webkit-calc(100% + 60px);
 	width: calc(100% + 60px);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-50px,0,0);
 	transform: translate3d(-50px,0,0);
 }
 
@@ -237,9 +215,7 @@ figure.effect-roxy figcaption::before {
 	border: 1px solid #fff;
 	content: '';
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-20px,0,0);
 	transform: translate3d(-20px,0,0);
 }
 
@@ -254,22 +230,18 @@ figure.effect-roxy h2 {
 
 figure.effect-roxy p {
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-10px,0,0);
 	transform: translate3d(-10px,0,0);
 }
 
 figure.effect-roxy:hover img {
 	opacity: 0.7;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-roxy:hover figcaption::before,
 figure.effect-roxy:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -283,7 +255,6 @@ figure.effect-bubba {
 
 figure.effect-bubba img {
 	opacity: 0.7;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -300,52 +271,46 @@ figure.effect-bubba figcaption::after {
 	left: 30px;
 	content: '';
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-bubba figcaption::before {
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	    transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
 	border-right: 1px solid #fff;
 	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
+	-ms-transform: scale(1,0);
+	    transform: scale(1,0);
 }
 
 figure.effect-bubba h2 {
 	padding-top: 30%;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
 }
 
 figure.effect-bubba p {
 	padding: 20px 2.5em;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
 
 figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
 	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 figure.effect-bubba:hover h2,
 figure.effect-bubba:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -354,20 +319,16 @@ figure.effect-bubba:hover p {
 /*---------------*/
 
 figure.effect-romeo {
-	-webkit-perspective: 1000px;
 	perspective: 1000px;
 }
 
 figure.effect-romeo img {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,0,300px);
 	transform: translate3d(0,0,300px);
 }
 
 figure.effect-romeo:hover img {
 	opacity: 0.6;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -380,21 +341,17 @@ figure.effect-romeo figcaption::after {
 	height: 1px;
 	background: #fff;
 	content: '';
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
 
 figure.effect-romeo:hover figcaption::before {
 	opacity: 0.5;
-	-webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
 	transform: translate3d(-50%,-50%,0) rotate(45deg);
 }
 
 figure.effect-romeo:hover figcaption::after {
 	opacity: 0.5;
-	-webkit-transform: translate3d(-50%,-50%,0) rotate(-45deg);
 	transform: translate3d(-50%,-50%,0) rotate(-45deg);
 }
 
@@ -404,28 +361,23 @@ figure.effect-romeo p {
 	top: 50%;
 	left: 0;
 	width: 100%;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
 figure.effect-romeo h2 {
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-150%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,-150%,0);
 }
 
 figure.effect-romeo p {
 	padding: 2.25em 2em;
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 }
 
 figure.effect-romeo:hover h2 {
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
 }
 
 figure.effect-romeo:hover p {
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,70%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,70%,0);
 }
 
@@ -459,10 +411,10 @@ figure.effect-layla figcaption::before {
 	left: 30px;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-	-webkit-transform-origin: 0 0;
-	transform-origin: 0 0;
+	-ms-transform: scale(0,1);
+	    transform: scale(0,1);
+	-ms-transform-origin: 0 0;
+	    transform-origin: 0 0;
 }
 
 figure.effect-layla figcaption::after {
@@ -472,15 +424,14 @@ figure.effect-layla figcaption::after {
 	left: 50px;
 	border-right: 1px solid #fff;
 	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
-	-webkit-transform-origin: 100% 0;
-	transform-origin: 100% 0;
+	-ms-transform: scale(1,0);
+	    transform: scale(1,0);
+	-ms-transform-origin: 100% 0;
+	    transform-origin: 100% 0;
 }
 
 figure.effect-layla h2 {
 	padding-top: 26%;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
@@ -488,13 +439,11 @@ figure.effect-layla p {
 	padding: 0.5em 2em;
 	text-transform: none;
 	opacity: 0;
-	-webkit-transform: translate3d(0,-10px,0);
 	transform: translate3d(0,-10px,0);
 }
 
 figure.effect-layla img,
 figure.effect-layla h2 {
-	-webkit-transform: translate3d(0,-30px,0);
 	transform: translate3d(0,-30px,0);
 }
 
@@ -502,27 +451,24 @@ figure.effect-layla img,
 figure.effect-layla figcaption::before,
 figure.effect-layla figcaption::after,
 figure.effect-layla p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-layla:hover img {
 	opacity: 0.7;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-layla:hover figcaption::before,
 figure.effect-layla:hover figcaption::after {
 	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 figure.effect-layla:hover h2,
 figure.effect-layla:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -530,7 +476,6 @@ figure.effect-layla:hover figcaption::after,
 figure.effect-layla:hover h2,
 figure.effect-layla:hover p,
 figure.effect-layla:hover img {
-	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
@@ -544,7 +489,6 @@ figure.effect-honey {
 
 figure.effect-honey img {
 	opacity: 0.9;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -560,7 +504,6 @@ figure.effect-honey figcaption::before {
 	height: 10px;
 	background: #fff;
 	content: '';
-	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
 }
 
@@ -571,22 +514,18 @@ figure.effect-honey h2 {
 	padding: 1em 1.5em;
 	width: 100%;
 	text-align: left;
-	-webkit-transform: translate3d(0,-30px,0);
 	transform: translate3d(0,-30px,0);
 }
 
 figure.effect-honey h2 i {
 	font-style: normal;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,-30px,0);
 	transform: translate3d(0,-30px,0);
 }
 
 figure.effect-honey figcaption::before,
 figure.effect-honey h2 {
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
@@ -594,7 +533,6 @@ figure.effect-honey:hover figcaption::before,
 figure.effect-honey:hover h2,
 figure.effect-honey:hover h2 i {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -603,20 +541,17 @@ figure.effect-honey:hover h2 i {
 /*---------------*/
 
 figure.effect-oscar {
-	background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);
 }
 
 figure.effect-oscar img {
 	opacity: 0.9;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
 figure.effect-oscar figcaption {
 	padding: 3em;
 	background-color: rgba(58,52,42,0.7);
-	-webkit-transition: background-color 0.35s;
 	transition: background-color 0.35s;
 }
 
@@ -632,31 +567,27 @@ figure.effect-oscar figcaption::before {
 
 figure.effect-oscar h2 {
 	margin: 20% 0 10px 0;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
 
 figure.effect-oscar figcaption::before,
 figure.effect-oscar p {
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(0);
-	transform: scale(0);
+	-ms-transform: scale(0);
+	    transform: scale(0);
 }
 
 figure.effect-oscar:hover h2 {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-oscar:hover figcaption::before,
 figure.effect-oscar:hover p {
 	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 figure.effect-oscar:hover figcaption {
@@ -687,20 +618,16 @@ figure.effect-marley p {
 figure.effect-marley p {
 	bottom: 30px;
 	line-height: 1.5;
-	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
 
 figure.effect-marley h2 {
 	top: 30px;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
 
 figure.effect-marley:hover h2 {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -712,21 +639,18 @@ figure.effect-marley h2::after {
 	height: 4px;
 	background: #fff;
 	content: '';
-	-webkit-transform: translate3d(0,40px,0);
 	transform: translate3d(0,40px,0);
 }
 
 figure.effect-marley h2::after,
 figure.effect-marley p {
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-marley:hover h2::after,
 figure.effect-marley:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -740,23 +664,20 @@ figure.effect-ruby {
 
 figure.effect-ruby img {
 	opacity: 0.7;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	    transform: scale(1.15);
 }
 
 figure.effect-ruby:hover img {
 	opacity: 0.5;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 figure.effect-ruby h2 {
 	margin-top: 20%;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
 
@@ -765,20 +686,16 @@ figure.effect-ruby p {
 	padding: 3em;
 	border: 1px solid #fff;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0) scale(1.1);
 	transform: translate3d(0,20px,0) scale(1.1);
 } 
 
 figure.effect-ruby:hover h2 {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-ruby:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
 }
 
@@ -792,20 +709,15 @@ figure.effect-milo {
 
 figure.effect-milo img {
 	max-width: none;
-	width: -webkit-calc(100% + 60px);
 	width: calc(100% + 60px);
 	opacity: 1;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-30px,0,0) scale(1.12);
 	transform: translate3d(-30px,0,0) scale(1.12);
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 figure.effect-milo:hover img {
 	opacity: 0.5;
-	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
 }
 
@@ -822,15 +734,12 @@ figure.effect-milo p {
 	border-right: 1px solid #fff;
 	text-align: right;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-40px,0,0);
 	transform: translate3d(-40px,0,0);
 }
 
 figure.effect-milo:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -839,12 +748,10 @@ figure.effect-milo:hover p {
 /*---------------*/
 
 figure.effect-dexter {
-	background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
 	background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%); 
 }
 
 figure.effect-dexter img {
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -857,18 +764,14 @@ figure.effect-dexter figcaption::after {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	height: -webkit-calc(50% - 30px);
 	height: calc(50% - 30px);
 	border: 7px solid #fff;
 	content: '';
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,-100%,0);
 	transform: translate3d(0,-100%,0);
 }
 
 figure.effect-dexter:hover figcaption::after {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -883,15 +786,12 @@ figure.effect-dexter p {
 	bottom: 60px;
 	left: 60px;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,-100px,0);
 	transform: translate3d(0,-100px,0);
 }
 
 figure.effect-dexter:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -905,19 +805,14 @@ figure.effect-sarah {
 
 figure.effect-sarah img {
 	max-width: none;
-	width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-10px,0,0);
 	transform: translate3d(-10px,0,0);
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 figure.effect-sarah:hover img {
 	opacity: 0.4;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -939,29 +834,23 @@ figure.effect-sarah h2::after {
 	height: 3px;
 	background: #fff;
 	content: '';
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(-100%,0,0);
 	transform: translate3d(-100%,0,0);
 }
 
 figure.effect-sarah:hover h2::after {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-sarah p {
 	padding: 1em 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(100%,0,0);
 	transform: translate3d(100%,0,0);
 }
 
 figure.effect-sarah:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -976,9 +865,7 @@ figure.effect-zoe figcaption {
 	height: 3.75em;
 	background: #fff;
 	color: #3c4a50;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
 
@@ -1005,16 +892,13 @@ figure.effect-zoe p.description {
 	text-transform: none;
 	font-size: 90%;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
 }
 
 figure.effect-zoe h2,
 figure.effect-zoe p.icon-links a {
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,200%,0);
 	transform: translate3d(0,200%,0);
 }
 
@@ -1050,27 +934,22 @@ figure.effect-zoe:hover p.description {
 figure.effect-zoe:hover figcaption,
 figure.effect-zoe:hover h2,
 figure.effect-zoe:hover p.icon-links a {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-zoe:hover h2 {
-	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
 figure.effect-zoe:hover p.icon-links a:nth-child(3) {
-	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
 figure.effect-zoe:hover p.icon-links a:nth-child(2) {
-	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
 figure.effect-zoe:hover p.icon-links a:first-child {
-	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
 
@@ -1079,16 +958,15 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /*---------------*/
 
 figure.effect-chico img {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(1.12);
-	transform: scale(1.12);
+	-ms-transform: scale(1.12);
+	    transform: scale(1.12);
 }
 
 figure.effect-chico:hover img {
 	opacity: 0.5;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 figure.effect-chico figcaption {
@@ -1103,14 +981,13 @@ figure.effect-chico figcaption::before {
 	left: 30px;
 	border: 1px solid #fff;
 	content: '';
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	    transform: scale(1.1);
 }
 
 figure.effect-chico figcaption::before,
 figure.effect-chico p {
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -1121,15 +998,15 @@ figure.effect-chico h2 {
 figure.effect-chico p {
 	margin: 0 auto;
 	max-width: 200px;
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	    transform: scale(1.5);
 }
 
 figure.effect-chico:hover figcaption::before,
 figure.effect-chico:hover p {
 	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 /*---------------*/
@@ -1143,9 +1020,7 @@ figure.effect-julia {
 figure.effect-julia img {
 	max-width: none;
 	height: 400px;
-	-webkit-transition: opacity 1s, -webkit-transform 1s;
 	transition: opacity 1s, transform 1s;
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
@@ -1167,51 +1042,41 @@ figure.effect-julia p {
 	text-transform: none;
 	font-weight: 500;
 	font-size: 75%;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-360px,0,0);
 	transform: translate3d(-360px,0,0);
 }
 
 figure.effect-julia p:first-child {
-	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
 figure.effect-julia p:nth-of-type(2) {
-	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
 figure.effect-julia p:nth-of-type(3) {
-	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
 figure.effect-julia:hover p:first-child {
-	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 }
 
 figure.effect-julia:hover p:nth-of-type(2) {
-	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
 figure.effect-julia:hover p:nth-of-type(3) {
-	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
 figure.effect-julia:hover img {
 	opacity: 0.4;
-	-webkit-transform: scale3d(1.1,1.1,1);
 	transform: scale3d(1.1,1.1,1);
 }
 
 figure.effect-julia:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -1225,12 +1090,10 @@ figure.effect-goliath {
 
 figure.effect-goliath img,
 figure.effect-goliath h2 {
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
 figure.effect-goliath img {
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
@@ -1246,25 +1109,20 @@ figure.effect-goliath p {
 	text-transform: none;
 	font-size: 90%;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,50px,0);
 	transform: translate3d(0,50px,0);
 }
 
 figure.effect-goliath:hover img {
-	-webkit-transform: translate3d(0,-80px,0);
 	transform: translate3d(0,-80px,0);
 }
 
 figure.effect-goliath:hover h2 {
-	-webkit-transform: translate3d(0,-100px,0);
 	transform: translate3d(0,-100px,0);
 }
 
 figure.effect-goliath:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -1285,12 +1143,10 @@ figure.effect-hera p {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
-	-webkit-transform-origin: 50%;
-	transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	    transform-origin: 50%;
 }
 
 figure.effect-hera figcaption::before {
@@ -1302,12 +1158,10 @@ figure.effect-hera figcaption::before {
 	border: 2px solid #fff;
 	content: '';
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
 	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-	-webkit-transform-origin: 50%;
-	transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	    transform-origin: 50%;
 }
 
 figure.effect-hera p {
@@ -1328,44 +1182,36 @@ figure.effect-hera p a:focus {
 
 figure.effect-hera p a i {
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-hera p a:first-child i {
-	-webkit-transform: translate3d(-60px,-60px,0);
 	transform: translate3d(-60px,-60px,0);
 }
 
 figure.effect-hera p a:nth-child(2) i {
-	-webkit-transform: translate3d(60px,-60px,0);
 	transform: translate3d(60px,-60px,0);
 }
 
 figure.effect-hera p a:nth-child(3) i {
-	-webkit-transform: translate3d(-60px,60px,0);
 	transform: translate3d(-60px,60px,0);
 }
 
 figure.effect-hera p a:nth-child(4) i {
-	-webkit-transform: translate3d(60px,60px,0);
 	transform: translate3d(60px,60px,0);
 }
 
 figure.effect-hera:hover figcaption::before {
 	opacity: 1;
-	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
 	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
 }
 
 figure.effect-hera:hover h2 {
 	opacity: 0;
-	-webkit-transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
 	transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
 }
 
 figure.effect-hera:hover p i:empty {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0); /* just because it's stronger than nth-child */
 	opacity: 1;
 }
@@ -1380,9 +1226,7 @@ figure.effect-winston {
 }
 
 figure.effect-winston img {
-	-webkit-transition: opacity 0.45s;
 	transition: opacity 0.45s;
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
@@ -1395,18 +1239,14 @@ figure.effect-winston figcaption::before {
 	background: url(../img/additional/triangle.svg) no-repeat center center;
 	background-size: 100% 100%;
 	content: '';
-	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
 	transition: opacity 0.45s, transform 0.45s;
-	-webkit-transform: rotate3d(0,0,1,45deg);
 	transform: rotate3d(0,0,1,45deg);
-	-webkit-transform-origin: 0 100%;
-	transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	    transform-origin: 0 100%;
 }
 
 figure.effect-winston h2 {
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
 
@@ -1430,9 +1270,7 @@ figure.effect-winston a:focus {
 
 figure.effect-winston p a i {
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,50px,0);
 	transform: translate3d(0,50px,0);
 }
 
@@ -1441,34 +1279,28 @@ figure.effect-winston:hover img {
 }
 
 figure.effect-winston:hover h2 {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-winston:hover figcaption::before {
 	opacity: 0.7;
-	-webkit-transform: rotate3d(0,0,1,20deg);
 	transform: rotate3d(0,0,1,20deg);
 }
 
 figure.effect-winston:hover p i {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-winston:hover p a:nth-child(3) i {
-	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
 figure.effect-winston:hover p a:nth-child(2) i {
-	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
 figure.effect-winston:hover p a:first-child i {
-	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
@@ -1482,42 +1314,34 @@ figure.effect-selena {
 
 figure.effect-selena img {
 	opacity: 0.95;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
 }
 
 figure.effect-selena:hover img {
-	-webkit-transform: scale3d(0.95,0.95,1);
 	transform: scale3d(0.95,0.95,1);
 }
 
 figure.effect-selena h2 {
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
 
 figure.effect-selena p {
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: perspective(1000px) rotate3d(1,0,0,90deg);
 	transform: perspective(1000px) rotate3d(1,0,0,90deg);
-	-webkit-transform-origin: 50% 0%;
-	transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	    transform-origin: 50% 0%;
 }
 
 figure.effect-selena:hover h2 {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-selena:hover p {
 	opacity: 1;
-	-webkit-transform: perspective(1000px) rotate3d(1,0,0,0);
 	transform: perspective(1000px) rotate3d(1,0,0,0);
 }
 
@@ -1541,7 +1365,6 @@ figure.effect-terry figcaption::after {
 	border-style: solid;
 	border-color: #101010;
 	content: '';
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
@@ -1549,7 +1372,6 @@ figure.effect-terry figcaption::before {
 	right: 0;
 	bottom: 0;
 	border-width: 0 70px 60px 0;
-	-webkit-transform: translate3d(70px,60px,0);
 	transform: translate3d(70px,60px,0);
 }
 
@@ -1557,13 +1379,11 @@ figure.effect-terry figcaption::after {
 	top: 0;
 	left: 0;
 	border-width: 15px 0 0 15px;
-	-webkit-transform: translate3d(-15px,-15px,0);
 	transform: translate3d(-15px,-15px,0);
 }
 
 figure.effect-terry img,
 figure.effect-terry p a {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -1577,9 +1397,7 @@ figure.effect-terry h2 {
 	left: 0;
 	padding: 0.4em 10px;
 	width: 50%;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(100%,0,0);
 	transform: translate3d(100%,0,0);
 }
 
@@ -1603,7 +1421,6 @@ figure.effect-terry p a {
 	margin-bottom: 1em;
 	color: #fff;
 	opacity: 0;
-	-webkit-transform: translate3d(90px,0,0);
 	transform: translate3d(90px,0,0);
 }
 
@@ -1614,7 +1431,6 @@ figure.effect-terry p a:focus {
 
 figure.effect-terry:hover figcaption::before,
 figure.effect-terry:hover figcaption::after {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -1625,7 +1441,6 @@ figure.effect-terry:hover img {
 
 figure.effect-terry:hover h2,
 figure.effect-terry:hover p a {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -1634,22 +1449,18 @@ figure.effect-terry:hover p a {
 }
 
 figure.effect-terry:hover p a:first-child {
-	-webkit-transition-delay: 0.025s;
 	transition-delay: 0.025s;
 }
 
 figure.effect-terry:hover p a:nth-child(2) {
-	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
 figure.effect-terry:hover p a:nth-child(3) {
-	-webkit-transition-delay: 0.075s;
 	transition-delay: 0.075s;
 }
 
 figure.effect-terry:hover p a:nth-child(4) {
-	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
@@ -1663,7 +1474,6 @@ figure.effect-phoebe {
 
 figure.effect-phoebe img {
 	opacity: 0.85;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -1680,30 +1490,24 @@ figure.effect-phoebe figcaption::before {
 	background: url(../img/triangle2.svg) no-repeat center center;
 	background-size: 100% 100%;
 	content: '';
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale3d(5,2.5,1);
 	transform: scale3d(5,2.5,1);
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
 }
 
 figure.effect-phoebe:hover figcaption::before {
 	opacity: 0.6;
-	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
 figure.effect-phoebe h2 {
 	margin-top: 1em;
-	-webkit-transition: transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,40px,0);
 	transform: translate3d(0,40px,0);
 }
 
 figure.effect-phoebe:hover h2 {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -1713,28 +1517,23 @@ figure.effect-phoebe p a {
 	opacity: 0;
 	position: relative;
 	display: inline-block;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-phoebe p a:first-child {
-	-webkit-transform: translate3d(-60px,-60px,0);
 	transform: translate3d(-60px,-60px,0);
 }
 
 figure.effect-phoebe p a:nth-child(2) {
-	-webkit-transform: translate3d(0,60px,0);
 	transform: translate3d(0,60px,0);
 }
 
 figure.effect-phoebe p a:nth-child(3) {
-	-webkit-transform: translate3d(60px,-60px,0);
 	transform: translate3d(60px,-60px,0);
 }
 
 figure.effect-phoebe:hover p a {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -1748,9 +1547,7 @@ figure.effect-apollo {
 
 figure.effect-apollo img {
 	opacity: 0.95;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale3d(1.05,1.05,1);
 	transform: scale3d(1.05,1.05,1);
 }
 
@@ -1762,9 +1559,7 @@ figure.effect-apollo figcaption::before {
 	height: 100%;
 	background: rgba(255,255,255,0.5);
 	content: '';
-	-webkit-transition: -webkit-transform 0.6s;
 	transition: transform 0.6s;
-	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 }
 
@@ -1778,7 +1573,6 @@ figure.effect-apollo p {
 	border-right: 4px solid #fff;
 	text-align: right;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -1788,18 +1582,15 @@ figure.effect-apollo h2 {
 
 figure.effect-apollo:hover img {
 	opacity: 0.6;
-	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
 figure.effect-apollo:hover figcaption::before {
-	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 }
 
 figure.effect-apollo:hover p {
 	opacity: 1;
-	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
@@ -1813,7 +1604,6 @@ figure.effect-kira {
 }
 
 figure.effect-kira img {
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -1827,9 +1617,7 @@ figure.effect-kira p {
 	font-size: 100%;
 	line-height: 1.5;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,-10px,0);
 	transform: translate3d(0,-10px,0);
 }
 
@@ -1852,12 +1640,10 @@ figure.effect-kira figcaption::before {
 	height: 3.5em;
 	background: #fff;
 	content: '';
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,4em,0) scale3d(1,0.023,1) ;
 	transform: translate3d(0,4em,0) scale3d(1,0.023,1);
-	-webkit-transform-origin: 50% 0;
-	transform-origin: 50% 0;
+	-ms-transform-origin: 50% 0;
+	    transform-origin: 50% 0;
 }
 
 figure.effect-kira:hover img {
@@ -1866,13 +1652,11 @@ figure.effect-kira:hover img {
 
 figure.effect-kira:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-kira:hover figcaption::before {
 	opacity: 0.7;
-	-webkit-transform: translate3d(0,5em,0) scale3d(1,1,1) ;
 	transform: translate3d(0,5em,0) scale3d(1,1,1);
 }
 
@@ -1896,7 +1680,6 @@ figure.effect-steve h2:before {
 	height: 100%;
 	background: #000;
 	content: '';
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -1911,9 +1694,7 @@ figure.effect-steve figcaption {
 
 figure.effect-steve img {
 	opacity: 1;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: perspective(1000px) translate3d(0,0,0);
 	transform: perspective(1000px) translate3d(0,0,0);
 }
 
@@ -1938,9 +1719,7 @@ figure.effect-steve p {
 	padding: 0.5em;
 	font-weight: 800;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale3d(0.9,0.9,1);
 	transform: scale3d(0.9,0.9,1);
 }
 
@@ -1949,7 +1728,6 @@ figure.effect-steve:hover:before {
 }
 
 figure.effect-steve:hover img {
-	-webkit-transform: perspective(1000px) translate3d(0,0,21px);
 	transform: perspective(1000px) translate3d(0,0,21px);
 }
 
@@ -1959,7 +1737,6 @@ figure.effect-steve:hover h2:before {
 
 figure.effect-steve:hover p {
 	opacity: 1;
-	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
@@ -1968,13 +1745,11 @@ figure.effect-steve:hover p {
 /*-----------------*/
 
 figure.effect-moses {
-	background: -webkit-linear-gradient(-45deg, #EC65B7 0%,#05E0D8 100%);
 	background: linear-gradient(-45deg, #EC65B7 0%,#05E0D8 100%);
 }
 
 figure.effect-moses img {
 	opacity: 0.85;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -1991,9 +1766,7 @@ figure.effect-moses h2 {
 	width: 50%;
 	height: 50%;
 	text-align: left;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(10px,10px,0);
 	transform: translate3d(10px,10px,0);
 }
 
@@ -2002,20 +1775,16 @@ figure.effect-moses p {
 	padding: 20px;
 	text-align: right;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
 
 figure.effect-moses:hover h2 {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-moses:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -2028,7 +1797,6 @@ figure.effect-moses:hover img {
 /*---------------*/
 
 figure.effect-jazz {
-	background: -webkit-linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
 	background: linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
 }
 
@@ -2039,7 +1807,6 @@ figure.effect-jazz img {
 figure.effect-jazz figcaption::after,
 figure.effect-jazz img,
 figure.effect-jazz p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -2053,22 +1820,19 @@ figure.effect-jazz figcaption::after {
 	border-bottom: 1px solid #fff;
 	content: '';
 	opacity: 0;
-	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
 	transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
 }
 
 figure.effect-jazz h2,
 figure.effect-jazz p {
 	opacity: 1;
-	-webkit-transform: scale3d(0.8,0.8,1);
 	transform: scale3d(0.8,0.8,1);
 }
 
 figure.effect-jazz h2 {
 	padding-top: 26%;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
@@ -2081,20 +1845,17 @@ figure.effect-jazz p {
 
 figure.effect-jazz:hover img {
 	opacity: 0.7;
-	-webkit-transform: scale3d(1.05,1.05,1);
 	transform: scale3d(1.05,1.05,1);
 }
 
 figure.effect-jazz:hover figcaption::after {
 	opacity: 1;
-	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 }
 
 figure.effect-jazz:hover h2,
 figure.effect-jazz:hover p {
 	opacity: 1;
-	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
@@ -2108,7 +1869,6 @@ figure.effect-ming {
 
 figure.effect-ming img {
 	opacity: 0.9;
-	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
@@ -2122,36 +1882,31 @@ figure.effect-ming figcaption::before {
 	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
 	content: '';
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale3d(1.4,1.4,1);
 	transform: scale3d(1.4,1.4,1);
 }
 
 figure.effect-ming h2 {
 	margin: 20% 0 10px 0;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
 figure.effect-ming p {
 	padding: 1em;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	    transform: scale(1.5);
 }
 
 figure.effect-ming:hover h2 {
-	-webkit-transform: scale(0.9);
-	transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	    transform: scale(0.9);
 }
 
 figure.effect-ming:hover figcaption::before,
 figure.effect-ming:hover p {
 	opacity: 1;
-	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
@@ -2168,27 +1923,21 @@ figure.effect-ming:hover img {
 /*---------------*/
 
 figure.effect-lexi {
-	background: -webkit-linear-gradient(-45deg, #000 0%,#fff 100%);
 	background: linear-gradient(-45deg, #000 0%,#fff 100%);
 }
 
 figure.effect-lexi img {
 	margin: -10px 0 0 -10px;
 	max-width: none;
-	width: -webkit-calc(100% + 10px);
 	width: calc(100% + 10px);
 	opacity: 0.9;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(10px,10px,0);
 	transform: translate3d(10px,10px,0);
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 figure.effect-lexi figcaption::before,
 figure.effect-lexi p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -2203,23 +1952,19 @@ figure.effect-lexi figcaption::before {
 	box-shadow: 0 0 0 900px rgba(255,255,255,0.2);
 	content: '';
 	opacity: 0;
-	-webkit-transform: scale3d(0.5,0.5,1);
 	transform: scale3d(0.5,0.5,1);
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
 }
 
 figure.effect-lexi:hover img {
 	opacity: 0.6;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-lexi h2 {
 	text-align: left;
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(5px,5px,0);
 	transform: translate3d(5px,5px,0);
 }
 
@@ -2231,20 +1976,17 @@ figure.effect-lexi p {
 	width: 140px;
 	text-align: right;
 	opacity: 0;
-	-webkit-transform: translate3d(20px,20px,0);
 	transform: translate3d(20px,20px,0);
 }
 
 figure.effect-lexi:hover figcaption::before {
 	opacity: 1;
-	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
 figure.effect-lexi:hover h2,
 figure.effect-lexi:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -2253,29 +1995,24 @@ figure.effect-lexi:hover p {
 /*---------------*/
 
 figure.effect-duke {
-	background: -webkit-linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
 	background: linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
 }
 
 figure.effect-duke img,
 figure.effect-duke p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-duke:hover img {
 	opacity: 0.1;
-	-webkit-transform: scale3d(2,2,1);
 	transform: scale3d(2,2,1);
 }
 
 figure.effect-duke h2 {
-	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: scale3d(0.8,0.8,1);
 	transform: scale3d(0.8,0.8,1);
-	-webkit-transform-origin: 50% 100%;
-	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	    transform-origin: 50% 100%;
 }
 
 figure.effect-duke p {
@@ -2288,16 +2025,14 @@ figure.effect-duke p {
 	text-transform: none;
 	font-size: 90%;
 	opacity: 0;
-	-webkit-transform: scale3d(0.8,0.8,1);
 	transform: scale3d(0.8,0.8,1);
-	-webkit-transform-origin: 50% -100%;
-	transform-origin: 50% -100%;
+	-ms-transform-origin: 50% -100%;
+	    transform-origin: 50% -100%;
 }
 
 figure.effect-duke:hover h2,
 figure.effect-duke:hover p {
 	opacity: 1;
-	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 

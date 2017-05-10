@@ -3,17 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>ledinu</title>		<!-- build:remove:dist -->
-		<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="libs/jquery-ui/themes/humanity/jquery-ui.min.css">
-		<link rel="stylesheet" href="libs/animate.css/animate.min.css">
-		<link rel="stylesheet" href="libs/slick-carousel/slick/slick.css">
-		<link rel="stylesheet" href="assets/css/main.css">
-		<link rel="stylesheet" href="assets/css/sprites.css">
-		<link rel="stylesheet" href="assets/fonts/fonts.css">
-		<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css">
-		<!-- /build -->
-	</head>
+		<title>ledinu</title>
+		<!-- build:remove:dev -->
+		<script type="text/javascript">
+			function loadCSS(hf) {
+			      	var ms=document.createElement("link");ms.rel="stylesheet";
+			      	ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+			      }
+			      loadCSS("assets/css/all.min.css");
+		</script>
+		<noscript>
+			<link rel="stylesheet" href="assets/css/all.min.css">
+		</noscript>
+		<!-- /build -->	</head>
 	<body>
 		<header>
 			<div class="navbar navbar-inverse navbar-fixed-top wow flipInX" role="navigation"
@@ -440,8 +442,7 @@
 					</div>
 					<div class="col-md-12 highlight-boxes">
 						<div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
-							<div class="featured-content-box text-center"><i class="tn-heart ico-lg text-warning"></i>
-
+							<div class="featured-content-box text-center">
 								 <h3> </h3>
 
 								<p></p>
@@ -507,7 +508,7 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Записаться на консультацию</h4>
+							 <h4 class="modal-title"> </h4>
 
 						</div>
 						<form class="row navbar-form" action="POST" id="form-proposal">
@@ -519,7 +520,7 @@
 								<input class="form-control" id="date" type="hidden" name="date">
 							</div>
 							<div class="ui-datepicker-inlin" id="datepicker"></div>
-							<button class="btn center-block" type="submit" name="do_login" id="btn-consultation">Отправить заявку</button>
+							<button class="btn center-block" type="submit" name="do_login" id="btn-consultation"></button>
 						</form>
 					</div>
 				</div>
@@ -532,7 +533,7 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Актуальные новости</h4>
+							 <h4 class="modal-title"> </h4>
 
 						</div>
 						<object type="application/pdf" data="assets/pdf/news.pdf" width="100%"
@@ -548,7 +549,7 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Учителя и врачи обсудят проблемы подавления психической активности личности</h4>
+							 <h4 class="modal-title"> </h4>
 
 						</div>
 						<object type="application/pdf" data="assets/pdf/problems_of_suppressing_the_mental_activity.pdf"
@@ -564,7 +565,7 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Новости департамента образования</h4>
+							 <h4 class="modal-title"> </h4>
 
 						</div>
 						<object type="application/pdf" data="assets/pdf/News_of_the_Department_of_Education.pdf"
@@ -580,7 +581,7 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Ученые-физиологи, врачи и педагоги обсудили детское здоровье</h4>
+							 <h4 class="modal-title"> </h4>
 
 						</div>
 						<object type="application/pdf" data="assets/pdf/discuss_of_children's_health.pdf"
@@ -596,7 +597,7 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Информационно-методический центр г. Тюмени</h4>
+							 <h4 class="modal-title"> </h4>
 
 						</div>
 						<object type="application/pdf" data="assets/pdf/Information_and_Methodical_Center.pdf"
@@ -612,18 +613,18 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">Мастер классы</h4>
+							 <h4 class="modal-title"> </h4>
 
 							<ul class="nav nav-tabs" id="masterClassNav">
-								<li class="active"><a href="#fat" data-toggle="tab">Избыточная масса тела</a>
+								<li class="active"><a href="#fat" data-toggle="tab"> </a>
 								</li>
-								<li><a href="#emo" data-toggle="tab">Креативная психотерапия</a>
+								<li><a href="#emo" data-toggle="tab"> </a>
 								</li>
-								<li><a href="#neuro" data-toggle="tab">"Детские неврозы: проблемы и решения"	</a>
+								<li><a href="#neuro" data-toggle="tab">	</a>
 								</li>
-								<li><a href="#sport" data-toggle="tab">Участие в спорт. соревнованиях				</a>
+								<li><a href="#sport" data-toggle="tab"> </a>
 								</li>
-								<li><a href="#timemanager" data-toggle="tab">"Тайм менеджмент"	</a>
+								<li><a href="#timemanager" data-toggle="tab">	</a>
 								</li>
 							</ul>
 							<div class="tab-content">
@@ -660,14 +661,14 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title">МЕЖВЕДОМСТВЕННАЯ ГОРОДСКАЯ  НАУЧНО-ПРАКТИЧЕСКАЯ  КОНФЕРЕНЦИЯ </h4>
+							 <h4 class="modal-title"> </h4>
 
-							<ul class="nav nav-tabs" id="masterClassNav">
-								<li><a href="#conf2014" data-toggle="tab">Программа 2014 года</a>
+							<ul class="nav nav-tabs" id="confClassNav">
+								<li><a href="#conf2014" data-toggle="tab"> </a>
 								</li>
-								<li><a href="#conf2015" data-toggle="tab">Программа 2015 года</a>
+								<li><a href="#conf2015" data-toggle="tab"> </a>
 								</li>
-								<li class="active"><a href="#conf2016" data-toggle="tab">Программа 2016 года	</a>
+								<li class="active"><a href="#conf2016" data-toggle="tab">	</a>
 								</li>
 							</ul>
 							<div class="tab-content">
@@ -696,10 +697,10 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title"> Статьи</h4>
+							 <h4 class="modal-title"> </h4>
 
-							<ul class="nav nav-tabs" id="presentationsNav">
-								<li class="active"><a href="#fat" data-toggle="tab">Проект "Перспектива"</a>
+							<ul class="nav nav-tabs" id="articlesNav">
+								<li class="active"><a href="#fat" data-toggle="tab"> </a>
 								</li>
 							</ul>
 							<div class="tab-content">
@@ -720,12 +721,12 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title"> Презентации</h4>
+							 <h4 class="modal-title"> </h4>
 
 							<ul class="nav nav-tabs" id="presentationsNav">
-								<li class="active"><a href="#teacher_problem" data-toggle="tab">Методы коррекции и развития социально-эмоциональной сферы дошкольников</a>
+								<li class="active"><a href="#teacher_problem" data-toggle="tab"> </a>
 								</li>
-								<li><a href="#system_assessment" data-toggle="tab">Системная оценка морфофункционального развития</a>
+								<li><a href="#system_assessment" data-toggle="tab"> </a>
 								</li>
 							</ul>
 							<div class="tab-content">
@@ -750,25 +751,16 @@
 					<div class="background">
 						<div class="modal-header">
 							<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-							 <h4 class="modal-title"> Социальные сети</h4>
+							 <h4 class="modal-title"> </h4>
 
 							<iframe src="//prochat.herokuapp.com" width="100%" height="500" style="height: 85vh;">Live Chat</iframe>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>		<!-- build:remove:dist -->
-		<script src="libs/jquery/dist/jquery.min.js"></script>
-		<script src="libs/jquery-ui/jquery-ui.min.js"></script>
-		<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="libs/wow/dist/wow.min.js"></script>
-		<script src="libs/slick-carousel/slick/slick.min.js"></script>
-		<script src="libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
-		<script src="libs/masonry/dist/masonry.pkgd.min.js"></script>
-		<script src="libs/dynamics.js/lib/dynamics.min.js"></script>
-		<script src="libs/typed.js/dist/typed.min.js"></script>
-		<script src="assets/js/build.js"></script>
-		<!-- /build -->
-	</body>
+		</div>
+		<!-- build:remove:dev -->
+		<script async src="assets/js/all.min.js"></script>
+		<!-- /build -->	</body>
 
 </html>

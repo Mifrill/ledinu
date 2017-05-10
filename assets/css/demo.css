@@ -9,7 +9,7 @@
 		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
 
-*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *::after, *::before { box-sizing: border-box; }
 .clearfix::before, .clearfix::after {display: table;  content: ''; }
 .clearfix::after { clear: both; }
 
@@ -98,7 +98,6 @@ a:hover, a:focus {
     height: 110%;
     background: #323F5C;
     opacity: 0.1;
-    -webkit-transform: translateY(-50%) rotate3d(0, 0, 1, 22.5deg);
     transform: translateY(-50%) rotate3d(0, 0, 1, 22.5deg);
 }
 
@@ -248,14 +247,12 @@ a:hover, a:focus {
 	display: inline-block;
 	padding: 1em;
 	vertical-align: top;
-	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
 
 .media-item__img {
 	max-width: 100%;
 	opacity: 0.3;
-	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
 
@@ -294,16 +291,13 @@ a:hover, a:focus {
 	left: -60px;
 	z-index: 0;
 	opacity: 0.9;
-	-webkit-transform: translate3d(10px,10px,0);
 	transform: translate3d(10px,10px,0);
-	-webkit-transition: opacity 0.3s, -webit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
 	pointer-events: none;
 }
 
 .pater:hover::before {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -326,14 +320,11 @@ a:hover, a:focus {
 }
 
 .pater__title {
-	-webkit-transform: translate3d(5px,10px,0);
 	transform: translate3d(5px,10px,0);
-	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
 
 .pater:hover .pater__title {
-	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -384,7 +375,6 @@ a:hover, a:focus {
 		padding: 1em;
 		text-align: left;
 		background: rgba(49,63,105,0.8);
-		-webkit-transform: translateZ(200px);
 		transform: translateZ(200px);
 	}
 	.demo-1 .pater__title::before {

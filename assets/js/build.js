@@ -5086,16 +5086,47 @@ $(document).ready(function(){
 		$('#contacts>.container>.row>.text-center>p').text(dataJs.content.sectionContacs.p);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(0)').text(dataJs.content.sectionContacs.boxH3);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(0)').text(dataJs.content.sectionContacs.boxP);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>button:eq(0)').text(dataJs.content.sectionContacs.button);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(1)').text(dataJs.content.sectionContacs.boxH3_1);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(1)').text(dataJs.content.sectionContacs.boxP_1);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>button:eq(1)').text(dataJs.content.sectionContacs.button_1);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(2)').text(dataJs.content.sectionContacs.boxH3_2);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(2)').text(dataJs.content.sectionContacs.boxP_2);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>button:eq(2)').text(dataJs.content.sectionContacs.button_2);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(3)').text(dataJs.content.sectionContacs.boxH3_3);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(3)').text(dataJs.content.sectionContacs.boxP_3);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>button:eq(3)').text(dataJs.content.sectionContacs.button_3);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(4)').text(dataJs.content.sectionContacs.boxH3_4);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(4)').text(dataJs.content.sectionContacs.boxP_4);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>button:eq(4)').text(dataJs.content.sectionContacs.button_4);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>h3:eq(5)').text(dataJs.content.sectionContacs.boxH3_5);
 		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>p:eq(5)').text(dataJs.content.sectionContacs.boxP_5);
+		$('#contacts>.container>.row>.highlight-boxes>.col-md-4>.text-center>button:eq(5)').text(dataJs.content.sectionContacs.button_5);
+
+		$('.modal-title:eq(0)').text(dataJs.content.modal.date.h4);
+		$('#form-proposal>button').text(dataJs.content.modal.date.h4);
+		$('.modal-title:eq(1)').text(dataJs.content.modal.news.h4);
+		$('.modal-title:eq(2)').text(dataJs.content.modal.problemOfActivity.h4);
+		$('.modal-title:eq(3)').text(dataJs.content.modal.new_of_education.h4);
+		$('.modal-title:eq(4)').text(dataJs.content.modal.disscusChildHealth.h4);
+		$('.modal-title:eq(5)').text(dataJs.content.modal.InfoCenter.h4);
+		$('.modal-title:eq(6)').text(dataJs.content.modal.masterClass.h4);
+		$('#masterClassNav>li>a:eq(0)').text(dataJs.content.modal.masterClass.lia);
+		$('#masterClassNav>li>a:eq(1)').text(dataJs.content.modal.masterClass.lia_1);
+		$('#masterClassNav>li>a:eq(2)').text(dataJs.content.modal.masterClass.lia_2);
+		$('#masterClassNav>li>a:eq(3)').text(dataJs.content.modal.masterClass.lia_3);
+		$('#masterClassNav>li>a:eq(4)').text(dataJs.content.modal.masterClass.lia_4);
+		$('.modal-title:eq(7)').text(dataJs.content.modal.conference.h4);
+		$('#confClassNav>li>a:eq(0)').text(dataJs.content.modal.conference.lia);
+		$('#confClassNav>li>a:eq(1)').text(dataJs.content.modal.conference.lia_1);
+		$('#confClassNav>li>a:eq(2)').text(dataJs.content.modal.conference.lia_2);
+		$('.modal-title:eq(8)').text(dataJs.content.modal.articles.h4);
+		$('#articlesNav>li>a').text(dataJs.content.modal.articles.ahref);
+		$('.modal-title:eq(9)').text(dataJs.content.modal.presentations.h4);
+		$('#presentationsNav>li>a:eq(0)').text(dataJs.content.modal.presentations.lia);
+		$('#presentationsNav>li>a:eq(1)').text(dataJs.content.modal.presentations.lia_1);
+		$('.modal-title:eq(10)').text(dataJs.content.modal.social.h4);
+
 /* for validation on W3C add placeholder by JavaScript */
 		$('#date').attr('placeholder', dataJs.InputPickDate);
 		$('#time').attr('placeholder', dataJs.InputPickTime);
