@@ -89,6 +89,7 @@ $(document).ready(function(){
 		$('#confClassNav>li>a:eq(2)').text(dataJs.content.modal.conference.lia_2);
 		$('.modal-title:eq(8)').text(dataJs.content.modal.articles.h4);
 		$('#articlesNav>li>a').text(dataJs.content.modal.articles.ahref);
+		$('#articlePerspecitveVideo').text(dataJs.content.modal.articles.reportage);
 		$('.modal-title:eq(9)').text(dataJs.content.modal.presentations.h4);
 		$('#presentationsNav>li>a:eq(0)').text(dataJs.content.modal.presentations.lia);
 		$('#presentationsNav>li>a:eq(1)').text(dataJs.content.modal.presentations.lia_1);
