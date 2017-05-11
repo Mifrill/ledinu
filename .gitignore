@@ -2,3 +2,5 @@
 node_modules/*
 libs/*
 .sass-cache
+assets/*
+index.php
