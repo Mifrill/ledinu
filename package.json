@@ -1,6 +1,6 @@
 {
-  "name": "template",
-  "version": "0.0.3",
+  "name": "ledinu",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
     "async": "^1.5.2",
