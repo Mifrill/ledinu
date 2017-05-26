@@ -10,47 +10,47 @@ function ErrorHundler($msg){
 }
 /** The function of converting headers to the correct encoding |special for Class CorrectEmail
  * @param $msg |string
- * @param $data_charset |string
- * @param $send_charset |string
+ * @param $dataCharset |string
+ * @param $sendCharset |string
  * @return right code for send email |string
  * @throw null
  */
-function mime_header_encode($str, $data_charset, $send_charset) { 
-	if($data_charset != $send_charset)
-	$str=iconv($data_charset,$send_charset.'//IGNORE',$str);
-	return ('=?'.$send_charset.'?B?'.base64_encode($str).'?=');
+function mime_header_encode($str, $dataCharset, $sendCharset) { 
+	if($dataCharset != $sendCharset)
+	$str=iconv($dataCharset,$sendCharset.'//IGNORE',$str);
+	return ('=?'.$sendCharset.'?B?'.base64_encode($str).'?=');
 }
 /** Class to send a message in the desired encoding
  * 
- * @param $from_email |string
+ * @param $fromEmail |string
  * @param $name |string
  * @param $to_mail |string
- * @param $to_name |string
+ * @param $toName |string
  * @param $subject of mail |string
- * @param $data_charset |string
- * @param $send_charset |string
+ * @param $dataCharset |string
+ * @param $sendCharset |string
  * @param $body text for email |string
  * @param $type |string
  * @return mail send function
  * @throw null
  */
 class CorrectEmail {
-	public $from_email;
-	public $from_name;
-	public $to_email;
-	public $to_name;
+	public $fromEmail;
+	public $fromName;
+	public $toEmail;
+	public $toName;
 	public $subject;
-	public $data_charset='UTF-8';
-	public $send_charset='windows-1251';
+	public $dataCharset='UTF-8';
+	public $sendCharset='windows-1251';
 	public $body='';
 	public $type='text/plain';
 
 	function send(){
-		$dc=$this->data_charset;
-		$sc=$this->send_charset;
-		$enc_to=mime_header_encode($this->to_name,$dc,$sc).' <'.$this->to_email.'>';
+		$dc=$this->dataCharset;
+		$sc=$this->sendCharset;
+		$enc_to=mime_header_encode($this->toName,$dc,$sc).' <'.$this->toEmail.'>';
 		$enc_subject=mime_header_encode($this->subject,$dc,$sc);
-		$enc_from=mime_header_encode($this->from_name,$dc,$sc).' <'.$this->from_email.'>';
+		$enc_from=mime_header_encode($this->fromName,$dc,$sc).' <'.$this->fromEmail.'>';
 		$enc_body=$dc==$sc?$this->body:iconv($dc,$sc.'//IGNORE',$this->body);
 		$headers='';
 		$headers.="Mime-Version: 1.0\r\n";
@@ -64,22 +64,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	
 /** get JSON from base data file 
  * 
- * @param content from json file $j
+ * @param content from json file $json
  * @return content from file
  * @throw 404 if file not found
  */
 
 	try{
-		$j = file_get_contents( __DIR__ . DIRECTORY_SEPARATOR . 'data.json' );
-		if (!$j) {
+		$json = file_get_contents( __DIR__ . DIRECTORY_SEPARATOR . 'data.json' );
+		if (!$json) {
 			throw new Exception('Failed to open uploaded file');
 		}
 	}catch (Exception $e){
 		header( "HTTP/1.0 404" );
 	}
-	$dataJs = json_decode($j);
-	if( $j != false && !is_null($dataJs)){
-		unset($j);
+	$dataJs = json_decode($json);
+	if( $json != false && !is_null($dataJs)){
+		unset($json);
 		/* protect */
 		$name = trim(htmlspecialchars($_POST["name"]));
 		$phone = trim(htmlspecialchars($_POST["phone"]));
@@ -176,10 +176,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 			$message .= "Время записи: $time \n";
 			$message .= "Предварительная дата записа: $date";
 			$emailgo= new CorrectEmail;
-			$emailgo->from_email= $dataJs->from_email;
-			$emailgo->from_name= $name;
-			$emailgo->to_email= $email;
-			$emailgo->to_name= $dataJs->to_name;
+			$emailgo->fromEmail= $dataJs->fromEmail;
+			$emailgo->fromName= $name;
+			$emailgo->toEmail= $email;
+			$emailgo->toName= $dataJs->toName;
 			$emailgo->subject= $subject;
 			$emailgo->body= $message;
 			$emailgo->send();
