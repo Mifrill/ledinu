@@ -1,0 +1,24 @@
+exclude_paths:
+  - "template/pages/src/js/moment.js"
+  - "template/pages/src/js/modernizr.custom.js"
+  - "template/modules/src/js/jquery.timepicker.js"
+  - "template/base/src/js/animOnScroll.js"
+  - "template/base/src/js/classie.js"
+  - "template/base/src/js/grids.js"
+  - "template/media/**/*.*"
+  - "**/*.html"
+languages:
+  PHP: true
+  javascript: true
+ratings:
+  paths:
+  - "**.php"
+  - "**.js"
+  - "**.pug"
+engines:
+  rubocop:
+    enabled: true
+  eslint:
+    enabled: false
+  csslint:
+    enabled: true
