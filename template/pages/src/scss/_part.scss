@@ -1,34 +1,34 @@
 /* Global style */
 
-*	{
-	font-family: "GothamProBold";
-	color: $color;
+* {
+  font-family: "GothamProBold";
+  color: $color;
 }
 
 *, *:before, *:after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 body{
    overflow-y: hidden;
 }
 html, body {
-	padding: 0;
-	margin: 0;
-	overflow-x: hidden;
-	line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  line-height: 1.5;
 }
 
 body{
-	position: relative;
+  position: relative;
 }
 h1,h2,h3,h4 {
-	margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
 h1 {
-	font-size: 2.5rem;
-	margin-top: 0;
-	line-height: 1.1;
+  font-size: 2.5rem;
+  margin-top: 0;
+  line-height: 1.1;
 }
 
 h2 {
@@ -38,61 +38,61 @@ ul {
     margin-left: 0;
     padding-left: 0;
     margin-top: 0;
- 	margin-bottom: 0rem;
-	li {
-		list-style-type: none;
-	}
+  margin-bottom: 0rem;
+  li {
+    list-style-type: none;
+  }
 }
 
 p {
-	margin: 0;
+  margin: 0;
 }
 
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 audio, cavas, iframe, img, svg, video {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 textarea {
-	resize: none;
+  resize: none;
 }
 
 section {
-	@include pr;
+  @include pr;
 }
 
 input, select, button {
-	outline: none;
+  outline: none;
 }
 
 .hide {
-	@include dn;
+  @include dn;
 }
 
 .show {
-	display: block;
+  display: block;
 }
 
 .clearfix:before, .clearfix:after {
-	content: " ";
-	display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-	clear: both;
+  clear: both;
 }
 
 .clearfix {
-	*zoom: 1;
+  *zoom: 1;
 }
 
 .wrapper {
-	width: 100%;
-	max-width: 1000px;
-	margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 

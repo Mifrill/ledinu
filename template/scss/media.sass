@@ -1,68 +1,68 @@
 /* ------------------------  Section portfolio_start --------------------- */
 @media (min-width: 992px)
-	@for $i from 1 through 3
-		.element-#{$i}
-			background-image: url(../img/basic/#{$i}#{$ip}.jpg)
-			+bi
-			&:hover
-				&:before
-					+dn
-				p
-					animation-name: color
-					animation-duration: 1s
-					color: white
-					padding-left: 45%
-				background-image: url(../img/basic/#{$i}.jpg)
-				+bi
-				padding-right: 200px
-				animation-name: move
-				animation-duration: 2s
+  @for $i from 1 through 3
+    .element-#{$i}
+      background-image: url(../img/basic/#{$i}#{$ip}.jpg)
+      +bi
+      &:hover
+        &:before
+          +dn
+        p
+          animation-name: color
+          animation-duration: 1s
+          color: white
+          padding-left: 45%
+        background-image: url(../img/basic/#{$i}.jpg)
+        +bi
+        padding-right: 200px
+        animation-name: move
+        animation-duration: 2s
 /* ------------------------  Section mission_start --------------------- */
 @media (max-width: 992px)
-	.slick-dots
-		+important
-	.flex-container
-		flex-direction: column
-		height: (405*5) + px
-		.flex-element
-			p
-				font-size: 5em
-				line-height: 60px
-				padding-top: (405/0.8) + px
-				color: $color
-		.element-3
-			order: -1
-		.element-2
-			order: -2
-	@for $i from 1 through 5
-		.element-#{$i} 
-			background-image: url(../img/basic/#{$i}.jpg)
-			background-repeat: no-repeat
-			&:hover
-				transform: translate3d(0,0,0)
-				transition: opacity 0.55s, transform 0.35s
-				opacity: 0.7
-		.element-#{$i}:before
-			+dn
-	#my_mission_text
-		margin-top: 40vh
+  .slick-dots
+    +important
+  .flex-container
+    flex-direction: column
+    height: (405*5) + px
+    .flex-element
+      p
+        font-size: 5em
+        line-height: 60px
+        padding-top: (405/0.8) + px
+        color: $color
+    .element-3
+      order: -1
+    .element-2
+      order: -2
+  @for $i from 1 through 5
+    .element-#{$i} 
+      background-image: url(../img/basic/#{$i}.jpg)
+      background-repeat: no-repeat
+      &:hover
+        transform: translate3d(0,0,0)
+        transition: opacity 0.55s, transform 0.35s
+        opacity: 0.7
+    .element-#{$i}:before
+      +dn
+  #my_mission_text
+    margin-top: 40vh
 @media (max-width: 768px)
-	#scroll-menu
-		li
-			.btn-primary
-				margin-top: 1.5%
-	header .navbar .container button
-		margin-top: 1.5%
-	.tel-to-call
-		left: 25vw
-		top: 15%
-		a
-			font-size: 1.6em
+  #scroll-menu
+    li
+      .btn-primary
+        margin-top: 1.5%
+  header .navbar .container button
+    margin-top: 1.5%
+  .tel-to-call
+    left: 25vw
+    top: 15%
+    a
+      font-size: 1.6em
 @media (max-width: 480px)
-	.flex-container
-		height: (325*5) + px
-		.flex-element
-			p
-				padding-top: (325/2) + px
+  .flex-container
+    height: (325*5) + px
+    .flex-element
+      p
+        padding-top: (325/2) + px
 
 /* TODO adaptive */

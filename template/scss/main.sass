@@ -16,162 +16,162 @@
 
 /* ------------------------  Section navbar menu -------------------------- */
 .navbar-inverse
-	opacity: 0.6
-	&:active, :focus
-		outline: none
+  opacity: 0.6
+  &:active, :focus
+    outline: none
 .navbar-nav
-	margin: 10px
+  margin: 10px
 .navbar-toggle
-	padding: 18px
+  padding: 18px
 #scroll-menu
-	left: 50% - (506/2)+px
+  left: 50% - (506/2)+px
 /* ------------------------  Section secion-main -------------------------- */
 section#seciton-main
-	.section__subtitle
-		&:hover
-			font-size: 9.5em
-			font-weight: bolder
+  .section__subtitle
+    &:hover
+      font-size: 9.5em
+      font-weight: bolder
 
 /* ------------------------  Section video_start ------------------------- */
 section#video-slide 
-	width: 100%
-	margin-bottom: -3%
-	z-index: 2	
-	&:active, :focus
-		outline: none
+  width: 100%
+  margin-bottom: -3%
+  z-index: 2  
+  &:active, :focus
+    outline: none
 video
-	width: 100%
-	+rocker
+  width: 100%
+  +rocker
 
 /* ------------------------  Section mission_start ----------------------- */
 section#mission
-	+rocker
-	z-index: 0
-	line-height: 45px
+  +rocker
+  z-index: 0
+  line-height: 45px
 #my_mission
-	color: $color-orange
-	z-index: 99
-	line-height: 60px
-	font-size: 50px + 25px
-	max-width: 50px * 10
-	+tc
-	+pa
-	margin-top: 4%
-	left: 50%
-	margin-left: -50px * 5
-	font-weight: bold
+  color: $color-orange
+  z-index: 99
+  line-height: 60px
+  font-size: 50px + 25px
+  max-width: 50px * 10
+  +tc
+  +pa
+  margin-top: 4%
+  left: 50%
+  margin-left: -50px * 5
+  font-weight: bold
 #my_mission_text
-	color: $color-orange
-	z-index: 99
-	line-height: 40px
-	font-size: 50px
-	max-width: 70px * 10
-	+tc
-	+pa
-	margin-top: 15%
-	left: 50%
-	margin-left: -70px * 5
+  color: $color-orange
+  z-index: 99
+  line-height: 40px
+  font-size: 50px
+  max-width: 70px * 10
+  +tc
+  +pa
+  margin-top: 15%
+  left: 50%
+  margin-left: -70px * 5
 .flex-container
-	+df
-	height: 905px
-	.flex-element
-		flex-grow: 1
-		z-index: 0
-		p
-			+pr
-			padding-top: (905 / 2) + px
-			font-size: 50px
-			+tc
-			color: $color
-			z-index: 1
+  +df
+  height: 905px
+  .flex-element
+    flex-grow: 1
+    z-index: 0
+    p
+      +pr
+      padding-top: (905 / 2) + px
+      font-size: 50px
+      +tc
+      color: $color
+      z-index: 1
 
 @for $i from 1 through 3
-	.element-#{$i}
-		background-image: url(../img/basic/#{$i}#{$ip}.jpg)
-		transition: background-image 1s linear
-		+bi
-		&:hover
-			z-index: 5
-			&:before
-				transition: all 1s ease
-				+dn
-		.button-order
-			+pa
-			z-index: 6
-			top: 85%
+  .element-#{$i}
+    background-image: url(../img/basic/#{$i}#{$ip}.jpg)
+    transition: background-image 1s linear
+    +bi
+    &:hover
+      z-index: 5
+      &:before
+        transition: all 1s ease
+        +dn
+    .button-order
+      +pa
+      z-index: 6
+      top: 85%
 @for $i from 1 through 3
-	.element-#{$i}
-		.button-order
-			animation-name: buttonOrder#{$i}
-			animation-duration: 1s
+  .element-#{$i}
+    .button-order
+      animation-name: buttonOrder#{$i}
+      animation-duration: 1s
 @for $i from 1 through 3
-	.element-#{$i}
-		.order-back
-			animation-name: buttonOrderBack#{$i}
-			animation-duration: 1s
+  .element-#{$i}
+    .order-back
+      animation-name: buttonOrderBack#{$i}
+      animation-duration: 1s
 @for $i from 1 through 3
-	.element-#{$i}
-		.order-forw
-			animation-name: buttonOrderForw#{$i}
-			animation-duration: 1s
+  .element-#{$i}
+    .order-forw
+      animation-name: buttonOrderForw#{$i}
+      animation-duration: 1s
 .element-1
-	.button-order
-		left: 30%
+  .button-order
+    left: 30%
 .element-2
-	.button-order
-		left: 50%
+  .button-order
+    left: 50%
 .element-3
-	.button-order
-		left: 75%
+  .button-order
+    left: 75%
 
 /* ------------------------  button-call migrate --------------------- */
 +button-call(475px, 100px, $color, 37.5px)
 .button-order
-	z-index: 99
-	button.btn-primary
-		background-color: $color-orange
-		+pa
-		+tc
-		left: 50%
-		top: 86%
-		margin-left: -(475/2) +px
-		line-height: 30px
-		padding: 20px 10px 
-		letter-spacing: -2px
-		outline: none
-		&:hover
-			border-color: $color
-			border-width: thin
-		&:active, :focus
-			outline: none
-			background-color: lighten($color-orange, 10%)
+  z-index: 99
+  button.btn-primary
+    background-color: $color-orange
+    +pa
+    +tc
+    left: 50%
+    top: 86%
+    margin-left: -(475/2) +px
+    line-height: 30px
+    padding: 20px 10px 
+    letter-spacing: -2px
+    outline: none
+    &:hover
+      border-color: $color
+      border-width: thin
+    &:active, :focus
+      outline: none
+      background-color: lighten($color-orange, 10%)
 /* ------------------------  Section social life ----------------------- */
 section.section.section--intro
-	h3
-		font-size: 1.5em
-	p.section__subtitle
-		margin-top: -2%
+  h3
+    font-size: 1.5em
+  p.section__subtitle
+    margin-top: -2%
 section.interval#romeo
-	.grid
-		#RomeoCityConference
-			figcaption
-				h2
-					margin-top: 13%
+  .grid
+    #RomeoCityConference
+      figcaption
+        h2
+          margin-top: 13%
 /* ------------------------  Section sciense ----------------------- */
 
 /* ------------------------  Section why-us ----------------------- */
 
 section#contacts
-	margin: 2% 0 5% 0
+  margin: 2% 0 5% 0
 
 @import media
 
 /* ------------------------  Modal ----------------------- */
 
 #masterClassNav, #presentationsNav, #confClassNav, #articlesNav
-	font-size: 1.35em
+  font-size: 1.35em
 #articlePerspecitveVideo
-	font-size: 1.5em
-	&:hover
-		color: $color-black
-		cursor: pointer
+  font-size: 1.5em
+  &:hover
+    color: $color-black
+    cursor: pointer

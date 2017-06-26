@@ -8,120 +8,120 @@ $if: -full
 
 $o: 3%
 =links($link, $visit, $hover, $active)
-	a
-		color: $link
-		&:visited
-			color: $visit
-		&:hover
-			color: $hover
-		&:active
-			color: $active
+  a
+    color: $link
+    &:visited
+      color: $visit
+    &:hover
+      color: $hover
+    &:active
+      color: $active
 =dn
-	display: none
+  display: none
 =df
-	display: flex
+  display: flex
 =fww
-	flex-wrap: wrap
+  flex-wrap: wrap
 =jcc
-	justify-content: center
+  justify-content: center
 =fdc
-	flex-direction: column
+  flex-direction: column
 =tc
-	text-align: center
+  text-align: center
 =pr
-	position: relative
+  position: relative
 =pa
-	position: absolute
+  position: absolute
 =tac
-	text-align: center
+  text-align: center
 =bi
-	background-repeat: no-repeat
-	background-size: cover
+  background-repeat: no-repeat
+  background-size: cover
 =rocker
-	border-bottom-right-radius: 950px 47px
-	border-bottom-left-radius: 900px 47px
+  border-bottom-right-radius: 950px 47px
+  border-bottom-left-radius: 900px 47px
 =important
-	display: none!important
+  display: none!important
 =button-call($w, $h, $c, $f)
-	.button
-		button 
-			width: $w
-			height: $h
-			border-radius: 80px
-			margin-bottom: 10px
-			color: $c
-			font-size: $f
-			font-weight: bold
-			border-width: 0px
-			&:active
-				border-width: 0px
-				border-color: transparent
+  .button
+    button 
+      width: $w
+      height: $h
+      border-radius: 80px
+      margin-bottom: 10px
+      color: $c
+      font-size: $f
+      font-weight: bold
+      border-width: 0px
+      &:active
+        border-width: 0px
+        border-color: transparent
 
 /* ------------------------ animation ------------------------*/
 @keyframes move
-	from
-		padding-right: 0px
-			
-	to
-		padding-right: 200px
+  from
+    padding-right: 0px
+      
+  to
+    padding-right: 200px
 
 @keyframes color
-	from
-		color: $color-orange
-		padding-left: 0
-	to
-		color: white
-		padding-left: 45%
+  from
+    color: $color-orange
+    padding-left: 0
+  to
+    color: white
+    padding-left: 45%
 
 @keyframes buttonOrder1
-	from
-		left: 50%
-	to
-		left: 30%
+  from
+    left: 50%
+  to
+    left: 30%
 @keyframes buttonOrder2
-	from
-		left: 50%
-	to
-		left: 50%
+  from
+    left: 50%
+  to
+    left: 50%
 @keyframes buttonOrder3
-	from
-		left: 50%
-	to
-		left: 75%
+  from
+    left: 50%
+  to
+    left: 75%
 @keyframes buttonOrderBack1
-	from
-		left: 50%
-			
-	to
-		left: 30%
+  from
+    left: 50%
+      
+  to
+    left: 30%
 @keyframes buttonOrderBack2
-	from
-		left: 30%
-			
-	to
-		left: 50%
+  from
+    left: 30%
+      
+  to
+    left: 50%
 
 @keyframes buttonOrderBack3
-	from
-		left: 50%
-			
-	to
-		left: 75%
+  from
+    left: 50%
+      
+  to
+    left: 75%
 @keyframes buttonOrderForw1
-	from
-		left: 50%
-			
-	to
-		left: 30%
+  from
+    left: 50%
+      
+  to
+    left: 30%
 @keyframes buttonOrderForw2
-	from
-		left: 75%
-			
-	to
-		left: 50%
+  from
+    left: 75%
+      
+  to
+    left: 50%
 @keyframes buttonOrderForw3
-	from
-		left: 50%
-			
-	to
-		left: 75%
+  from
+    left: 50%
+      
+  to
+    left: 75%
