@@ -1,0 +1,6 @@
+ci:
+  tests:
+    unlicensed: skip
+    deprecated: skip
+    outdated: skip
+    unmaintained: skip
