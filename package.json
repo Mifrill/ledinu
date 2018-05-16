@@ -24,7 +24,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-imagemin": "^2.0.1",
-    "grunt-contrib-internal": "^2.0.0",
+    "grunt-contrib-internal": "^3.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-contrib-pug": "^1.0.0",
