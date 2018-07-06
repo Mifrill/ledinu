@@ -1,3 +1,4 @@
+const sass = require('node-sass');
 module.exports = {
     options: {
         implementation: sass,
