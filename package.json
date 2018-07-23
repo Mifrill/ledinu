@@ -7,7 +7,7 @@
     "bourbon": "^5.0.0",
     "grunt-cli": "^1.2.0",
     "chalk": "^2.3.0",
-    "imagemin": "^5.3.1",
+    "imagemin": "^6.0.0",
     "imagemin-mozjpeg": "^7.0.0",
     "imagemin-pngquant": "^5.0.1",
     "path": "^0.12.7",
