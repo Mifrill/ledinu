@@ -51,7 +51,7 @@
     "load-grunt-tasks": "^4.0.0",
     "node-sass": "^4.5.3",
     "pug": "^2.0.0-rc.4",
-    "time-grunt": "^1.1.0"
+    "time-grunt": "^2.0.0"
   },
   "scripts": {
     "test": "grunt",
