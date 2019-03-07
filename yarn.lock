@@ -3562,9 +3562,10 @@ grunt-sass@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/grunt-sass/-/grunt-sass-3.0.1.tgz#2760207d7b78db84429d9fa77d22289a6fc903a0"
 
-grunt-spritesmith@^6.4.0:
-  version "6.6.2"
-  resolved "https://registry.yarnpkg.com/grunt-spritesmith/-/grunt-spritesmith-6.6.2.tgz#94fd502800800eb5c3c49fea255d65cf4e12f627"
+grunt-spritesmith@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/grunt-spritesmith/-/grunt-spritesmith-6.6.3.tgz#8ad7b7e5ee556607e8cf7b7b44b76457603aea4a"
+  integrity sha512-H6E9kX8XljRHM8NYe2TgTT8VxNzQ5t1tA1QHm2P3j75C5hTC4XJe0XxzgzVmGPaXNI9W8zeDgLKO6uU9A9eJ1w==
   dependencies:
     async "~1.5.0"
     spritesheet-templates "~10.2.0"
