@@ -3570,14 +3570,12 @@ grunt-mixin-dir@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/grunt-mixin-dir/-/grunt-mixin-dir-0.1.1.tgz#7c87fb486df466269ab503ce8bb0215b3846b26e"
 
-grunt-php@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/grunt-php/-/grunt-php-2.0.0.tgz#2fcb3992829ab5eb1fcf4901dd62bae2783b9875"
-  integrity sha512-oTHbt5otqxbXEtDHcjPQK4FahOoglTpsvxfqXGAqwsrLXtTC6TprJj4X/km7gdexouLvGncKcmXgZuB8sqrnyg==
+grunt-php@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/grunt-php/-/grunt-php-3.0.0.tgz#9fe85c1c17fe8a3f95784edebeb0b3eb871d09c4"
+  integrity sha512-QgBHZzeNVC9L2wldPeyerCVRPw2e27/QjmSBkO8DcLec989kNSm/g3h4vzZAafxJGJd4NIHw0B2TZsN7XMlIfg==
   dependencies:
-    bin-version-check "^4.0.0"
-    get-port "^5.0.0"
-    open "^6.3.0"
+    php-server "^0.2.0"
 
 grunt-processhtml@^0.4.1:
   version "0.4.1"
@@ -6307,6 +6305,15 @@ phantomjs-prebuilt@^2.1.16, phantomjs-prebuilt@~2.1.7:
     request "^2.81.0"
     request-progress "^2.0.1"
     which "^1.2.10"
+
+php-server@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/php-server/-/php-server-0.2.0.tgz#c6aa1ab8e6cdc3165ea1704be36096c33cb64724"
+  integrity sha512-DlnBLh52b+hkft7TT5RJodHJTjgj+hOTAl3DTsjesI/CiT7FpXxfwwtta/DNBZXtZObDu2BbIBIFSlZzP+GBLw==
+  dependencies:
+    bin-version-check "^4.0.0"
+    get-port "^5.0.0"
+    open "^6.3.0"
 
 pify@^2.0.0, pify@^2.2.0, pify@^2.3.0:
   version "2.3.0"
