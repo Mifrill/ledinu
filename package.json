@@ -11,7 +11,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "path": "^0.12.7",
-    "pretty-bytes": "^5.0.0"
+    "pretty-bytes": "^5.3.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.11",
