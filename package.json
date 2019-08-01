@@ -47,7 +47,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.0",
     "gulp-uglifyjs": "^0.6.2",
-    "load-grunt-config": "^2.0.0",
+    "load-grunt-config": "^3.0.0",
     "load-grunt-tasks": "^5.0.0",
     "node-sass": "^4.5.3",
     "pug": "^2.0.0-rc.4",
